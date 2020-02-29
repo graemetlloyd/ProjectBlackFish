@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Uhen, M. D.</List>
+		</Author>
+		<Year>2004</Year>
+		<Title>Form, function, and anatomy of <em>Dorudon atrox</em> (Mammalia, Cetacea): an archaeocete from the Middle to Late Eocene of Egypt</Title>
+		<Journal>University of Michigan Papers on Paleontology</Journal>
+		<Volume>34</Volume>
+		<Pages>1-222</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="21">
+		<List recon_name="Bos_taurus" recon_no="104264">Bos</List>
+		<List recon_name="Hippopotamus_amphibius" recon_no="77338">Hippopotamus</List>
+		<List recon_name="Qaisracetus_arifi" recon_no="53243">Qaisracetus</List>
+		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus</List>
+		<List recon_name="Pakicetus" recon_no="42935">Pakicetus</List>
+		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus</List>
+		<List recon_name="Dalanistes_ahmedi" recon_no="53241">Dalanistes</List>
+		<List recon_name="Remingtonocetus" recon_no="36838">Remingtoncetus</List>
+		<List recon_name="Rodhocetus" recon_no="36842">Rhodocetus</List>
+		<List recon_name="Gaviacetus_razai" recon_no="53299">Gaviacetus</List>
+		<List recon_name="Eocetus_schweinfurthi" recon_no="53994">Eocetus</List>
+		<List recon_name="Babiacetus" recon_no="53315">Babiacetus</List>
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus</List>
+		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus</List>
+		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus</List>
+		<List recon_name="Saghacetus_osiris" recon_no="53293">Saghacetus</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon</List>
+		<List recon_name="Chrysocetus_healyorum" recon_no="57337">Chrysocetus</List>
+		<List recon_name="DELETE" recon_no="0">Odontoceti</List>
+		<List recon_name="DELETE" recon_no="0">Mysticeti</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="68">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Uhen_2004a</Filename>
+	<Parent>Uhen_et_Gingerich_2001a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Fordyce, R. E.</List>
+		</Author>
+		<Year>1994</Year>
+		<Title><em>Waipatia maerewhenua</em>, new genus and new species (Waipatiidae, new family), an archaic Late Oligocene dolphin (Cetacea: Odontoceti: Platanistoidea) from New Zealand</Title>
+		<Journal>Proceedings of the San Diego Society of Natural History</Journal>
+		<Volume>29</Volume>
+		<Pages>147-176</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="20">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Archaeodelphis_patrius" recon_no="63246">Archaeodelphis</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter</List>
+		<List recon_name="Kogia_breviceps,Kogia_sima" recon_no="64510;81904">Kogia</List>
+		<List recon_name="Mesoplodon_grayi" recon_no="81913">Mesoplodon</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus</List>
+		<List recon_name="Squalodon_sp_OU_21819" recon_no="36852">Squalodon</List>
+		<List recon_name="Prosqualodon_hamiltoni" recon_no="63456">Prosqualodon_hamiltoni</List>
+		<List recon_name="Prosqualodon_australis,Prosqualodon_davidis" recon_no="58388;63632">Prosqualodon_australis_et_davidis</List>
+		<List recon_name="Eurhinodelphidae" recon_no="63595">Eurhinodelphid</List>
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia</List>
+		<List recon_name="Notocetus_marplesi" recon_no="63224">Notocetus_marplesi</List>
+		<List recon_name="Notocetus_vanbenedeni" recon_no="63993">Notocetus_vanbenedeni</List>
+		<List recon_name="Squalodelphis" recon_no="36851">Squalodelphis</List>
+		<List recon_name="Zarhachis_flagellator" recon_no="63658">Zarhachis</List>
+		<List recon_name="Platanista_gangetica" recon_no="63565">Platanista</List>
+		<List recon_name="Kentriodon_pernix" recon_no="64433">Kentriodon</List>
+		<List recon_name="Cephalorhynchus_hectori" recon_no="82047">Cephalorhynchus</List>
+		<List recon_name="Tursiops_truncatus" recon_no="64472">Tursiops</List>
+		<List recon_name="Pontoporia_blainvillii" recon_no="93950">Pontoporia</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="67">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Fordyce_1994a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

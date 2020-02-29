@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Lambert, O.</List>
+			<List>Louwye, S.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>A new early Pliocene species of <em>Mesoplodon</em>: a calibration mark for the radiation of this species-rich beaked whale genus</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>36</Volume>
+		<Pages>e1055754</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="21">
+		<List recon_name="Squalodon" recon_no="36852">Squalodon</List>
+		<List recon_name="Ninoziphius_platyrostris" recon_no="62912">Ninoziphius</List>
+		<List recon_name="Xhosacetus_hendeysi" recon_no="113830">Xhosacetus</List>
+		<List recon_name="Pterocetus_benguelae" recon_no="113832">Pterocetus</List>
+		<List recon_name="Khoikhoicetus_agulhasis" recon_no="113821">Khoikhoicetus</List>
+		<List recon_name="Indopacetus_pacificus" recon_no="63852">Indopacetus</List>
+		<List recon_name="Africanacetus_ceratopsis" recon_no="113825">Africanacetus</List>
+		<List recon_name="Ihlengesi_saldanhae" recon_no="113823">Ihlengesi</List>
+		<List recon_name="Mesoplodon_bidens" recon_no="69088">Mesoplodon_bidens</List>
+		<List recon_name="Mesoplodon_slangkopi" recon_no="113826">Mesoplodon_slangkopi</List>
+		<List recon_name="Mesoplodon_grayi" recon_no="81913">Mesoplodon_grayi</List>
+		<List recon_name="Mesoplodon_layardii" recon_no="82038">Mesoplodon_layardii</List>
+		<List recon_name="Mesoplodon_densirostris" recon_no="82039">Mesoplodon_densirostris</List>
+		<List recon_name="Mesoplodon_mirus" recon_no="81908">Mesoplodon_mirus</List>
+		<List recon_name="Mesoplodon_posti" recon_no="337094">Mesoplodon_posti</List>
+		<List recon_name="Hyperoodon_ampullatus,Hyperoodon_planifrons" recon_no="64551;63850">Hyperoodon</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius</List>
+		<List recon_name="Izikoziphius_angustus,Izikoziphius_rossi" recon_no="113819;113818">Izikoziphius</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus</List>
+		<List recon_name="Microberardius_africanus" recon_no="113816">Microberardius</List>
+		<List recon_name="Berardius_arnuxii" recon_no="63590">Berardius</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="24">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lambert_et_Louwye_2016a</Filename>
+	<Parent>Bianucci_etal_2007a</Parent>
+	<Sibling/>
+</SourceTree>

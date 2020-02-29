@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bosselaers, M.</List>
+			<List>Post, K.</List>
+		</Author>
+		<Year>2010</Year>
+		<Title>A new fossil rorqual (Mammalia, Cetacea, Balaenopteridae) from the Early Pliocene of the North Sea, with a review of the rorqual species described by Owen and Van Beneden</Title>
+		<Journal>Geodiversitas</Journal>
+		<Volume>32</Volume>
+		<Pages>331-363</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="22">
+		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus_atavus</List>
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus_vogtlensis</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Aetiocetus_polydentatus" recon_no="63484">Aetiocetus_polydentatus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Parietobalaena_palmeri" recon_no="62938">Parietobalaena_palmeri</List>
+		<List recon_name="Cetotherium_rathkei" recon_no="69834">Cetotherium_rathkei</List>
+		<List recon_name="Mixocetus_elysius" recon_no="64432">Mixocetus_elysius</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>
+		<List recon_name="Balaenoptera_edeni" recon_no="81902">Balaenoptera_edeni</List>
+		<List recon_name="Balaenoptera_omurai" recon_no="104742">Balaenoptera_omurai</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Megaptera_hubachi" recon_no="68703">Megaptera_hubachi</List>
+		<List recon_name="Megaptera_miocaena" recon_no="69900">Megaptera_miocaena</List>
+		<List recon_name="Plesiocetus_cortesii" recon_no="68445">Plesiocetus_cortesii</List>
+		<List recon_name="Plesiobalaenoptera_quarantellii" recon_no="169828">MPST_240505</List>
+		<List recon_name="Diunatans_luctoretemergo" recon_no="170128">Diunatans_luctoretemergo</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="165">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bosselaers_et_Post_2010a</Filename>
+	<Parent>Bisconti_2008a</Parent>
+	<Sibling/>
+</SourceTree>

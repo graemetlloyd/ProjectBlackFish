@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bianucci, G.</List>
+			<List>Mijan, I.</List>
+			<List>Lambert, O.</List>
+			<List>Post, K.</List>
+			<List>Mateus, O.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title>Bizarre fossil beaked whales (Odontoceti, Ziphiidae) fished from the Atlantic Ocean floor off the Iberian Peninsula</Title>
+		<Journal>Geodiversitas</Journal>
+		<Volume>35</Volume>
+		<Pages>105-153</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="25">
+		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis" recon_no="53157;90650;68288">Squalodon</List>
+		<List recon_name="Eurhinodelphis_cocheteuxi" recon_no="64595">Eurhinodelphis</List>
+		<List recon_name="Xhosacetus_hendeysi" recon_no="113830">Xhosacetus</List>
+		<List recon_name="Pterocetus_benguelae" recon_no="113832">Pterocetus</List>
+		<List recon_name="Indopacetus_pacificus" recon_no="63852">Indopacetus</List>
+		<List recon_name="Africanacetus_ceratopsis" recon_no="113825">Africanacetus</List>
+		<List recon_name="Ihlengesi_saldanhae" recon_no="113823">Ihlengesi</List>
+		<List recon_name="Mesoplodon_bidens,Mesoplodon_bowdoini,Mesoplodon_densirostris,Mesoplodon_europaeus,Mesoplodon_grayi,Mesoplodon_layardii,Mesoplodon_mirus,Mesoplodon_peruvianus" recon_no="69088;81915;82039;81910;81913;82038;81908;81914">Mesoplodon</List>
+		<List recon_name="Hyperoodon_ampullatus,Hyperoodon_planifrons" recon_no="64551;63850">Hyperoodon</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius</List>
+		<List recon_name="Izikoziphius_angustus,Izikoziphius_rossi" recon_no="113819;113818">Izikoziphius</List>
+		<List recon_name="Microberardius_africanus" recon_no="113816">Microberardius</List>
+		<List recon_name="Berardius_arnuxii" recon_no="63590">Berardius</List>
+		<List recon_name="Archaeoziphius_microglenoideus" recon_no="80624">Archaeoziphius</List>
+		<List recon_name="Nazcacetus_urbinai" recon_no="154149">Nazcacetus</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus</List>
+		<List recon_name="Beneziphius_brevirostris" recon_no="69622">Beneziphius</List>
+		<List recon_name="Ziphirostrum_marginatum,Ziphirostrum_recurvus,Ziphirostrum_turniense" recon_no="64609;69620;264278">Ziphirostrum</List>
+		<List recon_name="Messapicetus_gregarius,Messapicetus_longirostris" recon_no="199761;62947">Messapicetus</List>
+		<List recon_name="Choneziphius_planirostris" recon_no="63618">Choneziphius_planirostris</List>
+		<List recon_name="Choneziphius_leidyi" recon_no="264272">Choneziphius_leidyi</List>
+		<List recon_name="Tusciziphius_crispus" recon_no="62940">Tusciziphius_crispus</List>
+		<List recon_name="Tusciziphius_atlanticus" recon_no="264273">Tusciziphius_atlanticus</List>
+		<List recon_name="Globicetus_hiberus" recon_no="264275">Globicetus</List>
+		<List recon_name="Imocetus_piscatus" recon_no="264277">Imocetus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="29">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bianucci_etal_2013a</Filename>
+	<Parent>Bianucci_etal_2010a</Parent>
+	<Sibling/>
+</SourceTree>

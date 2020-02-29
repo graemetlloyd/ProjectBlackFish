@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Boersma, A. T.</List>
+			<List>McCurry, M. R.</List>
+			<List>Pyenson, N. D.</List>
+		</Author>
+		<Year>2017</Year>
+		<Title>A new fossil dolphin <em>Dilophodelphis fordycei</em> provides insight into the evolution of supraorbital crests in Platanistoidea (Mammalia, Cetacea)</Title>
+		<Journal>Royal Society Open Science</Journal>
+		<Volume>4</Volume>
+		<Pages>170022</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="20">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Xiphiacetus_bossi,Xiphiacetus_cristatus" recon_no="69885;67733">Xiphiacetus</List>
+		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis,Squalodon_whitmorei" recon_no="53157;90650;68288;70031">Squalodon</List>
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia_maerewhenua</List>
+		<List recon_name="Otekaikea" recon_no="306555">Otekaikea</List>
+		<List recon_name="Huaridelphis_raimondii" recon_no="305879">Huaridelphis</List>
+		<List recon_name="Notocetus_vanbenedeni" recon_no="63993">Notocetus</List>
+		<List recon_name="Squalodelphis" recon_no="36851">Squalodelphis</List>
+		<List recon_name="Medocinia_tetragorhina" recon_no="63676">Medocinia</List>
+		<List recon_name="Phocageneus_venustus" recon_no="62956">Phocageneus</List>
+		<List recon_name="Dilophodelphis_fordycei" recon_no="354693">Dilophodelphis_fordycei</List>
+		<List recon_name="Araeodelphis_natator" recon_no="62957">Araeodelphis_natator</List>
+		<List recon_name="Platanista_gangetica" recon_no="63565">Platanista_gangetica</List>
+		<List recon_name="Zarhachis_flagellator" recon_no="63658">Zarhachis</List>
+		<List recon_name="Pomatodelphis_bobengi" recon_no="62908">Pomatodelphis</List>
+		<List recon_name="Zarhinocetus_errabundus" recon_no="173469">Zarhinocetus</List>
+		<List recon_name="Allodelphis" recon_no="42942">Allodelphis</List>
+		<List recon_name="Arktocara_yakataga" recon_no="346065">Arktocara_yakataga</List>
+		<List recon_name="Goedertius_oregonensis" recon_no="338950">Goedertius</List>
+		<List recon_name="Ninjadelphis_ujiharai" recon_no="338952">Ninjadelphis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="67">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Boersma_etal_2017a</Filename>
+	<Parent>Godfrey_etal_2017a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,86 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Theodor, J. M.</List>
+			<List>Foss, S. E.</List>
+		</Author>
+		<Year>2005</Year>
+		<Title>Deciduous dentitions of Eocene cebochoerid artiodactyls and cetartiodactyl relationships</Title>
+		<Journal>Journal of Mammalian Evolution</Journal>
+		<Volume>12</Volume>
+		<Pages>161-181</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="51">
+		<List recon_name="Arctocyon" recon_no="42200">Arctocyon</List>
+		<List recon_name="Agriochoerus" recon_no="42485">Agriochoerus</List>
+		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus</List>
+		<List recon_name="Anthracokeryx" recon_no="42446">Anthracokeryx</List>
+		<List recon_name="Antiacodon" recon_no="42339">Antiacodon</List>
+		<List recon_name="Archaeotherium" recon_no="42366">Archaeotherium</List>
+		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus</List>
+		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus</List>
+		<List recon_name="Brachyhyops" recon_no="42309">Brachyhyops</List>
+		<List recon_name="Bunomeryx_montanus" recon_no="44733">Bunomeryx</List>
+		<List recon_name="Paroxacron,Cainotherium" recon_no="63107;77399">Cainothere</List>
+		<List recon_name="Acotherulum_sp_MNHN_dot_Qu7075,Acotherulum_sp_MNHN_dot_Qu7076,Acotherulum_sp_MNHN_dot_Qu98,Acotherulum_sp_MNHN_dot_Qu88,Acotherulum_sp_MNHN_dot_Qu89,Acotherulum_saturninum,Cebochoerus_sp_MNHN_dot_Qu53,Cebochoerus_minor" recon_no="42360;42360;42360;42360;42360;347617;42361;347615">Cebochoerid</List>
+		<List recon_name="Choeropotamus,Amphirhagatherium" recon_no="42358;58355">Choeropotamid</List>
+		<List recon_name="Diacodexis_pakistanensis" recon_no="68275">Diacodexis_pakistanensis</List>
+		<List recon_name="Diacodexis_secans" recon_no="45629">Diacodexis_secans</List>
+		<List recon_name="Dichobune" recon_no="42328">Dichobune</List>
+		<List recon_name="Dissacus" recon_no="42912">Dissacus</List>
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon</List>
+		<List recon_name="Elomeryx" recon_no="42456">Elomeryx</List>
+		<List recon_name="Eoconodon" recon_no="42900">Eoconodon</List>
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus</List>
+		<List recon_name="Hapalodectes" recon_no="42906">Hapalodectes</List>
+		<List recon_name="Harpagolestes" recon_no="42915">Harpagolestes</List>
+		<List recon_name="Helohyus" recon_no="42348">Helohyus</List>
+		<List recon_name="Heptacodon" recon_no="42461">Heptacodon</List>
+		<List recon_name="Hexaprotodon_liberiensis" recon_no="77327">Hexaprotodon</List>
+		<List recon_name="Hippopotamus_amphibius" recon_no="77338">Hippopotamus</List>
+		<List recon_name="Homacodon" recon_no="42316">Homacodon</List>
+		<List recon_name="Hyopsodus" recon_no="42250">Hyopsodus</List>
+		<List recon_name="Hyotherium_soemmeringi" recon_no="64176">Hyotherium</List>
+		<List recon_name="Hypertragulus" recon_no="42591">Hypertragulus</List>
+		<List recon_name="Stibarus,Leptochoerus" recon_no="42379;42377">Leptochoerid</List>
+		<List recon_name="Leptomeryx" recon_no="42607">Leptomeryx</List>
+		<List recon_name="Leptotragulus" recon_no="42577">Leptotragulus</List>
+		<List recon_name="Meniscotherium" recon_no="42262">Meniscotherium</List>
+		<List recon_name="Mesonyx" recon_no="42923">Mesonyx</List>
+		<List recon_name="Mixtotherium" recon_no="42364">Mixtotherium</List>
+		<List recon_name="Pachyaena" recon_no="42927">Pachyaena</List>
+		<List recon_name="Pakicetus" recon_no="42935">Pakicetus</List>
+		<List recon_name="Platygonus,Tayassu" recon_no="42437;42440">Peccary</List>
+		<List recon_name="Perchoerus" recon_no="42436">Perchoerus</List>
+		<List recon_name="Phenacodus" recon_no="42288">Phenacodus</List>
+		<List recon_name="Poebrotherium" recon_no="42547">Poebrotherium</List>
+		<List recon_name="Protoceras" recon_no="42581">Protoceras</List>
+		<List recon_name="Protoreodon" recon_no="42487">Protoreodon</List>
+		<List recon_name="Protylopus" recon_no="42563">Protylopus</List>
+		<List recon_name="Kunmunella,Indohyus" recon_no="42351;42349">Raoellid</List>
+		<List recon_name="Sinonyx_jiashanensis" recon_no="140416">Sinonyx</List>
+		<List recon_name="Sus" recon_no="42416">Sus</List>
+		<List recon_name="Synoplotherium" recon_no="42930">Synoplotherium</List>
+		<List recon_name="Tragulus" recon_no="233825">Tragulus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="141">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Theodor_et_Foss_2005a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

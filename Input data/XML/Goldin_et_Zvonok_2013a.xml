@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Gol'din, P.</List>
+			<List>Zvonok, E.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title><em>Basilotritus uheni</em>, a new cetacean (Cetacea, Basilosauridae) from the late Middle</Title>
+		<Journal>Eocene of Eastern Europe</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="27">
+		<List recon_name="Pakicetus" recon_no="42935">Pakicetus</List>
+		<List recon_name="Maiacetus_inuus" recon_no="140884">Maiacetus</List>
+		<List recon_name="Rodhocetus" recon_no="36842">Rodhocetus</List>
+		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus</List>
+		<List recon_name="Qaisracetus_arifi" recon_no="53243">Qaisracetus</List>
+		<List recon_name="Aegyptocetus_tarfa" recon_no="205440">Aegyptocetus</List>
+		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus</List>
+		<List recon_name="Carolinacetus_gingerichi" recon_no="66904">Carolinacetus</List>
+		<List recon_name="Gaviacetus_razai" recon_no="53299">Gaviacetus</List>
+		<List recon_name="Eocetus_schweinfurthi" recon_no="53994">Eocetus</List>
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus</List>
+		<List recon_name="Babiacetus" recon_no="53315">Babiacetus</List>
+		<List recon_name="Ocucajea_picklingi" recon_no="199247">Ocucajea</List>
+		<List recon_name="Kekenodon_onamata" recon_no="63137">Kekenodon</List>
+		<List recon_name="Simocetus_rayi" recon_no="63231">Simocetus</List>
+		<List recon_name="Mammalodon_colliveri" recon_no="63222">Mammalodon</List>
+		<List recon_name="Supayacetus_muizoni" recon_no="199245">Supayacetus</List>
+		<List recon_name="Basilotritus_uheni" recon_no="263253">Basilotritus_uheni</List>
+		<List recon_name="Basilosauridae_indet_MUSM_1443" recon_no="42936">MUSM_1443</List>
+		<List recon_name="Basilotritus_wardii" recon_no="263254">Basilotritus_wardii</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Chrysocetus_healyorum" recon_no="57337">Chrysocetus</List>
+		<List recon_name="Saghacetus_osiris" recon_no="53293">Saghacetus</List>
+		<List recon_name="Ancalecetus_simonsi" recon_no="53295">Ancalecetus</List>
+		<List recon_name="Cynthiacetus" recon_no="63143">Cynthiacetus</List>
+		<List recon_name="Dorudon" recon_no="36709">Dorudon</List>
+		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="75">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Goldin_et_Zvonok_2013a</Filename>
+	<Parent>Geisler_etal_2005a</Parent>
+	<Sibling/>
+</SourceTree>

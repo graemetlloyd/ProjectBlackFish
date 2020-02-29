@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Lambert, O.</List>
+			<List>Bianucci, G.</List>
+			<List>de Muizon, C.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>Macroraptorial sperm whales (Cetacea, Odontoceti, Physeteroidea) from the Miocene of Peru</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="24">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Cynthiacetus_peruvianus" recon_no="185633">Cynthiacetus</List>
+		<List recon_name="Agorophius_pygmaeus" recon_no="63210">Agorophius</List>
+		<List recon_name="Eudelphis_mortezelensis" recon_no="64624">Eudelphis</List>
+		<List recon_name="Zygophyseter_varolai" recon_no="85977">Zygophyseter</List>
+		<List recon_name="Brygmophyseter_shigensis" recon_no="88809">Brygmophyseter</List>
+		<List recon_name="Acrophyseter_deinodon" recon_no="131405">Acrophyseter_deinodon</List>
+		<List recon_name="Acrophyseter_robustus" recon_no="346507">Acrophyseter_robustus</List>
+		<List recon_name="Acrophyseter_sp_MUSM_2182" recon_no="131404">Acrophyseter_sp_MUSM2182</List>
+		<List recon_name="Livyatan_melvillei" recon_no="171202">Livyatan</List>
+		<List recon_name="Aulophyseter_rionegrensis" recon_no="53106">Aulophyseter_rionegrensis</List>
+		<List recon_name="Orycterocetus_crocodilinus" recon_no="68215">Orycterocetus</List>
+		<List recon_name="Physeterula_dubusi" recon_no="104097">Physeterula</List>
+		<List recon_name="Idiorophus_patagonicus" recon_no="64698">Idiorophus</List>
+		<List recon_name="Diaphorocetus_poucheti" recon_no="64487">Diaphorocetus</List>
+		<List recon_name="Placoziphius_duboisii" recon_no="64465">Placoziphius</List>
+		<List recon_name="Aulophyseter_morricei" recon_no="63838">Aulophyseter</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter</List>
+		<List recon_name="Idiophyseter_merriami" recon_no="62935">Idiophyseter</List>
+		<List recon_name="Thalassocetus_antwerpiensis" recon_no="64649">Thalassocetus</List>
+		<List recon_name="Aprixokogia_kelloggi" recon_no="114705">Aprixokogia</List>
+		<List recon_name="Scaphokogia_cochlearis" recon_no="62929">Scaphokogia</List>
+		<List recon_name="Praekogia_cedrosensis" recon_no="53139">Praekogia</List>
+		<List recon_name="Kogia_sima" recon_no="81904">Kogia</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="53">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lambert_etal_inpressa</Filename>
+	<Parent>Lambert_etal_2010a</Parent>
+	<Sibling/>
+</SourceTree>

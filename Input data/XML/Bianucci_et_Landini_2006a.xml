@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bianucci, G.</List>
+			<List>Landini, W.</List>
+		</Author>
+		<Year>2006</Year>
+		<Title>Killer sperm whale: a new basal physeteroid (Mammalia, Cetacea) from the Late Miocene of Italy</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume>148</Volume>
+		<Pages>103-131</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="13">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis,Squalodon_sp_MAUL_8" recon_no="53157;90650;68288;36852">Squalodon</List>
+		<List recon_name="Kogia_breviceps,Kogia_pusilla,Kogia_sima,Kogia_sp_MSNTUP_I13798" recon_no="64510;68219;81904;36744">Kogia</List>
+		<List recon_name="Scaphokogia_cochlearis" recon_no="62929">Scaphokogia</List>
+		<List recon_name="Zygophyseter_varolai" recon_no="85977">Zygophyseter</List>
+		<List recon_name="Aulophyseter_morricei,Aulophyseter_rionegrensis" recon_no="63838;53106">Aulophyseter</List>
+		<List recon_name="Diaphorocetus_poucheti" recon_no="64487">Diaphorocetus</List>
+		<List recon_name="Naganocetus_shigensis" recon_no="85979">Naganocetus</List>
+		<List recon_name="Physeterula_dubusii" recon_no="64464">Physeterula</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter</List>
+		<List recon_name="Idiophyseter_merriami" recon_no="62935">Idiophyseter</List>
+		<List recon_name="Orycterocetus_crocodilinus,Orycterocetus_sp_MAUL_29_slash_1" recon_no="68215;36788">Orycterocetus</List>
+		<List recon_name="Placoziphius_duboisii" recon_no="64465">Placoziphius</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="23">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bianucci_et_Landini_2006a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

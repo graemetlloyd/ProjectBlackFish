@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Lambert, O.</List>
+			<List>Martinez-Caceres, M.</List>
+			<List>Bianucci, G.</List>
+			<List>Di Celma, C.</List>
+			<List>Salas-Gismondi, R.</List>
+			<List>Steurbaut, E.</List>
+			<List>Urbina, M.</List>
+			<List>de Muizon, C.</List>
+		</Author>
+		<Year>2017</Year>
+		<Title>Earliest mysticete from the Late Eocene of Peru sheds new light on the origin of baleen whales</Title>
+		<Journal>Current Biology</Journal>
+		<Volume>27</Volume>
+		<Pages>1531-1541</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="38">
+		<List recon_name="Cynthiacetus_peruvianus" recon_no="185633">Cynthiacetus_peruvianus</List>
+		<List recon_name="Simocetus_rayi" recon_no="63231">Simocetus_rayi</List>
+		<List recon_name="Archaeodelphis_patrius" recon_no="63246">Archaeodelphis_patrius</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter_macrocephalus</List>
+		<List recon_name="Mystacodon_selenensis" recon_no="353130">Mystacodon_selenensis</List>
+		<List recon_name="Janjucetus_hunderi" recon_no="84035">Janjucetus_hunderi</List>
+		<List recon_name="Mammalodon_colliveri" recon_no="63222">Mammalodon_colliveri</List>
+		<List recon_name="Chonecetus_goedertorum" recon_no="63476">Chonecetus_goedertorum</List>
+		<List recon_name="Aetiocetus_polydentatus" recon_no="63484">Aetiocetus_polydentatus</List>
+		<List recon_name="Aetiocetus_cotylalveus" recon_no="63473">Aetiocetus_cotylalveus</List>
+		<List recon_name="Aetiocetus_weltoni" recon_no="63483">Aetiocetus_weltoni</List>
+		<List recon_name="Mysticeti_indet_ChM_PV4745" recon_no="42971">ChM_PV4745</List>
+		<List recon_name="Llanocetus_denticrenatus" recon_no="63221">Llanocetus_denticrenatus</List>
+		<List recon_name="Mysticeti_indet_ChM_PV5720" recon_no="42971">ChM_PV5720</List>
+		<List recon_name="Micromysticetus_rothauseni" recon_no="63465">Micromysticetus_rothauseni</List>
+		<List recon_name="Yamatocetus_canaliculatus" recon_no="247312">Yamatocetus_canaliculatus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Morenocetus_parvus" recon_no="64479">Morenocetus_parvus</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Eubalaena" recon_no="36715">Eubalaena_spp</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Miocaperea_pulchra" recon_no="254040">Miocaperea_pulchra</List>
+		<List recon_name="Cetotherium_rathkii" recon_no="64469">Cetotherium_rathkii</List>
+		<List recon_name="Cetotherium_riabinini" recon_no="264012">Cetotherium_riabinini</List>
+		<List recon_name="Piscobalaena_nana" recon_no="63933">Piscobalaena_nana</List>
+		<List recon_name="Herpetocetus_morrowi" recon_no="288162">Herpetocetus_morrowi</List>
+		<List recon_name="Herpetocetus_transatlanticus" recon_no="114673">Herpetocetus_transatlanticus</List>
+		<List recon_name="Herpetocetus_bramblei" recon_no="114675">Herpetocetus_bramblei</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Aglaocetus_patulus" recon_no="62952">Aglaocetus_patulus</List>
+		<List recon_name="Aglaocetus_moreni" recon_no="69155">Aglaocetus_moreni</List>
+		<List recon_name="Parietobalaena_campiniana" recon_no="256074">Parietobalaena_campiniana</List>
+		<List recon_name="Parietobalaena_palmeri" recon_no="62938">Parietobalaena_palmeri</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="272">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lambert_etal_2017a</Filename>
+	<Parent>Marx_et_Fordyce_2015a</Parent>
+	<Sibling/>
+</SourceTree>

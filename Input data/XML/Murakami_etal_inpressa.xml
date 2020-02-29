@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Murakami, M.</List>
+			<List>Shimada, C.</List>
+			<List>Hikia, Y.</List>
+			<List>Hirano, H.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>New small phocoenid from the Pliocene of Hokkaido, northern Japan: insight into the growth rate and vertebral evolution of porpoises</Title>
+		<Journal>Acta Palaeontologica Polonica</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="73">
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus_vogtlensis</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Archaeodelphis_patrius" recon_no="63246">Archaeodelphis_patrius</List>
+		<List recon_name="Xenorophus_sloanii" recon_no="62942">Xenorophus_sloanii</List>
+		<List recon_name="Agorophius_pygmaeus" recon_no="63210">Agorophius_pygmaeus</List>
+		<List recon_name="Patriocetus_kazakhstanicus" recon_no="63498">Patriocetus_kazakhstanicus</List>
+		<List recon_name="Orycterocetus_crocodilinus" recon_no="68215">Orycterocetus_crocodilinus</List>
+		<List recon_name="Physeter_catodon" recon_no="64550">Physeter_catodon</List>
+		<List recon_name="Kogia_breviceps" recon_no="64510">Kogia_breviceps</List>
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia_maerewhenua</List>
+		<List recon_name="Squalodon_calvertensis" recon_no="68288">Squalodon_calvertensis</List>
+		<List recon_name="Notocetus_vanbenedeni" recon_no="63993">Notocetus_vanbenedeni</List>
+		<List recon_name="Prosqualodon_davidis" recon_no="63632">Prosqualodon_davidis</List>
+		<List recon_name="Squaloziphius_emlongi" recon_no="62918">Squaloziphius_emlongi</List>
+		<List recon_name="Zarhachis_flagellator" recon_no="63658">Zarhachis_flagellator</List>
+		<List recon_name="Pomatodelphis_inaequalis" recon_no="62907">Pomatodelphis_inaequalis</List>
+		<List recon_name="Platanista_gangetica" recon_no="63565">Platanista_gangetica</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus_shepherdi</List>
+		<List recon_name="Berardius_bairdii" recon_no="81905">Berardius_bairdii</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius_cavirostris</List>
+		<List recon_name="Mesoplodon_ginkgodens" recon_no="82031">Mesoplodon_ginkgodens</List>
+		<List recon_name="Xiphiacetus_bossi" recon_no="69885">Xiphiacetus_bossi</List>
+		<List recon_name="Lipotes_vexillifer" recon_no="63539">Lipotes_vexillifer</List>
+		<List recon_name="Parapontoporia_sternbergi" recon_no="67005">Parapontoporia_sternbergi</List>
+		<List recon_name="Inia_geoffrensis" recon_no="63507">Inia_geoffrensis</List>
+		<List recon_name="Pontoporia_blainvillei" recon_no="63541">Pontoporia_blainvillei</List>
+		<List recon_name="Pliopontos_littoralis" recon_no="64567">Pliopontos_littoralis</List>
+		<List recon_name="Brachydelphis_mazeasi" recon_no="64569">Brachydelphis_mazeasi</List>
+		<List recon_name="Kentriodon_pernix" recon_no="64433">Kentriodon_pernix</List>
+		<List recon_name="Atocetus_iquensis" recon_no="62932">Atocetus_iquensis</List>
+		<List recon_name="Hadrodelphis_calvertense" recon_no="64434">Hadrodelphis_calvertense</List>
+		<List recon_name="Albireo_whistleri" recon_no="64532">Albireo_whistleri</List>
+		<List recon_name="Denebola_brachycephala" recon_no="64565">Denebola_brachycephala</List>
+		<List recon_name="Delphinapterus_leucas" recon_no="65078">Delphinapterus_leucas</List>
+		<List recon_name="Monodon_monoceros" recon_no="64546">Monodon_monoceros</List>
+		<List recon_name="Odobenocetops_peruvianus" recon_no="62923">Odobenocetops_peruvianus</List>
+		<List recon_name="Australithax_intermedia" recon_no="62930">Australithax_intermedia</List>
+		<List recon_name="Lomacetus_ginsburgi" recon_no="64584">Lomacetus_ginsburgi</List>
+		<List recon_name="Haborophocoena_toyoshimai" recon_no="68162">Haborophocoena_toyoshimai</List>
+		<List recon_name="Piscolithax_boreios" recon_no="90874">Piscolithax_boreios</List>
+		<List recon_name="Piscolithax_longirostris" recon_no="64568">Piscolithax_longirostris</List>
+		<List recon_name="Piscolithax_tedfordi" recon_no="90875">Piscolithax_tedfordi</List>
+		<List recon_name="Salumiphocaena_stocktoni" recon_no="63899">Salumiphocaena_stocktoni</List>
+		<List recon_name="Septemtriocetus_bosselaersi" recon_no="133842">Septemtriocetus_bosselaersi</List>
+		<List recon_name="Phocoena_sinus" recon_no="82072">Phocoena_sinus</List>
+		<List recon_name="Phocoena_spinipinnis" recon_no="82073">Phocoena_spinipinnis</List>
+		<List recon_name="Phocoena_dioptrica" recon_no="63545">Phocoena_dioptrica</List>
+		<List recon_name="Phocoena_phocoena" recon_no="63544">Phocoena_phocoena</List>
+		<List recon_name="Phocoenoides_dalli" recon_no="63554">Phocoenoides_dalli</List>
+		<List recon_name="Neophocaena_phocaenoides" recon_no="64883">Neophocaena_phocaenoides</List>
+		<List recon_name="Lissodelphis_borealis" recon_no="63572">Lissodelphis_borealis</List>
+		<List recon_name="Cephalorhynchus_hectori" recon_no="82047">Cephalorhynchus_hectori</List>
+		<List recon_name="Lagenorhynchus_acutus" recon_no="63821">Lagenorhynchus_acutus</List>
+		<List recon_name="Orcaella_brevirostris" recon_no="108775">Orcaella_brevirostris</List>
+		<List recon_name="Orcinus_orca" recon_no="64541">Orcinus_orca</List>
+		<List recon_name="Feresa_attenuata" recon_no="63583">Feresa_attenuata</List>
+		<List recon_name="Globicephala_macrorhynchus" recon_no="69995">Globicephala_macrorhynchus</List>
+		<List recon_name="Grampus_griseus" recon_no="63557">Grampus_griseus</List>
+		<List recon_name="Hemisyntrachelus_cortesii" recon_no="63827">Hemisyntrachelus_cortesii</List>
+		<List recon_name="Peponocephala_electra" recon_no="63581">Peponocephala_electra</List>
+		<List recon_name="Pseudorca_crassidens" recon_no="64544">Pseudorca_crassidens</List>
+		<List recon_name="Delphinus_delphis" recon_no="64534">Delphinus_delphis</List>
+		<List recon_name="Lagenodelphis_hosei" recon_no="63574">Lagenodelphis_hosei</List>
+		<List recon_name="Sousa_chinensis" recon_no="63566">Sousa_chinensis</List>
+		<List recon_name="Stenella_attenuata" recon_no="64533">Stenella_attenuata</List>
+		<List recon_name="Tursiops_truncatus" recon_no="64472">Tursiops_truncatus</List>
+		<List recon_name="Sotalia_fluviatilis" recon_no="63569">Sotalia_fluviatilis</List>
+		<List recon_name="Steno_bredanensis" recon_no="64536">Steno_bredanensis</List>
+		<List recon_name="Pterophocaena_nishinoi" recon_no="247356">Pterophocaena_nishinoi</List>
+		<List recon_name="Stenella_kabatensis" recon_no="136478">Stenella_kabatensis</List>
+		<List recon_name="Miophocaena_nishinoi" recon_no="247360">Miophocaena_nishinoi</List>
+		<List recon_name="Archaeophocaena_teshioensis" recon_no="247358">Archaeophocaena_teshioensis</List>
+		<List recon_name="Haborophocoena_minutus" recon_no="178171">Haborophocoena_minutus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="277">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Murakami_etal_inpressa</Filename>
+	<Parent>Murakami_etal_2012a</Parent>
+	<Sibling/>
+</SourceTree>

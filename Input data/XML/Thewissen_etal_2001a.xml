@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Thewissen, J. G. M.</List>
+			<List>Williams, E. M.</List>
+			<List>Roe, L. J.</List>
+			<List>Hussain, S. T.</List>
+		</Author>
+		<Year>2001</Year>
+		<Title>Skeletons of terrestrial cetaceans and the relationship of whales to artiodactyls</Title>
+		<Journal>Nature</Journal>
+		<Volume>413</Volume>
+		<Pages>277-281</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="29">
+		<List recon_name="Arctocyon" recon_no="42200">Arctocyon</List>
+		<List recon_name="Hyopsodus" recon_no="42250">Hyopsodus</List>
+		<List recon_name="Phenacodus" recon_no="42288">Phenacodus</List>
+		<List recon_name="Meniscotherium" recon_no="42262">Meniscotherium</List>
+		<List recon_name="Andrewsarchus" recon_no="42910">Andrewsarchus</List>
+		<List recon_name="Eoconodon" recon_no="42900">Eoconodon</List>
+		<List recon_name="Hapalodectes" recon_no="42906">Hapalodectes</List>
+		<List recon_name="Dissacus" recon_no="42912">Dissacus</List>
+		<List recon_name="Ankalagon" recon_no="42911">Ankalagon</List>
+		<List recon_name="Sinonyx_jiashanensis" recon_no="140416">Sinonyx</List>
+		<List recon_name="Pachyaena" recon_no="42927">Pachyaena</List>
+		<List recon_name="Mesonyx" recon_no="42923">Mesonyx</List>
+		<List recon_name="Synoplotherium" recon_no="42930">Synoplotherium</List>
+		<List recon_name="Harpagolestes" recon_no="42915">Harpagolestes</List>
+		<List recon_name="Pakicetus" recon_no="42935">Pakicetus</List>
+		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus</List>
+		<List recon_name="Diacodexis_pakistanensis" recon_no="68275">D_pakistanensis</List>
+		<List recon_name="Diacodexis_secans" recon_no="45629">D_secans</List>
+		<List recon_name="Archaeotherium" recon_no="42366">Archaeotherium</List>
+		<List recon_name="Elomeryx" recon_no="42456">Elomeryx</List>
+		<List recon_name="Hippopotamus" recon_no="42481">Hippopotamus</List>
+		<List recon_name="Hexaprotodon" recon_no="42480">Hexaprotodon</List>
+		<List recon_name="Sus" recon_no="42416">Sus</List>
+		<List recon_name="Agriochoerus" recon_no="42485">Agriochoerus</List>
+		<List recon_name="Poebrotherium" recon_no="42547">Poebrotherium</List>
+		<List recon_name="Tragulus" recon_no="42602">Tragulus</List>
+		<List recon_name="Haplobunodontidae" recon_no="42474">Haplobunodontid</List>
+		<List recon_name="Cebochoerus,Gervachoerus" recon_no="42361;135294">Cebochoerid</List>
+		<List recon_name="Indohyus,Khirtharia,Kunmunella" recon_no="42349;42350;42351">Raoellid</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="105">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Thewissen_etal_2001a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

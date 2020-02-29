@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bianucci, G.</List>
+			<List>Di Celma, C.</List>
+			<List>Urbina, M.</List>
+			<List>Lambrt, O.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>New beaked whales from the late Miocene of Peru and evidence for convergent evolution in stem and crown Ziphiidae (Cetacea, Odontoceti)</Title>
+		<Journal>PeerJ</Journal>
+		<Volume>4</Volume>
+		<Pages>e2479</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="34">
+		<List recon_name="Squalodon_bellunensis" recon_no="90650">Squalodon</List>
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia</List>
+		<List recon_name="Eurhinodelphis_cocheteuxi" recon_no="64595">Eurhinodelphis</List>
+		<List recon_name="Schizodelphis_morckhoviensis" recon_no="69878">Schizodelphis</List>
+		<List recon_name="Ziphiodelphis" recon_no="36868">Ziphiodelphis</List>
+		<List recon_name="Squaloziphius_emlongi" recon_no="62918">Squaloziphius</List>
+		<List recon_name="Xhosacetus_hendeysi" recon_no="113830">Xhosacetus</List>
+		<List recon_name="Pterocetus_benguelae" recon_no="113832">Pterocetus</List>
+		<List recon_name="Indopacetus_pacificus" recon_no="63852">Indopacetus</List>
+		<List recon_name="Africanacetus_ceratopsis" recon_no="113825">Africanacetus</List>
+		<List recon_name="Ihlengesi_saldanhae" recon_no="113823">Ihlengesi</List>
+		<List recon_name="Mesoplodon_posti,Mesoplodon_slangkopi" recon_no="337094;113826">Mesoplodon</List>
+		<List recon_name="Hyperoodon_ampullatus" recon_no="64551">Hyperoodon</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius</List>
+		<List recon_name="Izikoziphius_angustus,Izikoziphius_rossi" recon_no="113819;113818">Izikoziphius</List>
+		<List recon_name="Microberardius_africanus" recon_no="113816">Microberardius</List>
+		<List recon_name="Berardius_bairdi" recon_no="103684">Berardius</List>
+		<List recon_name="Archaeoziphius_microglenoideus" recon_no="80624">Archaeoziphius</List>
+		<List recon_name="Nazcacetus_urbinai" recon_no="154149">Nazcacetus</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus</List>
+		<List recon_name="Choneziphius_leidyi,Choneziphius_planirostris" recon_no="264272;63618">Choneziphius</List>
+		<List recon_name="Tusciziphius_atlanticus,Tusciziphius_crispus" recon_no="264273;62940">Tusciziphius</List>
+		<List recon_name="Globicetus_hiberus" recon_no="264275">Globicetus</List>
+		<List recon_name="Imocetus_piscatus" recon_no="264277">Imocetus</List>
+		<List recon_name="Beneziphius_brevirostris" recon_no="69622">Beneziphius</List>
+		<List recon_name="Ziphirostrum_marginatum" recon_no="64609">Ziphirostrum</List>
+		<List recon_name="Aporotus_recurvirostris" recon_no="64615">Aporotusrec</List>
+		<List recon_name="Aporotus_dicyrtus" recon_no="64617">Aporotusdicyrt</List>
+		<List recon_name="Messapicetus_gregarius,Messapicetus_longirostris" recon_no="199761;62947">Messapicetus</List>
+		<List recon_name="Ninoziphius_platyrostris" recon_no="62912">Ninoziphius</List>
+		<List recon_name="Chimuziphius_coloradensis" recon_no="358163">Chimuziphius</List>
+		<List recon_name="Nenga_meganasalis" recon_no="113828">Nenga</List>
+		<List recon_name="Notoziphius_bruneti" recon_no="272629">Notoziphius</List>
+		<List recon_name="Chavinziphius_maxillocristatus" recon_no="346721">Caesuziphius</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="51">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bianucci_etal_2016a</Filename>
+	<Parent>Lambert_etal_2013a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Churchill, M.</List>
+			<List>Berta, A.</List>
+			<List>Demere, T.</List>
+		</Author>
+		<Year>2012</Year>
+		<Title>The systematics of right whales (Mysticeti: Balaenidae)</Title>
+		<Journal>Marine Mammal Science</Journal>
+		<Volume>28</Volume>
+		<Pages>497-521</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="24">
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon_atrox</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter_macrocephalus</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius_cavirostris</List>
+		<List recon_name="Aetiocetus_weltoni" recon_no="63483">Aetiocetus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Morenocetus_parvus" recon_no="64479">Morenocetus_parvus</List>
+		<List recon_name="Balaenula_astensis" recon_no="65855">Balaenula_astensis</List>
+		<List recon_name="Balaenula_balaenopsis" recon_no="64444">Balaenula_balaenopsis</List>
+		<List recon_name="Balaenula_sp_HUES_10003" recon_no="36680">Japanese_balaenula_sp</List>
+		<List recon_name="Eubalaena_belgica" recon_no="89012">Eubalaena_belgica</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena_glacialis</List>
+		<List recon_name="Eubalaena_australis" recon_no="67679">Eubalaena_australis</List>
+		<List recon_name="Eubalaena_japonica" recon_no="128802">Eubalaena_japonica</List>
+		<List recon_name="Balaena_sp_SDSNH_43880" recon_no="36676">SDSNH_43880</List>
+		<List recon_name="Balaenella_brachyrhynus" recon_no="69993">Balaenella_brachyrhynchus</List>
+		<List recon_name="Balaena_montalionis" recon_no="68458">Balaena_montalionis</List>
+		<List recon_name="Balaena_ricei" recon_no="71868">Balaena_ricei</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="119">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Churchill_etal_2012a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

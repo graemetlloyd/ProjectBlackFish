@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Ramassamy, B.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>Description of a new long-snouted beaked whale from the Late Miocene of Denmark: evolution of suction feeding and sexual dimorphism in the Ziphiidae (Cetacea: Odontoceti)</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume>178</Volume>
+		<Pages>381-409</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="25">
+		<List recon_name="Squalodon_bellunensis" recon_no="90650">Squalodon_bellunensis</List>
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia_maerewhenua</List>
+		<List recon_name="Eurhinodelphis_cocheteuxi" recon_no="64595">Eurhinodelphis_cocheteuxi</List>
+		<List recon_name="Schizodelphis_morckhoviensis" recon_no="69878">Schizodelphis_morckhoviensis</List>
+		<List recon_name="Indopacetus_pacificus" recon_no="63852">Indopacetus_pacificus</List>
+		<List recon_name="Mesoplodon_grayi" recon_no="81913">Mesoplodon_grayi</List>
+		<List recon_name="Mesoplodon_layardii" recon_no="82038">Mesoplodon_layardii</List>
+		<List recon_name="Mesoplodon_perrini" recon_no="113254">Mesoplodon_perrini</List>
+		<List recon_name="Hyperoodon_ampullatus" recon_no="64551">Hyperoodon_ampullatus</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius_cavirostris</List>
+		<List recon_name="Choneziphius_planirostris" recon_no="63618">Choneziphius_planirostris</List>
+		<List recon_name="Tusciziphius_atlanticus" recon_no="264273">Tusciziphius_atlanticus</List>
+		<List recon_name="Globicetus_hiberus" recon_no="264275">Globicetus_hiberus</List>
+		<List recon_name="Imocetus_piscatus" recon_no="264277">Imocetus_piscatus</List>
+		<List recon_name="Berardius_bairdi" recon_no="103684">Berardius_bairdi</List>
+		<List recon_name="Archaeoziphius_microglenoideus" recon_no="80624">Archaeoziphius_microglenoideus</List>
+		<List recon_name="Nazcacetus_urbinai" recon_no="154149">Nazcacetus_urbinai</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus_shepherdi</List>
+		<List recon_name="Aporotus_recurvirostris" recon_no="64615">Aporotus_recuvirostris</List>
+		<List recon_name="Beneziphius_brevirostris" recon_no="69622">Beneziphius_brevirostris</List>
+		<List recon_name="Ziphirostrum_marginatum" recon_no="64609">Ziphirostrum_marginatum</List>
+		<List recon_name="Messapicetus_gregarius" recon_no="199761">Messapicetus_gregarius</List>
+		<List recon_name="Messapicetus_longirostris" recon_no="62947">Messapicetus_longirostris</List>
+		<List recon_name="Ninoziphius_platyrostris" recon_no="62912">Ninoziphius_platyrostris</List>
+		<List recon_name="Dagonodum_mojnum" recon_no="346608">Dagonodum_mojnum</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="69">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Ramassamy_2016a</Filename>
+	<Parent>Lambert_etal_2013a</Parent>
+	<Sibling/>
+</SourceTree>

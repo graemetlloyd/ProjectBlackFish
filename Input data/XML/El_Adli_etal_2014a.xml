@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>El Adli, J. J.</List>
+			<List>Demere, T. A.</List>
+			<List>Boessenecker, R. W.</List>
+		</Author>
+		<Year>2014</Year>
+		<Title><em>Herpetocetus morrowi</em> (Cetacea: Mysticeti), a new species of diminutive baleen whale from the Upper Pliocene (Piacenzian) of California, USA, with observations on the evolution and relationships of the Cetotheriidae</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume>170</Volume>
+		<Pages>400-466</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="30">
+		<List recon_name="Aetiocetus_weltoni" recon_no="63483">Aetiocetus_weltoni</List>
+		<List recon_name="Aglaocetus_moreni" recon_no="69155">Aglaocetus_moreni</List>
+		<List recon_name="Aglaocetus_patulus" recon_no="62952">Aglaocetus_patulus</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenula_astensis" recon_no="65855">Balaenula_astensis</List>
+		<List recon_name="Herpetocetus_bramblei" recon_no="114675">Herpetocetus_bramblei</List>
+		<List recon_name="Herpetocetus_morrowi" recon_no="288162">Herpetocetus_morrowi</List>
+		<List recon_name="Herpetocetus" recon_no="36725">Herpetocetus_sp</List>
+		<List recon_name="Herpetocetus_transatlanticus" recon_no="114673">Herpetocetus_transatlanticus</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Cephalotropis_coronatus" recon_no="63979">Cephalotropis_coronatus</List>
+		<List recon_name="Cetotherium_megalophysum" recon_no="64009">Cetotherium_megalophysum</List>
+		<List recon_name="Cetotherium_rathkii" recon_no="64469">Cetotherium_rathkii</List>
+		<List recon_name="Cophocetus_oregonensis" recon_no="64528">Cophocetus_oregonensis</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena_glacialis</List>
+		<List recon_name="Janjucetus_hunderi" recon_no="84035">Janjucetus_hunderi</List>
+		<List recon_name="Megaptera_miocaena" recon_no="69900">Megaptera_miocaena</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Metopocetus_durinasus" recon_no="63977">Metopocetus_durinasus</List>
+		<List recon_name="Metopocetus_vandelli" recon_no="66761">Metopocetus_vandelli</List>
+		<List recon_name="Mixocetus_elysius" recon_no="64432">Mixocetus_elysius</List>
+		<List recon_name="Nannocetus_eremus" recon_no="62941">Nannocetus_eremus</List>
+		<List recon_name="Parabalaenoptera_baulinensis" recon_no="64140">Parabalaenoptera_baulinensis</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Peripolocetus_vexillifer" recon_no="63837">Peripolocetus_vexillifer</List>
+		<List recon_name="Piscobalaena_nana" recon_no="63933">Piscobalaena_nana</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="130">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>El_Adli_etal_2014a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

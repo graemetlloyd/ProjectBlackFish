@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Tsai, C.-H.</List>
+			<List>Fordyce, R. E.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>The earliest gulp-feeding mysticete (Cetacea: Mysticeti) from the Oligocene of New Zealand</Title>
+		<Journal>Journal of Mammal Evolution</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="24">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Physeter_catodon" recon_no="64550">Physeter_catodon</List>
+		<List recon_name="Aetiocetus_cotylalveus" recon_no="63473">Aetiocetus_cotylalveus</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Balaenella_brachyrhynus" recon_no="69993">Balaenella_brachyrhynus</List>
+		<List recon_name="Balaenoptera_bonaerensis" recon_no="81901">Balaenoptera_bonaerensis</List>
+		<List recon_name="Balaenula_astensis" recon_no="65855">Balaenula_astensis</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Cetotherium_rathkii" recon_no="64469">Cetotherium_rathkii</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Eubalaena" recon_no="36715">Eubalaena_spp</List>
+		<List recon_name="Herpetocetus_bramblei" recon_no="114675">Herpetocetus_bramblei</List>
+		<List recon_name="Herpetocetus_transatlanticus" recon_no="114673">Herpetocetus_transatlanticus</List>
+		<List recon_name="Megaptera_miocaena" recon_no="69900">Megaptera_miocaena</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Metopocetus_durinasus" recon_no="63977">Metopocetus_durinasus</List>
+		<List recon_name="Morenocetus_parvus" recon_no="64479">Morenocetus_parvus</List>
+		<List recon_name="Nannocetus_eremus" recon_no="62941">Nannocetus_eremus</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Piscobalaena_nana" recon_no="63933">Piscobalaena_nana</List>
+		<List recon_name="Plesiobalaenoptera_quarantellii" recon_no="169828">Plesiobalaenoptera_quarantellii</List>
+		<List recon_name="Horopeta_umarere" recon_no="317584">Horopeta_umarere</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="166">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Tsai_et_Fordyce_inpressa</Filename>
+	<Parent>Fordyce_et_Marx_2013a</Parent>
+	<Sibling/>
+</SourceTree>

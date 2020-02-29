@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bisconti, M.</List>
+		</Author>
+		<Year>2008</Year>
+		<Title>Morphology and phylogenetic relationships of a new eschrichtiid genus (Cetacea: Mysticeti) from the Early Pliocene of northern Italy</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume>153</Volume>
+		<Pages>161-186</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="35">
+		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus_atavus</List>
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus_vogtlensis</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Chonecetus_goedertorum" recon_no="63476">Chonecetus_goedertorum</List>
+		<List recon_name="Aetiocetus_polydentatus" recon_no="63484">Aetiocetus_polydentatus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Balaena_montalionis" recon_no="68458">Balaena_montalionis</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena_glacialis</List>
+		<List recon_name="Balaenula_astensis" recon_no="65855">Balaenula_astensis</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Parietobalaena_palmeri" recon_no="62938">Parietobalaena_palmeri</List>
+		<List recon_name="Isanacetus_laticephalus" recon_no="64147">Isanacetus_laticephalus</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Cetotherium_rathkei" recon_no="69834">Cetotherium_rathkei</List>
+		<List recon_name="Mixocetus_elysius" recon_no="64432">Mixocetus_elysius</List>
+		<List recon_name="Titanocetus_sammarinensis" recon_no="319669">Titanocetus_sammarinensis</List>
+		<List recon_name="Metopocetus_durinasus" recon_no="63977">Metopocetus_durinasus</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>
+		<List recon_name="Balaenoptera_edeni" recon_no="81902">Balaenoptera_edeni</List>
+		<List recon_name="Balaenoptera_omurai" recon_no="104742">Balaenoptera_omurai</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Megaptera_hubachi" recon_no="68703">Megaptera_hubachi</List>
+		<List recon_name="Megaptera_miocaena" recon_no="69900">Megaptera_miocaena</List>
+		<List recon_name="Plesiocetus_cortesii" recon_no="68445">Plesiocetus_cortesii</List>
+		<List recon_name="Plesiobalaenoptera_quarantellii" recon_no="169828">MPST_240505</List>
+		<List recon_name="Balaenoptera_borealina" recon_no="64865">Balaenoptera_borealina</List>
+		<List recon_name="Parabalaenoptera_baulinensis" recon_no="64140">Parabalaenoptera_baulinensis</List>
+		<List recon_name="Archaebalaenoptera_castriarquati" recon_no="106910">MCa_240536</List>
+		<List recon_name="Eschrichtioides_gastaldii" recon_no="122147">Eschrichtioides_gastaldii</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="165">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bisconti_2008a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

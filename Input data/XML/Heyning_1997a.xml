@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Heyning, J. E.</List>
+		</Author>
+		<Year>1997</Year>
+		<Title>Sperm whale phylogeny revisited: analysis of the morphological evidence</Title>
+		<Journal>Marine Mammal Science</Journal>
+		<Volume>13</Volume>
+		<Pages>596-613</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="14">
+		<List recon_name="Proboscidea" recon_no="105150">Probiscidea</List>
+		<List recon_name="Artiodactyla" recon_no="42307">Artiodactyla</List>
+		<List recon_name="Perissodactyla" recon_no="42980">Perissodactyla</List>
+		<List recon_name="Balaenopteridae" recon_no="42977">Balaenopteridae</List>
+		<List recon_name="Balaenidae" recon_no="42978">Balaenidae</List>
+		<List recon_name="Neobalaenidae" recon_no="53255">Neobalaenidae</List>
+		<List recon_name="Eschrichtiidae" recon_no="42976">Eschrichtiidae</List>
+		<List recon_name="Physeteridae" recon_no="42967">Physteridae</List>
+		<List recon_name="Ziphiidae" recon_no="42951">Ziphiidae</List>
+		<List recon_name="Platanistidae" recon_no="42941">Platanistidae</List>
+		<List recon_name="Iniidae" recon_no="53142">Iniidae</List>
+		<List recon_name="Monodontidae" recon_no="42963">Monodontidae</List>
+		<List recon_name="Phocoenidae" recon_no="53269">Phocoenidae</List>
+		<List recon_name="Delphinidae" recon_no="42953">Delphinidae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="75">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Heyning_1997a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

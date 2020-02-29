@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Velez-Juarbe, J.</List>
+			<List>Wood, A. R.</List>
+			<List>De Gracia, C.</List>
+			<List>Hendy, A. J. W.</List>
+		</Author>
+		<Year>2015</Year>
+		<Title>Evolutionary patterns among living and fossil kogiid sperm whales: evidence from the Neogene of Central America</Title>
+		<Journal>PLOS ONE</Journal>
+		<Volume>10</Volume>
+		<Pages>e0123909</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="20">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Agorophius_pygmaeus" recon_no="63210">Agorophius_pygmaeus</List>
+		<List recon_name="Eudelphis_mortezelensis" recon_no="64624">Eudelphis_mortezelensis</List>
+		<List recon_name="Zygophyseter_varolai" recon_no="85977">Zygophyseter_varolai</List>
+		<List recon_name="Brygmophyseter_shigensis" recon_no="88809">Brygmophyseter_shigensis</List>
+		<List recon_name="Livyatan_melvillei" recon_no="171202">Livyatan_melvillei</List>
+		<List recon_name="Placoziphius_duboisi" recon_no="146619">Placoziphius_duboisi</List>
+		<List recon_name="Orycterocetus_crocodilinus" recon_no="68215">Orycterocetus_crocodilinus</List>
+		<List recon_name="Physeterula_dubusi" recon_no="104097">Physeterula_dubusi</List>
+		<List recon_name="Aulophyseter_morricei" recon_no="63838">Aulophyseter_morricei</List>
+		<List recon_name="Acrophyseter_deinodon" recon_no="131405">Acrophyseter_deinodon</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter_macrocephalus</List>
+		<List recon_name="Thalassocetus_antwerpiensis" recon_no="64649">Thalassocetus_antwerpiensis</List>
+		<List recon_name="Scaphokogia_cochlearis" recon_no="62929">Scaphokogia_cochlearis</List>
+		<List recon_name="Praekogia_cedrosensis" recon_no="53139">Praekogia_cedrosensis</List>
+		<List recon_name="Kogia_sima" recon_no="81904">Kogia_sima</List>
+		<List recon_name="Kogia_breviceps" recon_no="64510">Kogia_breviceps</List>
+		<List recon_name="Kogia_pusilla" recon_no="68219">Kogia_pusilla</List>
+		<List recon_name="Aprixokogia_kelloggi" recon_no="114705">Aprixokogia_kelloggi</List>
+		<List recon_name="Nanokogia_isthmia" recon_no="319919">Nanokogia_isthmia</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="41">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Velez-Juarbe_etal_2015a</Filename>
+	<Parent>Lambert_etal_2010a</Parent>
+	<Sibling/>
+</SourceTree>

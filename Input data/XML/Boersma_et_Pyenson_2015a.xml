@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Boersma, A. T.</List>
+			<List>Pyenson, N. D.</List>
+		</Author>
+		<Year>2015</Year>
+		<Title><em>Albicetus oxymycterus</em>, a new generic name and redescription of a basal physeteroid (Mammalia, Cetacea) from the Miocene of California, and the evolution of body size in sperm whales</Title>
+		<Journal>PLOS ONE</Journal>
+		<Volume>10</Volume>
+		<Pages>e0135551</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="21">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Agorophius_pygmaeus" recon_no="63210">Agorophius</List>
+		<List recon_name="Eudelphis_mortezelensis" recon_no="64624">Eudelphis</List>
+		<List recon_name="Zygophyseter_varolai" recon_no="85977">Zygophyseter</List>
+		<List recon_name="Brygmophyseter_shigensis" recon_no="88809">Brygmophyseter</List>
+		<List recon_name="Placoziphius_duboisi" recon_no="146619">Placoziphius</List>
+		<List recon_name="Orycterocetus_crocodilinus" recon_no="68215">Orycterocetus</List>
+		<List recon_name="Physeterula_dubusi" recon_no="104097">Physeterula</List>
+		<List recon_name="Aulophyseter_morricei" recon_no="63838">Aulophyseter</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter</List>
+		<List recon_name="Thalassocetus_antwerpiensis" recon_no="64649">Thalassocetus</List>
+		<List recon_name="Scaphokogia_cochlearis" recon_no="62929">Scaphokogia</List>
+		<List recon_name="Praekogia_cedrosensis" recon_no="53139">Praekogia</List>
+		<List recon_name="Kogia_breviceps" recon_no="64510">Kogia_breviceps</List>
+		<List recon_name="Livyatan_melvillei" recon_no="171202">Livyatan</List>
+		<List recon_name="Acrophyseter_deinodon" recon_no="131405">Acrophyseter</List>
+		<List recon_name="Aprixokogia_kelloggi" recon_no="114705">Aprixokogia</List>
+		<List recon_name="Albicetus_oxymycterus" recon_no="333315">Albicetus</List>
+		<List recon_name="Kogia_sima" recon_no="81904">Kogia_sima</List>
+		<List recon_name="Nanokogia_isthmia" recon_no="319919">Nanokogia</List>
+		<List recon_name="Kogia_pusilla" recon_no="68219">Kogia_pris</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="42">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Boersma_et_Pyenson_2015a</Filename>
+	<Parent>Velez-Juarbe_etal_2015a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Colpaert, W.</List>
+			<List>Bosselaers, M.</List>
+			<List>Lambert, O.</List>
+		</Author>
+		<Year>2015</Year>
+		<Title>Out of the Pacific: a second fossil porpoise from the Pliocene of the North Sea basin</Title>
+		<Journal>Acta Palaeontologica Polonica</Journal>
+		<Volume>60</Volume>
+		<Pages>1-10</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="22">
+		<List recon_name="Kentriodon_pernix" recon_no="64433">Kentriodon_pernix</List>
+		<List recon_name="Delphinodon_dividum" recon_no="68939">Delphinodon_dividum</List>
+		<List recon_name="Salumiphocaena_stocktoni" recon_no="63899">Salumiphocaena_stocktoni</List>
+		<List recon_name="Piscolithax_tedfordi" recon_no="90875">Piscolithax_tedfordi</List>
+		<List recon_name="Piscolithax_boreios" recon_no="90874">Piscolithax_boreios</List>
+		<List recon_name="Piscolithax_longirostris" recon_no="64568">Piscolithax_longirostris</List>
+		<List recon_name="Lomacetus_ginsburgi" recon_no="64584">Lomacetus_ginsburgi</List>
+		<List recon_name="Australithax_intermedia" recon_no="62930">Australithax_intermedia</List>
+		<List recon_name="Haborophocoena_toyoshimai" recon_no="68162">Haborophocoena_toyoshimai</List>
+		<List recon_name="Haborophocoena_minutus" recon_no="178171">Haborophocoena_minutus</List>
+		<List recon_name="Brabocetus_gigaseorum" recon_no="317887">Brabocetus_gigasei</List>
+		<List recon_name="Septemtriocetus_bosselaersi" recon_no="133842">Septemtriocetus_bosselaersi</List>
+		<List recon_name="Pterophocaena_nishinoi" recon_no="247356">Pterophocaena_nishinoi</List>
+		<List recon_name="Archaeophocaena_teshioensis" recon_no="247358">Archaeophocaena_teshioensis</List>
+		<List recon_name="Miophocaena_nishinoi" recon_no="247360">Miophocaena_nishinoi</List>
+		<List recon_name="Semirostrum_ceruttii" recon_no="290000">Semirostrum_cerutti</List>
+		<List recon_name="Phocoena_sinus" recon_no="82072">Phocoena_sinus</List>
+		<List recon_name="Phocoena_dioptrica" recon_no="63545">Phocoena_dioptrica</List>
+		<List recon_name="Phocoena_phocoena" recon_no="63544">Phocoena_phocoena</List>
+		<List recon_name="Phocoenoides_dalli" recon_no="63554">Phocoenoides_dalli</List>
+		<List recon_name="Neophocaena_phocaenoides" recon_no="64883">Neophocaena_phocaenoides</List>
+		<List recon_name="Phocoena_spinipinnis" recon_no="82073">Phocoena_spinipinnis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="36">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Colpaert_etal_2015a</Filename>
+	<Parent>Lambert_2008a</Parent>
+	<Sibling/>
+</SourceTree>

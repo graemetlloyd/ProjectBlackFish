@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Benoit, J.</List>
+			<List>Adnet, S.</List>
+			<List>Welcomme, J.-L.</List>
+			<List>Fabre, P.-H.</List>
+		</Author>
+		<Year>2011</Year>
+		<Title>New skull of <em>Schizodelphis sulcatus</em> Gervais, 1861 (Mammalia, Odontoceti, Eurhinodelphinidae) from the Lower Miocene of Pignan (Hérault, France) and its implications for systematics of Eurhinodelphinidae</Title>
+		<Journal>Geobios</Journal>
+		<Volume>44</Volume>
+		<Pages>323-334</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia</List>
+		<List recon_name="Squalodon" recon_no="36852">Squalodon</List>
+		<List recon_name="Eoplatanista" recon_no="36712">Eoplatanista</List>
+		<List recon_name="Schizodelphis_sulcatus" recon_no="63690">Schizodelphis_sulcatus_MNHNRL_127</List>
+		<List recon_name="Schizodelphis_barnesi" recon_no="69895">Schizodelphis_barnesi</List>
+		<List recon_name="Ziphiodelphis" recon_no="36868">Ziphiodelphis</List>
+		<List recon_name="Xiphiacetus" recon_no="67732">Xiphiacetus</List>
+		<List recon_name="Eurhinodelphis" recon_no="36717">Eurhinodelphis</List>
+		<List recon_name="Mycteriacetus_bellunensis" recon_no="67737">Mycteriacetus</List>
+		<List recon_name="Schizodelphis_sulcatus" recon_no="63690">Schizodelphis_sulcatus_PGN2</List>
+		<List recon_name="Schizodelphis_morckhoviensis" recon_no="69878">Schizodelphis_morckhoviensis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="26">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Benoit_etal_2011a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

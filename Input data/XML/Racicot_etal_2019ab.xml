@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Racicot, R. A.</List>
+			<List>Boessenecker, R. W.</List>
+			<List>Darroch, S. A. F.</List>
+			<List>Geisler, J. H.</List>
+		</Author>
+		<Year>2019</Year>
+		<Title>Evidence for convergent evolution of ultrasonic hearing in toothed whales (Cetacea: Odontoceti)</Title>
+		<Journal>Biology Letters</Journal>
+		<Volume>15</Volume>
+		<Pages>20190083</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="28">
+		<List recon_name="Bos_taurus" recon_no="104264">Bos</List>
+		<List recon_name="Hippopotamus_amphibius" recon_no="77338">Hippopotamus_amphibius</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena_glacialis</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera</List>
+		<List recon_name="Physeter_catodon" recon_no="64550">Physeter_catodon</List>
+		<List recon_name="Kogia_breviceps" recon_no="64510">Kogia_breviceps</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius_cavirostris</List>
+		<List recon_name="Inia_geoffrensis" recon_no="63507">Inia_geoffrensis</List>
+		<List recon_name="Lipotes_vexillifer" recon_no="63539">Lipotes_vexillifer</List>
+		<List recon_name="Pontoporia_blainvillei" recon_no="63541">Pontoporia_blainvillei</List>
+		<List recon_name="Delphinapterus_leucas" recon_no="65078">Delphinapterus_leucas</List>
+		<List recon_name="Phocoena_phocoena" recon_no="63544">Phocoena_phocoena</List>
+		<List recon_name="Phocoenoides_dalli" recon_no="63554">Phocoenoides_dalli</List>
+		<List recon_name="Tursiops_truncatus" recon_no="64472">Tursiops_truncatus</List>
+		<List recon_name="Orcinus_orca" recon_no="64541">Orcinus_orca</List>
+		<List recon_name="Leucopleurus_acutus" recon_no="63822">Leucopleurus_acutus</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Micromysticetus_rothauseni" recon_no="63465">Micromysticetus_rothauseni</List>
+		<List recon_name="Echovenator_sandersi" recon_no="345869">Echoventaor_sandersi</List>
+		<List recon_name="Squalodon_calvertensis" recon_no="68288">Squalodon_calvertensis</List>
+		<List recon_name="Zarhachis_flagellator" recon_no="63658">Zarhachis_flagellator</List>
+		<List recon_name="Zarhinocetus_errabundus" recon_no="173469">Zarhinocetus_errabundus_149588</List>
+		<List recon_name="Brachydelphis_mazeasi" recon_no="64569">Comp_Brachydelphis</List>
+		<List recon_name="Kentriodon_pernix" recon_no="64433">Kentriodon_pernix</List>
+		<List recon_name="Pterophocaena_nishinoi" recon_no="247356">Pterophocoena_nishinoi</List>
+		<List recon_name="Odontoceti_indet_CCNHM_1000" recon_no="42937">CCNHM_1000</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="332">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Racicot_etal_2019ab</Filename>
+	<Parent>Albright_etal_2018a</Parent>
+	<Sibling/>
+</SourceTree>

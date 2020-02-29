@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Geisler, J. H.</List>
+			<List>Boessenecker, R. W.</List>
+			<List>Brown, M.</List>
+			<List>Beatty, B. L.</List>
+		</Author>
+		<Year>2017</Year>
+		<Title>The origin of filter feeding in whales</Title>
+		<Journal>Current Biology</Journal>
+		<Volume>27</Volume>
+		<Pages>2036-2042</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="53">
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>
+		<List recon_name="Balaenoptera_brydei" recon_no="81903">Balaenoptera_edeni_brydei</List>
+		<List recon_name="Balaenoptera_bonaerensis" recon_no="81901">Balaenoptera_bonaerensis</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena</List>
+		<List recon_name="Aglaocetus_patulus" recon_no="62952">Aglaocetus_patulus</List>
+		<List recon_name="Cetotherium_rathkii" recon_no="64469">Cetotherium_rathkii</List>
+		<List recon_name="Cophocetus_oregonensis" recon_no="64528">Cophocetus_oregonensis</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Isanacetus_laticephalus" recon_no="64147">Isanacetus_laticephalus</List>
+		<List recon_name="Mixocetus_elysius" recon_no="64432">Mixocetus_elysius</List>
+		<List recon_name="Parietobalaena_palmeri" recon_no="62938">Parietobalaena_palmeri</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Balaenoptera_gastaldii" recon_no="68450">Balaenoptera_gastaldii</List>
+		<List recon_name="Eschrichtiidae_indet_SDSNH_90517" recon_no="42976">SDSNH_90517</List>
+		<List recon_name="Megaptera_miocaena" recon_no="69900">Megaptera_miocaena</List>
+		<List recon_name="Megaptera_hubachi" recon_no="68703">Megaptera_hubachi</List>
+		<List recon_name="Parabalaenoptera_baulinensis" recon_no="64140">Parabalaenoptera_baulinen</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Tohoraata" recon_no="65441">Tohoraata_spp</List>
+		<List recon_name="Micromysticetus" recon_no="63462">Micromysticetus</List>
+		<List recon_name="Yamatocetus_canaliculatus" recon_no="247312">Yamatocetus_canaliculatus</List>
+		<List recon_name="Tokarahia" recon_no="327302">Tokarahia_spp</List>
+		<List recon_name="Waharoa_ruwhenua" recon_no="328444">Waharoa_ruwhenua</List>
+		<List recon_name="Fucaia_buelli" recon_no="333118">Fucaia_buelli</List>
+		<List recon_name="Aetiocetus_weltoni" recon_no="63483">Aetiocetus_weltoni</List>
+		<List recon_name="Aetiocetus_cotylalveus" recon_no="63473">Aetiocetus_cotylalveus</List>
+		<List recon_name="Aetiocetus_polydentatus" recon_no="63484">Aetiocetus_polydentatus</List>
+		<List recon_name="Fucaia_goedertorum" recon_no="333954">Fucaia_goedertorum</List>
+		<List recon_name="Chonecetus_sookensis" recon_no="63474">Chonecetus_sookensis</List>
+		<List recon_name="Llanocetus_denticrenatus" recon_no="63221">Llanocetus</List>
+		<List recon_name="Janjucetus_hunderi" recon_no="84035">Janjucetus_hunderi</List>
+		<List recon_name="Mammalodon_colliveri" recon_no="63222">Mammalodon_colliveri</List>
+		<List recon_name="Mysticeti_indet_ChM_PV5720" recon_no="42971">Chm_pv5720</List>
+		<List recon_name="Coronodon_havensteini" recon_no="356268">CCNHm_108</List>
+		<List recon_name="Metasqualodon_symmetricus" recon_no="67567">Metasqualodon_symmetricus</List>
+		<List recon_name="Cetacea_indet_ZMT_62" recon_no="36652">ZMT_62</List>
+		<List recon_name="Simocetus_rayi" recon_no="63231">Simocetus</List>
+		<List recon_name="Squalodon_calvertensis" recon_no="68288">Squalodon_calvertensis</List>
+		<List recon_name="Agorophius_pygmaeus,Agorophiidae_indet_ChM_PV5852" recon_no="63210;42969">Agorophius</List>
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter_macrocephalus</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Ziphiidae</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Basilosaurus_isis" recon_no="53287">Basilosaurus</List>
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="206">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Geisler_etal_2017a</Filename>
+	<Parent>Demere_etal_2008a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Steeman, M. E.</List>
+		</Author>
+		<Year>2007</Year>
+		<Title>Cladistic analysis and a revised classification of fossil and recent mysticetes</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume>150</Volume>
+		<Pages>875-894</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="30">
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon_atrox</List>
+		<List recon_name="Aetiocetus_cotylalveus" recon_no="63473">Aetiocetus_cotylalveus</List>
+		<List recon_name="Chonecetus_goedertorum" recon_no="63476">Chonecetus_goedertorum</List>
+		<List recon_name="Llanocetus_denticrenatus" recon_no="63221">Llanocetus_denticrenatus</List>
+		<List recon_name="Aglaocetus_patulus" recon_no="62952">Aglaocetus_patulus</List>
+		<List recon_name="Cetotherium_rathkei" recon_no="69834">Cetotherium_rathkei</List>
+		<List recon_name="Cophocetus_oregonensis" recon_no="64528">Cophocetus_oregonensis</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Halicetus_ignotus" recon_no="53149">Halicetus_ignotus</List>
+		<List recon_name="Isanacetus_laticephalus" recon_no="64147">Isanacetus_laticephalus</List>
+		<List recon_name="Mauicetus_parki" recon_no="64529">Mauicetus_parki</List>
+		<List recon_name="Mauicetus_lophocephalus" recon_no="83515">Mauicetus_lophocephalus</List>
+		<List recon_name="Metopocetus_durinasus" recon_no="63977">Metopocetus_durinasus</List>
+		<List recon_name="Parietobalaena_palmeri" recon_no="62938">Parietobalaena_palmeri</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Piscobalaena_nana" recon_no="63933">Piscobalaena_nana</List>
+		<List recon_name="Thinocetus_arthritus" recon_no="53147">Thinocetus_arthritis</List>
+		<List recon_name="Mesocetus_argillarius" recon_no="69084">Mesocetus_argillarius</List>
+		<List recon_name="Cetotherium_megalophysum" recon_no="64009">Cetotheruim_megalophysum</List>
+		<List recon_name="Uranocetus_gramensis" recon_no="64429">Uranocetus_gramensis</List>
+		<List recon_name="Herpetocetus_transatlanticus" recon_no="114673">USNM_182962</List>
+		<List recon_name="Chaeomysticeti_indet_ZMT_67" recon_no="360135">ZMT_67</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena_glacialis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="69">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Steeman_2007a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>
