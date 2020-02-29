@@ -1,0 +1,33 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=16 NCHAR=40;
+	FORMAT SYMBOLS= " 0 1 2 3 4" MISSING=? GAP=- ;
+
+MATRIX
+
+Inia_geoffrensis          0100100000010000000100000000100010000011
+Pontoporia_blainvillei    01001000101000010000000000001010110???10
+Delphinapterus_leucas     102100011000002010????0?001?011110010000
+Orcaella_brevirostris     000000011000002021010100000(01)011010000101
+Tursiops_truncatus        0000100102000110210111110111100010000101
+Lisodelphis_borealis      0001100102000100210111010111100210000101
+Phocoena_sinus            011011101011102112100(01)111001010001111210
+Phocoena_dioptrica        0111(12)110102111211(34)2(01)00101011011010111210
+Phocoena_phocoena         011111(01)01(01)2121111(34)(12)110100111011001111210
+Phocoenoides_dalli        0111(12)11010213111142110110101110010111210
+Neophocaena_phocaenoides  011110001011002112110000(01)(01)00010100111210
+Phocoena_spinipinnis      011011101111102112100(01)010001010000111210
+Piscolithax_tedfordi      01102010???1100100????10???1?0??????????
+Piscolithax_boreios       01112010???10?0??????????????0??????????
+Piscolithax_longirostris  011120101?01?00??0000?10???1?0??????????
+Salumiphocaena_stocktoni  01100100??10?101?0???????????0??????????
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

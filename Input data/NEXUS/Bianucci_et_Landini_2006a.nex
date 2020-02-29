@@ -1,0 +1,30 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=13 NCHAR=23;
+	FORMAT SYMBOLS= " 0 1 2 3" MISSING=? GAP=- ;
+
+MATRIX
+
+Zygorhiza      0000?000000000000000000
+Squalodon      00100000000000011000000
+Kogia          3131210102111212211101(01)
+Scaphokogia    31312101021112?221???1?
+Zygophyseter   21(23)02111110?10122?10101
+Aulophyseter   112031111101121220?001?
+Diaphorocetus  012011111100111?????00?
+Naganocetus    212?21111101?01????0101
+Physeterula    222?211???021??????10??
+Physeter       222031111102?2122011011
+Idiophyseter   022?21111?02?21??????1?
+Orycterocetus  0120211111021212201101?
+Placoziphius   012?21111?02121????101?
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

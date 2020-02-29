@@ -1,0 +1,26 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=10 NCHAR=21 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Kentriodon_pernix        000000000000000000000
+Tursiops_truncatus       000000000000000000111
+Phocoena_phocoena        100000120001000000111
+Haborodelphis_japonicus  111?000100?1010000??1
+Denebola_brachycephala   111110010100010110???
+Bohaskaia_monodontoides  111110110111111111???
+IRSNB_M_1922             110???0211?111??1????
+Casatia_thermophila      11???10211?101???????
+Delphinapterus_leucas    111101111111011110001
+Monodon_monoceros        111100120011111111001
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ END;
+
