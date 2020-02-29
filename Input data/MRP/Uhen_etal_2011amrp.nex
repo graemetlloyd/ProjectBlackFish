@@ -1,0 +1,37 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=22 NCHAR=21;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Sus_scrofa             000000000000000000000
+Hippopotamus           100000000000000000000
+Pakicetidae            110000000000000000000
+Ambulocetus            111000000000000000000
+Rodhocetus             111111110000000000000
+Remingtonocetus        111000011000000000000
+Dalinestes             111000011000000000000
+Gaviacetus             111111110100000000001
+Carolinacetus          111111110110000000011
+Protocetus             111111110111000000001
+Georgiacetus           111111110111100000011
+Babiacetus             111111110111110000011
+Basilosaurus           111111110111111101111
+Dorudon                111111110111111101111
+Eocetus_schweinfurthi  111111110111110110011
+Eocetus_wardii         111111110111110110011
+Artiocetus             111001110000000000000
+Qaisracetus            111011110000000000001
+Maiacetus_inuus        111000110000000000000
+MUSM_1443              111111110111110110011
+Supayacetus_muizoni    111111110111111100011
+Ocucajea_picklingi     111111110111111100111
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Uhen, M. D.</List>
+			<List>Pyenson, N. D.</List>
+			<List>Devries, T. J.</List>
+			<List>Urbina, M.</List>
+			<List>Renne, P. R.</List>
+		</Author>
+		<Year>2011</Year>
+		<Title>New Middle Eocene whales from the Pisco Basin of Peru</Title>
+		<Journal>Journal of Paleontology</Journal>
+		<Volume>85</Volume>
+		<Pages>955-969</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="22">
+		<List recon_name="Sus_scrofa" recon_no="104172">Sus_scrofa</List>
+		<List recon_name="Hippopotamus_amphibius" recon_no="77338">Hippopotamus</List>
+		<List recon_name="Pakicetidae" recon_no="310369">Pakicetidae</List>
+		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus</List>
+		<List recon_name="Rodhocetus" recon_no="36842">Rodhocetus</List>
+		<List recon_name="Remingtonocetus" recon_no="36838">Remingtonocetus</List>
+		<List recon_name="Dalanistes_ahmedi" recon_no="53241">Dalinestes</List>
+		<List recon_name="Gaviacetus_razai" recon_no="53299">Gaviacetus</List>
+		<List recon_name="Carolinacetus_gingerichi" recon_no="66904">Carolinacetus</List>
+		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus</List>
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus</List>
+		<List recon_name="Babiacetus" recon_no="53315">Babiacetus</List>
+		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus</List>
+		<List recon_name="Dorudon" recon_no="36709">Dorudon</List>
+		<List recon_name="Eocetus_schweinfurthi" recon_no="53994">Eocetus_schweinfurthi</List>
+		<List recon_name="Eocetus_wardii" recon_no="63151">Eocetus_wardii</List>
+		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus</List>
+		<List recon_name="Qaisracetus_arifi" recon_no="53243">Qaisracetus</List>
+		<List recon_name="Maiacetus_inuus" recon_no="140884">Maiacetus_inuus</List>
+		<List recon_name="Basilosauridae_indet_MUSM_1443" recon_no="42936">MUSM_1443</List>
+		<List recon_name="Supayacetus_muizoni" recon_no="199245">Supayacetus_muizoni</List>
+		<List recon_name="Ocucajea_picklingi" recon_no="199247">Ocucajea_picklingi</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="109">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Uhen_etal_2011a</Filename>
+	<Parent>Geisler_etal_2005a</Parent>
+	<Sibling/>
+</SourceTree>
