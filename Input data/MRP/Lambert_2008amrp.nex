@@ -1,0 +1,31 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=16 NCHAR=15;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Kentriodon_pernix         000000000000000
+Delphinodon_dividum       100000000000000
+Salumiphocaena            111110000000000
+Piscolithax_tedfordi      101111000000000
+Piscolithax_boreios       100110110000000
+Piscolithax_longirostris  100110010000000
+Lomacetus                 100010000000000
+Australithax              111110000000000
+Haborophocoena            101111001000000
+Septemtriocetus           101111001000000
+Phocoena_sinus            100110110110000
+Phocoena_dioptrica        100110110011110
+Phocoena_phocoena         100110110011111
+Phocoenoides_dalli        100110110010111
+Neophocaena_phocaenoides  100110110010010
+Phocoena_spinipinnis      100110110110000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

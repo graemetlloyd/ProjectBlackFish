@@ -1,0 +1,39 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=24 NCHAR=21;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Zygorhiza_kochii                 000000000000000000000
+Physeter_catodon                 100000000000000000000
+Aetiocetus_cotylalveus           111000000000000000000
+Balaena_mysticetus               101111110000000000000
+Balaenella_brachyrhynus          101001110000000000000
+Balaenoptera_bonaerensis         101000011111110000000
+Balaenula_astensis               101111110000000000000
+Caperea_marginata                101000010000011111100
+Cetotherium_rathkii              101000010000010001100
+Diorocetus_hiatus                101000010000110000000
+Eomysticetus_whitmorei           111000000000000000000
+Eschrichtius_robustus            101000010011110000010
+Eubalaena_spp                    101011110000000000000
+Herpetocetus_bramblei            101000010000011111101
+Herpetocetus_transatlanticus     101000010000011111101
+Megaptera_miocaena               101000010011110000010
+Megaptera_novaeangliae           101000011111110000000
+Metopocetus_durinasus            101000010000010011100
+Morenocetus_parvus               101000110000000000000
+Nannocetus_eremus                101000010000011111101
+Pelocetus_calvertensis           101000010001110000000
+Piscobalaena_nana                101000010000010111100
+Plesiobalaenoptera_quarantellii  101000010111110000000
+Horopeta_umarere                 101000010000010000100
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

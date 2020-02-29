@@ -1,0 +1,40 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=25 NCHAR=23;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Squalodon                00000000000000000000000
+Xhosacetus               11111100000000000000000
+Pterocetus               11111110000000000000000
+Khoikhoicetus            11111111000000000000000
+Indopacetus              11111111100000000000000
+Africanacetus            11111111110000000000000
+Ihlengesi                11111111111000000000000
+Mesoplodon_bidens        11111111111110000000000
+Mesoplodon_slangkopi     11111111111111100000000
+Mesoplodon_grayi         11111111111111100000000
+Mesoplodon_layardi       11111111111110110000000
+Mesoplodon_densirostris  11111111111110110000000
+Mesoplodon_mirus         11111111111010001000000
+Hyperoodon               11111111111010001000000
+Ziphius                  00111100000000000111000
+Izikoziphius_rossi       00111100000000000111100
+Izikoziphius_angustus    00111100000000000111100
+Nenga                    00001100000000000000000
+Tasmacetus               00011100000000000000000
+Microberardius           00000100000000000000010
+Berardius                00000100000000000000011
+Archaeoziphius           00000100000000000000011
+Nazcacetus               01111100000000000000000
+Choneziphius             00111100000000000011000
+Ziphirostrum             00111100000000000001000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

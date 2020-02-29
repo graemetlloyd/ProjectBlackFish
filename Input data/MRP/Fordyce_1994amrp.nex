@@ -1,0 +1,35 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=20 NCHAR=17;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Zygorhiza                          00000000000000000
+Archaeodelphis                     10000000000000000
+Physeter                           11111000000000000
+Kogia                              11111000000000000
+Mesoplodon                         10111100000000000
+Tasmacetus                         10111100000000000
+Squalodon                          10001011100000000
+Prosqualodon_hamiltoni             10001011100000000
+Prosqualodon_australis_et_davidis  10001001100000000
+Eurhinodelphid                     10011000010000000
+Waipatia                           10001000101000000
+Notocetus_marplesi                 10001000101110000
+Notocetus_vanbenedeni              10001000101111000
+Squalodelphis                      10001000101111000
+Zarhachis                          10001000101010100
+Platanista                         10001000101010100
+Kentriodon                         10011000010000010
+Cephalorhynchus                    10011000010000011
+Tursiops                           10011000010000011
+Pontoporia                         10011000010000010
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

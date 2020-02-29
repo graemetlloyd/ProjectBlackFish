@@ -1,0 +1,27 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=12 NCHAR=8;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Physeter                    00000000
+Balaena                     10000000
+Eubalaena                   10000000
+Caperea                     11100000
+Eschrichtius                10000000
+Megaptera                   10100000
+Balaenoptera_musculus       10000000
+Balaenoptera_physalus       11111001
+Balaenoptera_borealis       11101000
+Balaenoptera_bonaerensis    11111101
+Dwarf_minke                 11111110
+Balaenoptera_acutorostrata  11111110
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

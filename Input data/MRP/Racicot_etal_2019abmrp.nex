@@ -1,0 +1,43 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=28 NCHAR=26 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1" MISSING=? GAP=- ;
+MATRIX
+
+Bos                             00000000000000000000000000
+Hippopotamus_amphibius          10000000000000000000000000
+Eubalaena_glacialis             11110000000000000000000000
+Eschrichtius_robustus           11111000000000000000000000
+Megaptera                       11111000000000000000000000
+Physeter_catodon                11000111111100000000000000
+Kogia_breviceps                 11000111111100000000000000
+Ziphius_cavirostris             11000111111000000000000000
+Inia_geoffrensis                11000111110011111100000000
+Lipotes_vexillifer              11000111110011111100000000
+Pontoporia_blainvillei          11000111110011111011000000
+Delphinapterus_leucas           11000111110010000000000000
+Phocoena_phocoena               11000111110011100000111000
+Phocoenoides_dalli              11000111110011100000111000
+Tursiops_truncatus              11000111110011100000100100
+Orcinus_orca                    11000111110011000000000000
+Leucopleurus_acutus             11000111110011100000100100
+Zygorhiza_kochii                11000100000000000000000000
+Eomysticetus_whitmorei          11100000000000000000000010
+Micromysticetus_rothauseni      11100000000000000000000010
+Echoventaor_sandersi            11000111000000000000000000
+Squalodon_calvertensis          11000111100000000000000000
+Zarhachis_flagellator           11000111110011111010000001
+Zarhinocetus_errabundus_149588  11000111110011111010000001
+Comp_Brachydelphis              11000111110011111011000000
+Kentriodon_pernix               11000111110011110000000000
+Pterophocoena_nishinoi          11000111110011100000110000
+CCNHM_1000                      11000110000000000000000000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-26;
+END;
+

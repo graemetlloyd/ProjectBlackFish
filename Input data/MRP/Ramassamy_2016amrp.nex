@@ -1,0 +1,40 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=25 NCHAR=27;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Squalodon_bellunensis           000000000000000000000000000
+Waipatia_maerewhenua            100000000000000000000000000
+Eurhinodelphis_cocheteuxi       111000000000000000000000000
+Schizodelphis_morckhoviensis    111000000000000000000000000
+Indopacetus_pacificus           101111111100000000000001000
+Mesoplodon_grayi                101111111111110000000001100
+Mesoplodon_layardii             101111111111110000000001100
+Mesoplodon_perrini              101111111101110000000001101
+Hyperoodon_ampullatus           101111111100010000000001100
+Ziphius_cavirostris             101011111100001000000000010
+Choneziphius_planirostris       101011111100001000000000010
+Tusciziphius_atlanticus         101111111100110110000000001
+Globicetus_hiberus              101111111100110110000000001
+Imocetus_piscatus               101111111100110010000000001
+Berardius_bairdi                101000111100000001000000000
+Archaeoziphius_microglenoideus  101000111100000001000000000
+Nazcacetus_urbinai              101001111100000000000000010
+Tasmacetus_shepherdi            101000011100000000000000000
+Aporotus_recuvirostris          101000001100000000111000000
+Beneziphius_brevirostris        101000001100000000111000000
+Ziphirostrum_marginatum         101000001100000000011000000
+Messapicetus_gregarius          101000001100000000001110000
+Messapicetus_longirostris       101000001100000000001110000
+Ninoziphius_platyrostris        101000000100000000000000000
+Dagonodum_mojnum                101000001100000000001010000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

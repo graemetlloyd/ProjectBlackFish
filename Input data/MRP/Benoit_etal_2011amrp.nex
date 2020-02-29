@@ -1,0 +1,26 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=11 NCHAR=14 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1" MISSING=? GAP=- ;
+MATRIX
+
+Waipatia                           00000000000000
+Squalodon                          10000000000000
+Eoplatanista                       11111110000000
+Schizodelphis_sulcatus_MNHNRL_127  11110001110000
+Schizodelphis_barnesi              11001001101100
+Ziphiodelphis                      11001001101100
+Xiphiacetus                        11101100010010
+Eurhinodelphis                     11111110000001
+Mycteriacetus                      11111110000001
+Schizodelphis_sulcatus_PGN2        11001001001000
+Schizodelphis_morckhoviensis       11101100010010
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-14;
+END;
+

@@ -1,0 +1,33 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=18 NCHAR=15;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Basilosaurus        000000000000000
+Zygorhiza           100000000000000
+Physeter            111111000000000
+Mesoplodon          111111000000000
+Tursiops            101111000000000
+Xenorophid          100011000000000
+Squalodon           100111000000000
+Eubalaena           100001100000000
+Pelocetus           100001111000000
+Herpetocetus        100001101100000
+Parietobalaena      100001101100000
+Balaenoptera        100001111011111
+Eschrichtius        100001111000110
+Eobalaenoptera      100001111000111
+Megaptera           100001111011111
+Parabalaenoptera    100001111000110
+Isanacetus          100001111000010
+Megaptera_miocaena  100001111001111
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

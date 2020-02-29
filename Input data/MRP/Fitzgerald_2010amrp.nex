@@ -1,0 +1,37 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=22 NCHAR=20;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Georgiacetus_vogtlensis     00000000000000000000
+Basilosaurus_isis           11100000000000000000
+Dorudon_atrox               11100000000000000000
+Zygorhiza_kochii            01100000000000000000
+Llanocetus_denticrenatus    00111110000000000000
+Mammalodon_colliveri        00111111000000000000
+Janjucetus_hunderi          00111111000000000000
+ChM_PV4745                  00100110100000000000
+ChM_PV5720                  00100110100000000000
+Chonecetus_sookensis        00101110011100000000
+Chonecetus_goedertorum      00101110011100000000
+Aetiocetus_cotylalveus      00101110001111000000
+Aetiocetus_weltoni          00101110001111000000
+Aetiocetus_polydentatus     00101110001101000000
+Eomysticetus_whitmorei      00101110000100100000
+Micromysticetus_rothauseni  00101110000100110000
+Diorocetus_hiatus           00101110000100111000
+Pelocetus_calvertensis      00101110000100111100
+Eubalaena_glacialis         00101110000100111110
+Balaenoptera_physalus       00101110000100111110
+Simocetus_rayi              00100010000000000001
+Waipatia_maerewhenua        00100010000000000001
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

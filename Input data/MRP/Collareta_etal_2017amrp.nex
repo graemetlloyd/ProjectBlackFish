@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=27 NCHAR=26;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Zygorhiza                  00000000000000000000000000
+Cynthiacetus               10000000000000000000000000
+Agorophius                 11000000000000000000000000
+Eudelphis                  11100000000000000000000001
+Zygophyseter               11111100000000000000000001
+Brygmophyseter             11111100000000000000000001
+Acrophyseter_deinodon      11101111100000000000000001
+Acrophyseter_robustus      11101111100000000000000001
+Acrophyseter_sp            11101101100000000000000001
+Livyatan                   11101100100000000000000001
+Aulophyseter_rionegrensis  11100100010000000000000000
+Orycterocetus              11100100011100000000000000
+Physeterula                11100100011111000000000000
+Idiorophus                 11100100011111000000000000
+Diaphorocetus              11100100011101100000000000
+Placoziphius               11100100011101110000000000
+Aulophyseter               11100100011101111100000000
+Physeter                   11100100011101111100000000
+Idiophyseter               11100100011101110100000000
+Thalassocetus              11100100010100000010000000
+Aprixokogia                11100100010100000011000000
+Scaphokogia                11100100010100000011110000
+Praekogia                  11100100010100000011011110
+Kogia                      11100100010100000011011110
+Koristocetus_pescei        11100100010100000011010010
+Nanokogia                  11100100010100000011010110
+Scaphokogiinae_sp          11100100010100000011110000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

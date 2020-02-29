@@ -1,0 +1,31 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=16 NCHAR=22;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Inia_geoffrensis          0000000000000000000000
+Pontoporia_blainvillei    1111000000000000000100
+Delphinapterus_leucas     0001110000000000000000
+Orcaella_brevirostris     0001110000000000000000
+Tursiops_truncatus        0001011000000000000000
+Lisodelphis_borealis      0001011000000000000000
+Phocoena_sinus            0111000111000011011010
+Phocoena_dioptrica        0111000111110011001011
+Phocoena_phocoena         0111000111110011101011
+Phocoenoides_dalli        0111000111010011101011
+Neophocaena_phocaenoides  0111000001000011001011
+Phocoena_spinipinnis      0111000011000011011010
+Piscolithax_tedfordi      0011000000001011000110
+Piscolithax_boreios       0011000000001111001100
+Piscolithax_longirostris  0011000000001111001100
+Salumiphocaena_stocktoni  1111000000000001000100
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+

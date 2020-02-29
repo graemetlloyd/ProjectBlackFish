@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=14 NCHAR=18;
+	FORMAT SYMBOLS= " 0 1" MISSING=? GAP=- ;
+
+MATRIX
+
+Mammalodon_colliveri        000000000000000000
+Eomysticetus_whitmorei      100000000000000000
+Balaenoptera_acutorostrata  111111110000100100
+Balaenoptera_bonaerensis    111111110000100100
+Balaenoptera_borealis       101111111000100111
+Balaenoptera_edeni          101111111000100101
+Balaenoptera_musculus       100011110100110000
+Balaenoptera_omurai         100111110000000000
+Balaenoptera_physalus       100011110100110000
+Megaptera_novaeangliae      100001110000111111
+Eschrichtius_robustus       100000110000111111
+Caperea_marginata           100000010010000000
+Balaena_mysticetus          100000010011000000
+Eubalaena_sp                100000010011000000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+END;
+
