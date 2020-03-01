@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Lambert, O.</List>
+		</Author>
+		<Year>2005</Year>
+		<Title>stematics and phylogeny of the fossil beaked whales <em>Ziphirostrum</em> du Bus, 1868 and <em>Choneziphius</em> Duvernoy, 1851 (Mammalia, Cetacea, Odontoceti), from the Neogene of Antwerp (North of Belgium)</Title>
+		<Journal>Geodiversitas</Journal>
+		<Volume>27</Volume>
+		<Pages>443-497</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="13">
+		<List recon_name="DELETE" recon_no="-1">Squalodon</List>
+		<List recon_name="DELETE" recon_no="-1">Ziphiodelphis</List>
+		<List recon_name="DELETE" recon_no="-1">Squaloziphius</List>
+		<List recon_name="DELETE" recon_no="-1">Tasmacetus</List>
+		<List recon_name="DELETE" recon_no="-1">Berardius</List>
+		<List recon_name="DELETE" recon_no="-1">Indopacetus</List>
+		<List recon_name="DELETE" recon_no="-1">Mesoplodon</List>
+		<List recon_name="DELETE" recon_no="-1">Hyperoodon</List>
+		<List recon_name="DELETE" recon_no="-1">Ziphius</List>
+		<List recon_name="DELETE" recon_no="-1">Ziphirostrum</List>
+		<List recon_name="DELETE" recon_no="-1">Beneziphius_brevirostris</List>
+		<List recon_name="DELETE" recon_no="-1">Choneziphius</List>
+		<List recon_name="DELETE" recon_no="-1">Tusciziphius</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="21">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lambert_2005a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>
