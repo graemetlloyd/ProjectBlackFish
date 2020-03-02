@@ -15,19 +15,19 @@
 		<Editor/>
  	</Source>
 	<Taxa number="13">
-		<List recon_name="DELETE" recon_no="-1">Squalodon</List>
-		<List recon_name="DELETE" recon_no="-1">Ziphiodelphis</List>
-		<List recon_name="DELETE" recon_no="-1">Squaloziphius</List>
-		<List recon_name="DELETE" recon_no="-1">Tasmacetus</List>
-		<List recon_name="DELETE" recon_no="-1">Berardius</List>
-		<List recon_name="DELETE" recon_no="-1">Indopacetus</List>
-		<List recon_name="DELETE" recon_no="-1">Mesoplodon</List>
-		<List recon_name="DELETE" recon_no="-1">Hyperoodon</List>
-		<List recon_name="DELETE" recon_no="-1">Ziphius</List>
-		<List recon_name="DELETE" recon_no="-1">Ziphirostrum</List>
-		<List recon_name="DELETE" recon_no="-1">Beneziphius_brevirostris</List>
-		<List recon_name="DELETE" recon_no="-1">Choneziphius</List>
-		<List recon_name="DELETE" recon_no="-1">Tusciziphius</List>
+		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis" recon_no="53157;90650;68288">Squalodon</List>
+		<List recon_name="Ziphiodelphis_abeli,Ziphiodelphis_sigmoideus" recon_no="67738;69887">Ziphiodelphis</List>
+		<List recon_name="Squaloziphius_emlongi" recon_no="62918">Squaloziphius</List>
+		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus</List>
+		<List recon_name="Berardius_arnuxii" recon_no="63590">Berardius</List>
+		<List recon_name="Indopacetus_pacificus" recon_no="63852">Indopacetus</List>
+		<List recon_name="Mesoplodon_bidens,Mesoplodon_carlhubbsi,Mesoplodon_densirostris,Mesoplodon_grayi,Mesoplodon_layardi,Mesoplodon_mirus,Mesoplodon_perrini,Mesoplodon_slangkopi,Mesoplodon_traversii" recon_no="69088;82030;82039;81913;103683;81908;113254;113826;113263">Mesoplodon</List>
+		<List recon_name="Hyperoodon_ampullatus,Hyperoodon_planifrons" recon_no="64551;63850">Hyperoodon</List>
+		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius</List>
+		<List recon_name="Ziphirostrum_marginatum,Ziphirostrum_recurvus,Ziphirostrum_turninense" recon_no="64609;69620;64607">Ziphirostrum</List>
+		<List recon_name="Beneziphius_brevirostris" recon_no="69622">Beneziphius_brevirostris</List>
+		<List recon_name="Choneziphius_planirostris,Choneziphius_macrops" recon_no="63618;69624">Choneziphius</List>
+		<List recon_name="Tusciziphius_crispus" recon_no="62940">Tusciziphius</List>
 	</Taxa>
 	<Characters>
 		<Molecular/>

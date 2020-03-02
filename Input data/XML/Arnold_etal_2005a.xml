@@ -19,12 +19,12 @@
 		<Editor/>
 	</Source>
 	<Taxa number="12">
-		<List recon_name="Physeter" recon_no="36807">Physeter</List>
-		<List recon_name="Balaena" recon_no="36676">Balaena</List>
-		<List recon_name="Eubalaena" recon_no="36715">Eubalaena</List>
-		<List recon_name="Caperea" recon_no="63684">Caperea</List>
-		<List recon_name="Eschrichtius" recon_no="36714">Eschrichtius</List>
-		<List recon_name="Megaptera" recon_no="36760">Megaptera</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena</List>
+		<List recon_name="Eubalaena_australis,Eubalaena_glacialis,Eubalaena_japonica" recon_no="67679;80716;128802">Eubalaena</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera</List>
 		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
 		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
 		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>

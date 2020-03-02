@@ -19,13 +19,13 @@
 	</Source>
 	<Taxa number="11">
 		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia</List>
-		<List recon_name="Squalodon" recon_no="36852">Squalodon</List>
-		<List recon_name="Eoplatanista" recon_no="36712">Eoplatanista</List>
+		<List recon_name="Squalodon_bariensis" recon_no="53157">Squalodon</List>
+		<List recon_name="Eoplatanista_gresalensis" recon_no="63694">Eoplatanista</List>
 		<List recon_name="Schizodelphis_sulcatus" recon_no="63690">Schizodelphis_sulcatus_MNHNRL_127</List>
 		<List recon_name="Schizodelphis_barnesi" recon_no="69895">Schizodelphis_barnesi</List>
-		<List recon_name="Ziphiodelphis" recon_no="36868">Ziphiodelphis</List>
-		<List recon_name="Xiphiacetus" recon_no="67732">Xiphiacetus</List>
-		<List recon_name="Eurhinodelphis" recon_no="36717">Eurhinodelphis</List>
+		<List recon_name="Ziphiodelphis_sigmoideus" recon_no="69887">Ziphiodelphis</List>
+		<List recon_name="Xiphiacetus_cristatus" recon_no="67733">Xiphiacetus</List>
+		<List recon_name="Eurhinodelphis_cocheteuxi" recon_no="64595">Eurhinodelphis</List>
 		<List recon_name="Mycteriacetus_bellunensis" recon_no="67737">Mycteriacetus</List>
 		<List recon_name="Schizodelphis_sulcatus" recon_no="63690">Schizodelphis_sulcatus_PGN2</List>
 		<List recon_name="Schizodelphis_morckhoviensis" recon_no="69878">Schizodelphis_morckhoviensis</List>

@@ -67,10 +67,10 @@
 		<List recon_name="Titanocetus_sammarinensis" recon_no="319669">Titanocetus_sammarinensis</List>
 		<List recon_name="Uranocetus_gramensis" recon_no="64429">Uranocetus_gramensis</List>
 		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon_atrox</List>
-		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus_spp</List>
+		<List recon_name="Basilosaurus_cetoides,Basilosaurus_isis" recon_no="53153;53287">Basilosaurus_spp</List>
 		<List recon_name="Mysticeti_indet_ChM_PV4745" recon_no="42971">ChM_PV_4745</List>
 		<List recon_name="Mysticeti_indet_ChM_PV5720" recon_no="42971">ChM_PV_5720</List>
-		<List recon_name="Tohoraata" recon_no="65441">Tohoraata_spp</List>
+		<List recon_name="Tohoraata_raekohao,Tohoraata_waitakiensis" recon_no="309455;309456">Tohoraata_spp</List>
 		<List recon_name="Tokarahia_kauaeroa" recon_no="327303">Tokarahia_kauaeroa</List>
 		<List recon_name="Tokarahia_lophocephalus" recon_no="327304">Tokarahia_lophocephalus</List>
 		<List recon_name="Yamatocetus_canaliculatus" recon_no="247312">Yamatocetus_canaliculatus</List>

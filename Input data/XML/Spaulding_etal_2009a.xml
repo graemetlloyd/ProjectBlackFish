@@ -55,7 +55,7 @@
 		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus_clavis</List>
 		<List recon_name="Rodhocetus_balochistanensis" recon_no="53318">Rodhocetus_balochistanensis</List>
 		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon_atrox</List>
-		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus</List>
+		<List recon_name="Basilosaurus_cetoides,Basilosaurus_isis" recon_no="53153;53287">Basilosaurus</List>
 		<List recon_name="Pachyaena_ossifraga" recon_no="49575">Pachyaena_ossifraga</List>
 		<List recon_name="Sinonyx_jiashanensis" recon_no="140416">Sinonyx_jiashanensis</List>
 		<List recon_name="Mesonyx_obtusidens" recon_no="48405">Mesonyx_obtusidens</List>
@@ -65,7 +65,7 @@
 		<List recon_name="Harpagolestes_uintensis" recon_no="46807">Harpagolestes_uintensis</List>
 		<List recon_name="Hapalodectes_hetangensis" recon_no="142988">Hapalodectes_hetangensis</List>
 		<List recon_name="Helohyus_plicodon" recon_no="46840">Helohyus_plicodon</List>
-		<List recon_name="Pakicetidae" recon_no="310369">Pakicetidae</List>
+		<List recon_name="Ichthyolestes_pinfoldi,Nalacetus_ratimitus,Pakicetus_attocki,Pakicetus_inachus" recon_no="62974;63098;53312;53310">Pakicetidae</List>
 		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus_natans</List>
 		<List recon_name="Gobiohyus_orientalis" recon_no="142993">Gobiohyus_orientalis</List>
 		<List recon_name="Leptomeryx" recon_no="42607">Leptomeryx</List>

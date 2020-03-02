@@ -62,7 +62,7 @@
 		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
 		<List recon_name="Eubalaena_belgica" recon_no="89012">Eubalaena_belgica</List>
 		<List recon_name="Eubalaena_shinshuensis" recon_no="104726">Eubalaena_shinshuensis</List>
-		<List recon_name="Eubalaena" recon_no="36715">Eubalaena_spp_dot_</List>
+		<List recon_name="Eubalaena_australis,Eubalaena_glacialis,Eubalaena_japonica" recon_no="67679;80716;128802">Eubalaena_spp_dot_</List>
 		<List recon_name="Gricetoides_aurorae" recon_no="114707">Gricetoides_aurorae</List>
 		<List recon_name="Herpetocetus_bramblei" recon_no="114675">Herpetocetus_bramblei</List>
 		<List recon_name="Herpetocetus_morrowi" recon_no="288162">Herpetocetus_morrowi</List>

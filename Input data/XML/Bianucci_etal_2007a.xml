@@ -17,7 +17,7 @@
 		<Editor/>
 	</Source>
 	<Taxa number="21">
-		<List recon_name="Squalodon" recon_no="36852">Squalodon</List>
+		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis" recon_no="53157;90650;68288">Squalodon</List>
 		<List recon_name="Xhosacetus_hendeysi" recon_no="113830">Xhosacetus_n_gen</List>
 		<List recon_name="Pterocetus_benguelae" recon_no="113832">Pterocetus_n_gen</List>
 		<List recon_name="Khoikhoicetus_agulhasis" recon_no="113821">Khoikhoicetus_n_gen</List>

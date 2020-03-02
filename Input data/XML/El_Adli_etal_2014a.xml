@@ -25,7 +25,7 @@
 		<List recon_name="Balaenula_astensis" recon_no="65855">Balaenula_astensis</List>
 		<List recon_name="Herpetocetus_bramblei" recon_no="114675">Herpetocetus_bramblei</List>
 		<List recon_name="Herpetocetus_morrowi" recon_no="288162">Herpetocetus_morrowi</List>
-		<List recon_name="Herpetocetus" recon_no="36725">Herpetocetus_sp</List>
+		<List recon_name="Herpetocetus_sp_NMNS_PV19540,Herpetocetus_sp_USNM_362901" recon_no="36725;36725">Herpetocetus_sp</List>
 		<List recon_name="Herpetocetus_transatlanticus" recon_no="114673">Herpetocetus_transatlanticus</List>
 		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
 		<List recon_name="Cephalotropis_coronatus" recon_no="63979">Cephalotropis_coronatus</List>

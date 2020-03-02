@@ -22,7 +22,7 @@
 		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia</List>
 		<List recon_name="Eurhinodelphis_cocheteuxi" recon_no="64595">Eurhinodelphis</List>
 		<List recon_name="Schizodelphis_morckhoviensis" recon_no="69878">Schizodelphis</List>
-		<List recon_name="Ziphiodelphis" recon_no="36868">Ziphiodelphis</List>
+		<List recon_name="Ziphiodelphis_abeli,Ziphiodelphis_sigmoideus" recon_no="67738;69887">Ziphiodelphis</List>
 		<List recon_name="Squaloziphius_emlongi" recon_no="62918">Squaloziphius</List>
 		<List recon_name="Xhosacetus_hendeysi" recon_no="113830">Xhosacetus</List>
 		<List recon_name="Pterocetus_benguelae" recon_no="113832">Pterocetus</List>

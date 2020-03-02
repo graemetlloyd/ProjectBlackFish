@@ -28,11 +28,11 @@
 		<List recon_name="Phenacodus" recon_no="42288">Phenacodus</List>
 		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus_natans</List>
 		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus_clavus</List>
-		<List recon_name="Balaenoptera" recon_no="36678">Balaenoptera</List>
-		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera</List>
+		<List recon_name="Basilosaurus_cetoides" recon_no="53153">Basilosaurus</List>
 		<List recon_name="Delphinapterus_leucas" recon_no="65078">Delphinapterus_leucas</List>
 		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus_vogtlensis</List>
-		<List recon_name="Pakicetus" recon_no="42935">Pakicetus</List>
+		<List recon_name="Pakicetus_attocki,Pakicetus_inachus" recon_no="53312;53310">Pakicetus</List>
 		<List recon_name="Physeter_catodon" recon_no="64550">Physeter_catodon</List>
 		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus_atavus</List>
 		<List recon_name="Remingtonocetus_harudiensis" recon_no="63122">Remingtoncetus_haurdiensis</List>

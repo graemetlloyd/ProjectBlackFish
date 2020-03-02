@@ -27,7 +27,7 @@
 		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
 		<List recon_name="Brandtocetus_chongulek" recon_no="289550">Brandtocetus_chongulek</List>
 		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
-		<List recon_name="Cephalotropis" recon_no="36687">Cephalotropis_sp</List>
+		<List recon_name="Cephalotropis_coronatus,Cephalotropis_nectus" recon_no="63979;66763">Cephalotropis_sp</List>
 		<List recon_name="Cetotherium_megalophysum" recon_no="64009">Cetotherium_megalophysum</List>
 		<List recon_name="Cetotherium_rathkii" recon_no="64469">Cetotherium_rathkii</List>
 		<List recon_name="Cetotherium_riabinini" recon_no="264012">Cetotherium_riabinini</List>
@@ -47,7 +47,7 @@
 		<List recon_name="Kurdalagonus_mchedlidzei" recon_no="248289">Kurdalagonus_mchedlidzei</List>
 		<List recon_name="Tranatocetus_argillarius" recon_no="328008">Tranatocetus_argillarius</List>
 		<List recon_name="Mesocetus_longirostris" recon_no="64457">Mesocetus_longirostris</List>
-		<List recon_name="Metopocetus" recon_no="36766">Metopocetus_sp</List>
+		<List recon_name="Metopocetus_durinasus,Metopocetus_hunteri" recon_no="63977;335542">Metopocetus_sp</List>
 		<List recon_name="Miocaperea_pulchra" recon_no="254040">Miocaperea_pulchra</List>
 		<List recon_name="Mixocetus_elysius" recon_no="64432">Mixocetus_elysius</List>
 		<List recon_name="Morenocetus_parvus" recon_no="64479">Morenocetus_parvus</List>

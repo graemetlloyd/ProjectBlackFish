@@ -65,7 +65,7 @@
 		<List recon_name="Mesonyx_obtusidens" recon_no="48405">Mesonyx_obtusidens</List>
 		<List recon_name="Synoplotherium_canius" recon_no="329988">Synoplotherium_canius</List>
 		<List recon_name="Harpagolestes" recon_no="42915">Harpagolestes</List>
-		<List recon_name="Pakicetus" recon_no="42935">Pakicetus</List>
+		<List recon_name="Pakicetus_attocki,Pakicetus_inachus" recon_no="53312;53310">Pakicetus</List>
 		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus_natans</List>
 		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus_clavis</List>
 		<List recon_name="Rodhocetus_kasranii" recon_no="279459">Rodhocetus</List>

@@ -21,18 +21,18 @@
 	<Taxa number="22">
 		<List recon_name="Sus_scrofa" recon_no="104172">Sus_scrofa</List>
 		<List recon_name="Hippopotamus_amphibius" recon_no="77338">Hippopotamus</List>
-		<List recon_name="Pakicetidae" recon_no="310369">Pakicetidae</List>
+		<List recon_name="Ichthyolestes_pinfoldi,Pakicetus_attocki,Pakicetus_inachus" recon_no="62974;53312;53310">Pakicetidae</List>
 		<List recon_name="Ambulocetus_natans" recon_no="62971">Ambulocetus</List>
-		<List recon_name="Rodhocetus" recon_no="36842">Rodhocetus</List>
-		<List recon_name="Remingtonocetus" recon_no="36838">Remingtonocetus</List>
+		<List recon_name="Rodhocetus_balochistanensis,Rodhocetus_kasranii" recon_no="53318;279459">Rodhocetus</List>
+		<List recon_name="Remingtonocetus_harudiensis" recon_no="63122">Remingtonocetus</List>
 		<List recon_name="Dalanistes_ahmedi" recon_no="53241">Dalinestes</List>
 		<List recon_name="Gaviacetus_razai" recon_no="53299">Gaviacetus</List>
 		<List recon_name="Carolinacetus_gingerichi" recon_no="66904">Carolinacetus</List>
 		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus</List>
 		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus</List>
-		<List recon_name="Babiacetus" recon_no="53315">Babiacetus</List>
-		<List recon_name="Basilosaurus" recon_no="36681">Basilosaurus</List>
-		<List recon_name="Dorudon" recon_no="36709">Dorudon</List>
+		<List recon_name="Babiacetus_indicus" recon_no="53314">Babiacetus</List>
+		<List recon_name="Basilosaurus_cetoides,Basilosaurus_isis" recon_no="53153;53287">Basilosaurus</List>
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon</List>
 		<List recon_name="Eocetus_schweinfurthi" recon_no="53994">Eocetus_schweinfurthi</List>
 		<List recon_name="Eocetus_wardii" recon_no="63151">Eocetus_wardii</List>
 		<List recon_name="Artiocetus_clavis" recon_no="53317">Artiocetus</List>

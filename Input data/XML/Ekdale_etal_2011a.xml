@@ -30,7 +30,7 @@
 		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
 		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
 		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
-		<List recon_name="Eubalaena" recon_no="36715">Eubalaena_sp</List>
+		<List recon_name="Eubalaena_australis,Eubalaena_glacialis,Eubalaena_japonica" recon_no="67679;80716;128802">Eubalaena_sp</List>
 	</Taxa>
 	<Characters>
 		<Molecular/>

@@ -17,7 +17,7 @@
 		<Editor/>
 	</Source>
 	<Taxa number="25">
-		<List recon_name="Squalodon" recon_no="36852">Squalodon</List>
+		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis" recon_no="53157;90650;68288">Squalodon</List>
 		<List recon_name="Xhosacetus_hendeysi" recon_no="113830">Xhosacetus</List>
 		<List recon_name="Pterocetus_benguelae" recon_no="113832">Pterocetus</List>
 		<List recon_name="Khoikhoicetus_agulhasis" recon_no="113821">Khoikhoicetus</List>
@@ -40,8 +40,8 @@
 		<List recon_name="Berardius_arnuxii" recon_no="63590">Berardius</List>
 		<List recon_name="Archaeoziphius_microglenoideus" recon_no="80624">Archaeoziphius</List>
 		<List recon_name="Nazcacetus_urbinai" recon_no="154149">Nazcacetus</List>
-		<List recon_name="Choneziphius" recon_no="36695">Choneziphius</List>
-		<List recon_name="Ziphirostrum" recon_no="36870">Ziphirostrum</List>
+		<List recon_name="Choneziphius_planirostris,Choneziphius_macrops" recon_no="63618;69624">Choneziphius</List>
+		<List recon_name="Ziphirostrum_marginatum,Ziphirostrum_recurvus,Ziphirostrum_turninense" recon_no="64609;69620;64607">Ziphirostrum</List>
 	</Taxa>
 	<Characters>
 		<Molecular/>

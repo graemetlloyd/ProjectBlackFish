@@ -32,7 +32,7 @@
 		<List recon_name="Xiphiacetus_bossi,Xiphiacetus_cristatus" recon_no="69885;67733">Xiphiacetus</List>
 		<List recon_name="Squaloziphius_emlongi" recon_no="62918">Squaloziphius</List>
 		<List recon_name="Indopacetus_pacificus" recon_no="63852">Indopacetus</List>
-		<List recon_name="Mesoplodon" recon_no="36763">Mesoplodon</List>
+		<List recon_name="Mesoplodon_bidens,Mesoplodon_carlhubbsi,Mesoplodon_densirostris,Mesoplodon_grayi,Mesoplodon_layardi,Mesoplodon_mirus,Mesoplodon_perrini,Mesoplodon_slangkopi,Mesoplodon_traversii" recon_no="69088;82030;82039;81913;103683;81908;113254;113826;113263">Mesoplodon</List>
 		<List recon_name="Hyperoodon_ampullatus,Hyperoodon_planifrons" recon_no="64551;63850">Hyperoodon</List>
 		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius</List>
 		<List recon_name="Berardius_arnuxii,Berardius_bairdii" recon_no="63590;81905">Berardius</List>
@@ -48,7 +48,7 @@
 		<List recon_name="Zarhachis_flagellator" recon_no="63658">Zarachis</List>
 		<List recon_name="Pomatodelphis_bobengi,Pomatodelphis_sp_USNM_187414" recon_no="62908;36819">Pomatodelphis</List>
 		<List recon_name="Zarhinocetus_errabundus" recon_no="173469">Zarhinocetus</List>
-		<List recon_name="Allodelphis" recon_no="42942">Allodelphis</List>
+		<List recon_name="Allodelphis_pratti,Allodelphis_woodburnei" recon_no="64559;173470">Allodelphis</List>
 		<List recon_name="Kentriodon_pernix" recon_no="64433">Kentriodon</List>
 		<List recon_name="Pontoporia_blainvillei" recon_no="63541">Pontoporia</List>
 		<List recon_name="Delphinus_delphis" recon_no="64534">Delphinus</List>

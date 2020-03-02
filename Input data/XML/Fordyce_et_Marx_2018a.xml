@@ -62,7 +62,7 @@
 		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
 		<List recon_name="Eubalaena_ianitrix" recon_no="356247">Eubalaena_ianitrix</List>
 		<List recon_name="Eubalaena_shinshuensis" recon_no="104726">Eubalaena_shinshuensis</List>
-		<List recon_name="Eubalaena" recon_no="36715">Eubalaena_spp</List>
+		<List recon_name="Eubalaena_australis,Eubalaena_glacialis,Eubalaena_japonica" recon_no="67679;80716;128802">Eubalaena_spp</List>
 		<List recon_name="Fragilicetus_velponi" recon_no="343159">Fragilicetus_velponi</List>
 		<List recon_name="Fucaia_buelli" recon_no="333118">Fucaia_buelli</List>
 		<List recon_name="Fucaia_goedertorum" recon_no="333954">Fucaia_goedertorum</List>
@@ -95,7 +95,7 @@
 		<List recon_name="Morenocetus_parvus" recon_no="64479">Morenocetus_parvus</List>
 		<List recon_name="Mystacodon_selenensis" recon_no="353130">Mystacodon_selenensis</List>
 		<List recon_name="Nannocetus_eremus" recon_no="62941">Nannocetus_eremus</List>
-		<List recon_name="Herpetocetus_sp_NMNs_PV19540" recon_no="36725">NMNS_PV19540</List>
+		<List recon_name="Herpetocetus_sp_NMNS_PV19540" recon_no="36725">NMNS_PV19540</List>
 		<List recon_name="Balaenopteridae_indet_NMNZ_MM001630" recon_no="42977">NMNZ_MM001630</List>
 		<List recon_name="Aetiocetidae_indet_OCPC_1178" recon_no="42972">OCPC_1178</List>
 		<List recon_name="Balaenidae_indet_OU_22224" recon_no="42978">OU_22224</List>

@@ -28,7 +28,7 @@
 		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
 		<List recon_name="Brandtocetus_chongulek" recon_no="289550">Brandtocetus_chongulek</List>
 		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
-		<List recon_name="Cephalotropis" recon_no="36687">Cephalotropis_spp</List>
+		<List recon_name="Cephalotropis_coronatus,Cephalotropis_nectus" recon_no="63979;66763">Cephalotropis_spp</List>
 		<List recon_name="Cetotherium_megalophysum" recon_no="64009">Cetotherium_megalophysum</List>
 		<List recon_name="Cetotherium_rathkii" recon_no="64469">Cetotherium_rathkii</List>
 		<List recon_name="Cetotherium_riabinini" recon_no="264012">Cetotherium_riabinini</List>
@@ -69,7 +69,7 @@
 		<List recon_name="Cetotheriidae_indet_ZIRM_V28_1" recon_no="42973">ZIRM_V28_1</List>
 		<List recon_name="Mithridatocetus_eichwaldi" recon_no="347265">Mithridatocetus_eichwaldi</List>
 		<List recon_name="Mithridatocetus_adygeicus" recon_no="347266">Mithridatocetus_adygeicus</List>
-		<List recon_name="Metopocetus" recon_no="36766">Metopocetus_spp</List>
+		<List recon_name="Metopocetus_hunteri" recon_no="335542">Metopocetus_spp</List>
 	</Taxa>
 	<Characters>
 		<Molecular/>
