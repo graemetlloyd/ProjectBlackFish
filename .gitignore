@@ -40,3 +40,4 @@ vignettes/*.pdf
 
 # PDF files
 /Input data/PDF/
+/Excluded data/
