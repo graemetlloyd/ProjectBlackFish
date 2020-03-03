@@ -1,0 +1,733 @@
+taxon,max,min
+Tursiops aduncus,0,0
+Stenella frontalis,0,0
+Stenella coeruleoalba,0,0
+Lagenodelphis hosei,0,0
+Stenella attenuata,0,0
+Stenella longirostris,0,0
+Globicephala melas,0,0
+Feresa attenuata,0,0
+Peponocephala electra,0,0
+Grampus griseus,0,0
+Orcaella heinsohni,0,0
+Orcaella brevirostris,0,0
+Orcinus orca,0,0
+Cephalorhynchus eutropia,0,0
+Cephalorhynchus heavisidii,0,0
+Cephalorhynchus commersoni,0,0
+Sagmatias australis,0,0
+Sagmatias cruciger,0,0
+Lissodelphis borealis,0,0
+Lissodelphis peronii,0,0
+Sotalia fluviatilis,0,0
+Sousa plumbea,0,0
+Sousa sahulensis,0,0
+Sousa chinensis,0,0
+Steno bredanensis,0,0
+Lagenorhynchus obliquidens,0,0
+Sousa teuszii,0,0
+Lagenorhynchus albirostris,0,0
+Berardius arnuxii,0,0
+Berardius bairdii,0,0
+Ziphius cavirostris,0,0
+Mesoplodon grayi,0,0
+Mesoplodon perrini,0,0
+Mesoplodon densirostris,0,0
+Mesoplodon stejnegeri,0,0
+Mesoplodon peruvianus,0,0
+Mesoplodon hectori,0,0
+Mesoplodon ginkgodens,0,0
+Mesoplodon bowdoini,0,0
+Mesoplodon carlhubbsi,0,0
+Mesoplodon mirus,0,0
+Mesoplodon bidens,0,0
+Hyperoodon ampullatus,0,0
+Hyperoodon planifrons,0,0
+Indopacetus pacificus,0,0
+Tasmacetus shepherdi,0,0
+Kogia sima,0,0
+Kogia breviceps,0,0
+Phocoena sinus,0,0
+Phocoena spinipinnis,0,0
+Phocoenoides dalli,0,0
+Phocoena dioptrica,0,0
+Neophocaena phocaenoides,0,0
+Lipotes vexillifer,0,0
+Inia araguaiaensis,0,0
+Inia geoffrensis,0,0
+Platanista gangetica,0,0
+Eschrichtius robustus,0,0
+Balaenoptera borealis,0,0
+Balaenoptera edeni,0,0
+Balaenoptera omurai,0,0
+Balaenoptera bonaerensis,0,0
+Balaena mysticetus,0,0
+Eubalaena glacialis,0,0
+Eubalaena japonica,0,0
+Caperea marginata,0,0
+Idiocetus guicciardinii,3.2,2.588
+Pseudorca crassidens,0,0
+Globicephala uncidens,2.588,1.806
+Ziphius compressus,2.588,1.806
+Balaena affinis,2.588,1.806
+Tursiops brochii,3.6,2.588
+Tursiops osennae,3.6,2.588
+Globicephala etruriae,3.6,2.588
+Protoglobicephala mexicana,3.6,2.588
+Kogia pusilla,3.6,2.588
+Septemtriocetus bosselaersi,3.6,2.588
+Parapontoporia sternbergi,3.6,2.588
+Albireo savagei,3.6,2.588
+Balaenoptera bertae,3.6,2.588
+Balaenoptera davidsonii,3.6,2.588
+Balaena montalionis,3.6,2.588
+Herpetocetus morrowi,3.6,2.588
+Eubalaena ianitrix,3.2,2.8
+Balaenotus orcianensis,3.6,2.588
+Balaenula forsythmajori,3.6,2.588
+Pseudorca yokoyamai,1.806,0.781
+Orcinus paleorca,1.806,0.781
+Notiocetus romerianus,1.806,0.781
+Balaena pampaea,1.806,0.781
+Heterodelphis croatica,12.7,11.608
+Leptodelphis stavropolitanus,12.7,11.608
+Sarmatodelphis moldavicus,12.7,11.608
+Anacharsis orbus,12.7,11.608
+Microphocaena podolica,12.7,11.608
+Mesocetus agrami,12.7,11.608
+Brandtocetus chongulek,12.7,11.608
+Eucetotherium helmersenii,12.7,11.608
+Delphinus domeykoi,5.333,3.6
+Stenella rayi,5.333,3.6
+Australodelphis mirus,5.333,3.6
+Lagenorhynchus harmatuki,5.333,3.6
+Choneziphius trachops,5.333,3.6
+Choneziphius liops,5.333,3.6
+Choneziphius chonops,5.333,3.6
+Tusciziphius crispus,4.12,3.84
+Africanacetus gracilis,5.333,3.6
+Belemnoziphius prorops,5.333,3.6
+Mesoplodon posti,4.86,3.9
+Mesoplodon tumidirostris,5.333,3.6
+Aprixokogia kelloggi,5.333,3.6
+Orycterocetus cornutidens,5.333,3.6
+Orycterocetus quadratidens,5.333,3.6
+Haborophocoena minutus,5.333,3.6
+Haborophocoena toyoshimai,5.333,3.6
+Brabocetus gigaseorum,5.333,3.6
+Numataphocoena yamashitai,5.333,3.6
+Bohaskaia monodontoides,5.333,3.6
+Auroracetus bakerae,5.333,3.6
+Gricetoides aurorae,5.333,3.6
+Diunatans luctoretemergo,5.333,3.6
+Balaenoptera taiwanica,5.333,3.6
+Fragilicetus velponi,5.333,3.6
+Balaena ricei,5.333,3.6
+Herpetocetus sendaicus,5.333,3.6
+Herpetocetus transatlanticus,5.333,3.6
+Heterocetus guiscardii,5.333,3.6
+Balaenella brachyrhynus,5.333,3.6
+Orcinus citoniensis,3.6,1.806
+Arimidelphis sorbinii,3.6,1.806
+Choneziphius planirostris,9.5,7.5
+Belemnoziphius compressus,3.6,1.806
+Tursiops truncatus,0,0
+Globicephala macrorhynchus,0,0
+Delphinapterus leucas,0,0
+Pontoporia blainvillii,0,0
+Megaptera novaeangliae,0,0
+Balaenoptera musculus,0,0
+Balaenoptera physalus,0,0
+Eubalaena australis,0,0
+Hemisyntrachelus oligodon,7.246,5.333
+Nazcacetus urbinai,7.55,7.3
+Chavinziphius maxillocristatus,6.93,6.71
+Praekogia cedrosensis,7.246,5.333
+Scaldicetus macgeei,7.246,5.333
+Acrophyseter deinodon,7.246,5.333
+Piscolithax boreios,7.246,5.333
+Piscolithax longirostris,7.246,5.333
+Piscolithax tedfordi,7.246,5.333
+Archaeophocaena teshioensis,7.246,5.333
+Miophocaena nishinoi,7.246,5.333
+Parapontoporia pacifica,7.246,5.333
+Denebola brachycephala,7.246,5.333
+Odobenocetops leptodon,7.246,5.333
+Odobenocetops peruvianus,7.246,5.333
+Albireo whistleri,7.246,5.333
+Awadelphis hirayamai,7.246,5.333
+Isthminia panamensis,7.246,5.333
+Meherrinia isoni,7.246,5.333
+Parabalaenoptera baulinensis,7.246,5.333
+Eubalaena shinshuensis,7.246,5.333
+Piscocetus sacaco,7.246,5.333
+Zygiocetus nartorum,7.246,5.333
+Austrosqualodon trirhizodonta,27.3,25.2
+Waipatia maerewhenua,27.3,25.2
+Otekaikea huata,27.3,25.2
+Awamokoa tokarahi,27.3,25.2
+Tohoraata raekohao,27.3,25.2
+Tohoraata waitakiensis,27.3,25.2
+Waharoa ruwhenua,27.3,25.2
+Tokarahia kauaeroa,27.3,25.2
+Mammalodon hakataramea,27.3,25.2
+Horopeta umarere,27.3,25.2
+Toipahautea waitaki,27.3,25.2
+Whakakai waipata,27.3,25.2
+Kekenodon onamata,27.3,25.2
+Physeter vetus,15.97,13.82
+Aulophyseter morricei,15.97,13.82
+Idiophyseter merriami,15.97,13.82
+Albicetus oxymycterus,15.97,13.82
+Brygmophyseter shigensis,15.97,13.82
+Loxolithax sinuosa,15.97,13.82
+Zarhachis velox,15.97,13.82
+Oedolithax mira,15.97,13.82
+Sinanodelphis izumidaensis,15.97,13.82
+Delphinodon carniolicus,15.97,13.82
+Vanbreenia trigonia,15.97,13.82
+Tangaroasaurus kakanuiensis,15.97,13.82
+Hadrodelphis calvertense,15.97,13.82
+Liolithax pappus,15.97,13.82
+Lamprolithax annectens,15.97,13.82
+Lamprolithax simulans,15.97,13.82
+Kentriodon obscurus,15.97,13.82
+Kentriodon diusinus,15.97,13.82
+Platylithax robusta,15.97,13.82
+Squalodon atlanticus,15.97,13.82
+Nannolithax gracilis,15.97,13.82
+Eobalaenoptera harrisoni,13.82,11.63
+Mesocetus brachyspondylus,15.97,13.82
+Pelocetus calvertensis,15.97,13.82
+Metopocetus durinasus,15.97,13.82
+Aglaocetus patulus,15.97,13.82
+Pinocetus polonicus,15.97,13.82
+Tiphyocetus temblorensis,15.97,13.82
+Diorocetus hiatus,15.97,13.82
+Parietobalaena securis,15.97,13.82
+Peripolocetus vexillifer,15.97,13.82
+Saurocetes gigas,9,6.8
+Delphinus delannoy,13.82,11.62
+Scaldicetus inflatus,13.82,11.62
+Hoplocetus ritzi,13.82,11.62
+Acrophyseter robustus,13.82,11.62
+Kogiopsis floridana,13.82,11.62
+Schizodelphis bogatshowi,13.82,11.62
+Palaeophocaena andrussowi,13.82,11.62
+Belonodelphis peruanus,13.82,11.62
+Heterodelphis leiodontus,13.82,11.62
+Sophianacetus commenticius,13.82,11.62
+Brujadelphis ankylorostris,13.82,11.62
+Phocaenopsis scheynensis,13.82,11.62
+Macrokentriodon morani,13.82,11.62
+Tagicetus joneti,13.82,11.62
+Kentriodon hoepfneri,13.82,11.62
+Kampholophos serrulus,13.82,11.62
+Atocetus iquensis,13.82,11.62
+Imerodelphis thabagarii,13.82,11.62
+Squalodon imperator,13.82,11.62
+Praemegaptera pampauensis,13.82,11.62
+Thinocetus arthritus,13.82,11.62
+Halicetus ignotus,13.82,11.62
+Lissodelphis fockii,13.82,11.608
+Kurdalagonus maicopicum,13.82,11.608
+Prepomatodelphis korneuburgensis,15.97,13.65
+Delphinus delphis,0,0
+Leucopleurus acutus,0,0
+Mesoplodon layardii,0,0
+Monodon monoceros,0,0
+Scaldicetus bellunensis,23.03,20.44
+Diaphorocetus poucheti,23.03,20.44
+Squalodelphis fabianii,23.03,20.44
+Allodelphis woodburnei,23.03,20.44
+Protodelphinus capellinii,23.03,20.44
+Incacetus broggii,23.03,20.44
+Mycteriacetus bellunensis,23.03,20.44
+Eoplatanista gresalensis,23.03,20.44
+Eoplatanista italica,23.03,20.44
+Eoplatanista miocaenus,23.03,20.44
+Ziphiodelphis sigmoideus,23.03,20.44
+Eosqualodon latirostris,23.03,20.44
+Prosqualodon davidis,23.03,20.44
+Squaloziphius emlongi,23.03,20.44
+Squalodon catulli,23.03,20.44
+Squalodon peregrinus,23.03,20.44
+Papahu taitapu,21.7,19
+Mesocetus hungaricus,13.82,11.1
+Tursiops capellinii,5.333,2.588
+Septidelphis morii,5.333,2.588
+Astadelphis gastaldii,5.333,2.588
+Hemisyntrachelus cortesii,5.333,2.588
+Scaldicetus minor,5.333,2.588
+Semirostrum ceruttii,5.333,2.588
+Eschrichtioides gastaldii,5.333,2.588
+Archaebalaenoptera castriarquati,5.333,2.588
+Cetotherium capellinii,5.333,2.588
+Balaenula astensis,5.333,2.588
+Phocaenopsis mantelli,19,15.9
+Basilosaurus drazindai,41.3,38
+Platyosphys aithai,41.3,38
+Chrysocetus fouadassii,41.3,38
+Ocucajea picklingi,41.3,38
+Basilotritus wardii,41.3,38
+Basiloterus hussaini,41.3,38
+Supayacetus muizoni,41.3,38
+Pappocetus lugardi,41.3,38
+Eocetus schweinfurthi,41.3,38
+Aegyptocetus tarfa,41.3,38
+Carolinacetus gingerichi,41.3,38
+Natchitochia jonesi,41.3,38
+Delphinavus newhalli,13.6,10.3
+Otekaikea marplesi,25.2,21.7
+Pomatodelphis bobengi,13.82,10.3
+Etruridelphis giulii,5.333,1.806
+Mesoplodon longirostris,5.333,1.806
+Balaenotus insignis,5.333,1.806
+Choneziphius leidyi,6.1,4.4
+Globicetus hiberus,6.1,4.4
+Imocetus piscatus,7.246,3.6
+Beneziphius cetariensis,7.246,3.6
+Pliopontos littoralis,7.246,3.6
+Herpetocetus bramblei,7.246,3.6
+Mystacodon selenensis,38,33.9
+Llanocetus denticrenatus,38,33.9
+Basilosaurus cetoides,38,33.9
+Basilosaurus isis,38,33.9
+Cynthiacetus peruvianus,38,33.9
+Platyosphys paulsonii,38,33.9
+Dorudon serratus,38,33.9
+Chrysocetus healyorum,38,33.9
+Stromerius nidensis,38,33.9
+Masracetus markgrafi,38,33.9
+Zygorhiza kochii,38,33.9
+Ancalecetus simonsi,38,33.9
+Saghacetus osiris,38,33.9
+Archaeoziphius microglenoideus,15,13.2
+Aporotus recurvirostris,15.97,11.62
+Zarhachis crassangulum,15.97,11.62
+Schizodelphis morckhoviensis,15.97,11.62
+Zarhinocetus errabundus,15.97,11.62
+Liolithax kernensis,15.97,11.62
+Squalodon protervus,15.97,11.62
+Taikicetus inouei,15.97,11.62
+Aglaocetus latifrons,15.97,11.62
+Aglaocetus longifrons,15.97,11.62
+Parietobalaena laxata,15.97,11.62
+Pachyacanthus suessii,15.97,11.608
+Eodelphinus kabatensis,11.62,7.246
+Cetorhynchus atavus,11.62,7.246
+Messapicetus gregarius,9.1,8.5
+Dagonodum mojnum,11.62,7.246
+Notoziphius bruneti,11.62,7.246
+Nanokogia isthmia,11.62,7.246
+Koristocetus pescei,11.62,7.246
+Scaphokogia cochlearis,11.62,7.246
+Aulophyseter mediatlanticus,11.62,7.246
+Livyatan melvillei,11.62,7.246
+Zygophyseter varolai,11.62,7.246
+Piscolithax aenigmaticus,11.62,7.246
+Australithax intermedia,11.62,7.246
+Lomacetus ginsburgi,11.62,7.246
+Pterophocaena nishinoi,11.62,7.246
+Zarhachis tysonii,11.62,7.246
+Parapontoporia wilsoni,11.62,7.246
+Lophocetus repenningi,11.62,7.246
+Lophocetus calvertensis,11.62,7.246
+Graamocetus longicollis,11.62,7.246
+Heterodelphis klinderi,11.62,7.246
+Saurocetes argentinus,11.62,7.246
+Atocetus nasalis,11.62,7.246
+Stenasodelphis russellae,11.62,7.246
+Protophocaena minima,11.62,7.246
+Ischyrorhynchus vanbenedeni,11.62,7.246
+Plesiocetus giganteus,11.62,7.246
+Plesiocetus intermedius,11.62,7.246
+Plesiocetus minor,11.62,7.246
+Plesiocetus rostratus,11.62,7.246
+Plesiocetus tertius,11.62,7.246
+Archaeschrichtius ruggieroi,11.62,7.246
+Plesiobalaenoptera quarantellii,11.62,7.246
+Incakujira anillodefuego,11.62,7.246
+Cetotherium rathkii,11.62,7.246
+Cetotherium riabinini,11.62,7.246
+Heterocetus scriptus,11.62,7.246
+Metopocetus hunteri,11.62,7.246
+Mithridatocetus adygeicus,11.62,7.246
+Mithridatocetus eichwaldi,11.62,7.246
+Miocaperea pulchra,11.62,7.246
+Uranocetus gramensis,11.62,7.246
+Aglaocetus burtinii,11.62,7.246
+Aglaocetus rotundus,11.62,7.246
+Amphicetus later,11.62,7.246
+Joumocetus shimizui,11.62,7.246
+Herentalia nigra,11.62,7.246
+Tranatocetus argillarius,11.62,7.246
+Mixocetus elysius,11.62,7.246
+Imerocetus karaganicus,11.62,7.246
+Cephalotropis coronatus,11.7,8.5
+Scaldicetus perpinguis,20.44,15.97
+Idiorophus patagonicus,20.44,15.97
+Medocinia tetragorhina,20.44,15.97
+Huaridelphis raimondii,20.44,15.97
+Macrosqualodelphis ukupachai,18.86,18.7
+Schizodelphis planus,20.44,15.97
+Schizodelphis squalodontoides,20.44,15.97
+Ninjadelphis ujiharai,20.44,15.97
+Eoplatanista taurinensis,20.44,15.97
+Phoberodon arctirostris,20.44,15.97
+Aondelphis talen,20.44,15.97
+Dilophodelphis fordycei,20.44,15.97
+Araeodelphis natator,20.44,15.97
+Argyrocetus patagonicus,20.44,15.97
+Chilcacetus cavirhinus,20.44,15.97
+Squalodon vocontiorum,20.44,15.97
+Squalodon whitmorei,20.44,15.97
+Squalodon molassicus,20.44,15.97
+Inticetus vertizi,20.44,15.97
+Squalodon meyeri,20.44,15.97
+Squalodon servatus,20.44,15.97
+Squalodon bordae,20.44,15.97
+Phococetus vasconum,20.44,15.97
+Plesiocetus dyticus,20.44,15.97
+Cetotherium furlongi,20.44,15.97
+Mesocetus aquitanicus,20.44,15.97
+Isanacetus laticephalus,20.44,15.97
+Diorocetus shobarensis,20.44,15.97
+Aglaocetus moreni,20.44,15.97
+Cophocetus oregonensis,20.44,15.97
+Hibacetus hirosei,20.44,15.97
+Morenocetus parvus,20.44,15.97
+Kentriodon fuchsii,15.97,11.1
+Ferecetotherium kelloggi,28.1,23.03
+Cotylocara macei,28.1,23.03
+Echovenator sandersi,28.1,23.03
+Allodelphis pratti,28.1,23.03
+Arktocara yakataga,28.1,23.03
+Iniopsis caucasica,28.1,23.03
+Patriocetus denggi,28.1,23.03
+Patriocetus ehrlichii,28.1,23.03
+Patriocetus kazakhstanicus,28.1,23.03
+Macrodelphinus kelloggi,28.1,23.03
+Eosqualodon langewieschei,28.1,23.03
+Miodelphis californicus,28.1,23.03
+Urkudelphis chawpipacha,28.1,23.03
+Oligodelphis azerbajdzanicus,28.1,23.03
+Squalodon linzianus,28.1,23.03
+Squalodon barbarus,28.1,23.03
+Microcetus ambiguus,28.1,23.03
+Sulakocetus dagestanicus,28.1,23.03
+Squalodon hypsispondylus,28.1,23.03
+Microcetus sharkovi,28.1,23.03
+Atropatenocetus posteocenicus,28.1,23.03
+Archaeodelphis patrius,28.1,23.03
+Fucaia goedertorum,28.1,23.03
+Tlaxcallicetus guaycurae,28.1,23.03
+Aetiocetus polydentatus,28.1,23.03
+Aetiocetus weltoni,28.1,23.03
+Chonecetus sookensis,28.1,23.03
+Morawanocetus yabukii,28.1,23.03
+Chonecetus tomitai,28.1,23.03
+Eomysticetus carolinensis,24.7,23.5
+Eomysticetus whitmorei,29.1,23.13
+Yamatocetus canaliculatus,29.2,28.1
+Micromysticetus tobieni,28.73,26.57
+Mammalodon colliveri,28.1,23.03
+Janjucetus hunderi,28.1,23.03
+Cetotheriopsis lintianus,26.84,23.19
+Sitsqwayk cornishorum,28.1,23.03
+Physeter macrocephalus,0,0
+Phocoena phocoena,0,0
+Balaenoptera acutorostrata,0,0
+Inermorostrum xenops,33.9,28.1
+Xenorophus sloanii,33.9,28.1
+Saurocetus gibbesii,33.9,28.1
+Simocetus rayi,33.7,30.6
+Mirocetus riabinini,33.9,28.1
+Ashleycetus planicapitis,33.9,28.1
+Micromysticetus rothauseni,29,26.57
+Coronodon havensteini,33.9,28.1
+Brachydelphis jahuayensis,11.62,5.333
+Balaenoptera siberi,7.246,5.333
+Nannocetus eremus,11.62,5.333
+Mauicetus parki,28.1,21.7
+Babiacetus mishrai,47.8,41.3
+Rodhocetus balochistanensis,47.8,41.3
+Rodhocetus kasranii,47.8,41.3
+Protocetus atavus,47.8,41.3
+Dhedacetus hyaeni,47.8,41.3
+Takracetus simus,47.8,41.3
+Kharodacetus sahnii,47.8,41.3
+Gaviacetus razai,47.8,41.3
+Indocetus ramani,47.8,41.3
+Qaisracetus arifi,47.8,41.3
+Makaracetus bidens,47.8,41.3
+Artiocetus clavis,47.8,41.3
+Togocetus traversei,47.8,41.3
+Maiacetus inuus,47.8,41.3
+Attockicetus praecursor,47.8,41.3
+Dalanistes ahmedi,47.8,41.3
+Remingtonocetus domandaensis,47.8,41.3
+Remingtonocetus harudiensis,47.8,41.3
+Andrewsiphius sloani,47.8,41.3
+Kutchicetus minimus,47.8,41.3
+Rayanistes afer,47.8,41.3
+Pakicetus calcis,47.8,41.3
+Pakicetus chittas,47.8,41.3
+Pakicetus inachus,47.8,41.3
+Ichthyolestes pinfoldi,47.8,41.3
+Nalacetus ratimitus,47.8,41.3
+Gandakasia potens,47.8,41.3
+Ambulocetus natans,47.8,41.3
+Ziphirostrum marginatum,9.5,7.5
+Pontistes rectifrons,13.82,7.246
+Pelocetus mirabilis,13.82,7.246
+Kurdalagonus mchedlidzei,13.82,7.246
+Tiucetus rosae,13.82,7.246
+Phocageneus venustus,20.44,13.82
+Schizodelphis barnesi,20.44,13.82
+Zarhinocetus donnamatsonae,20.44,13.82
+Neosqualodon assenzae,20.44,13.82
+Kentriodon pernix,20.44,13.82
+Squalodon dalpiazi,20.44,13.82
+Titanocetus sammarinensis,20.44,13.82
+Parietobalaena palmeri,20.44,13.82
+Diorocetus chichibuensis,20.44,13.82
+Parietobalaena yamaokai,20.44,13.82
+Ninoziphius platyrostris,5.9,3.9
+Salumiphocaena stocktoni,11.62,4.9
+Matapanui waihao,28.1,27.3
+Idiorophus bolzanensis,23.03,15.97
+Notocetus vanbenedeni,23.03,15.97
+Prosqualodon australis,23.03,15.97
+Dalpiazina ombonii,23.03,15.97
+Squalodon bariensis,23.03,15.97
+Cynthiacetus maxwelli,41.3,33.9
+Dorudon atrox,41.3,33.9
+Argyrocetus joaquinensis,28.1,20.44
+Argyrocetus bakersfieldensis,28.1,20.44
+Scaldiporia vandokkumi,11.62,3.6
+Himalayacetus subathuensis,56,47.8
+Brachydelphis mazeasi,13.82,5.333
+Mesocetus longirostris,13.82,5.333
+Piscobalaena nana,13.82,5.333
+Hadrodelphis poseidon,15.97,7.246
+Cetotherium parvum,15.97,7.246
+Palaeobalaena bergi,15.97,7.246
+Isocetus depauwi,15.97,7.246
+Xiphiacetus bossi,20.44,11.62
+Neosqualodon gastaldii,20.44,11.62
+Miokogia elongatus,20.44,11.62
+Mesocetus siphunculus,20.44,11.62
+Parietobalaena campiniana,20.44,11.62
+Pomatodelphis inaequalis,13.82,4.9
+Placoziphius duboisii,23.03,13.82
+Zarhachis flagellator,23.03,13.82
+Delphinodon dividum,23.03,13.82
+Kentriodon schneideri,23.03,13.82
+Squalodon calvertensis,23.03,13.82
+Squalodon tiedemani,23.03,13.82
+Basilotritus uheni,47.8,38
+Babiacetus indicus,47.8,38
+Georgiacetus vogtlensis,47.8,38
+Scaldicetus caretti,11.62,1.806
+Hoplocetus borgerhoutensis,11.62,1.806
+Protororqualus cuvieri,12.7,2.588
+Goniodelphis hudsoni,13.82,3.6
+Plesiocetopsis hupschii,15.97,5.333
+Albertocetus meffordorum,33.9,23.03
+Agorophius pygmaeus,33.9,23.03
+Aetiocetus cotylalveus,33.9,23.03
+Herpetocetus scaldiensis,13.82,1.806
+Squalodon grateloupii,28.1,15.97
+Physeterula dubusi,20.44,7.246
+Orycterocetus crocodilinus,20.44,7.246
+Pomatodelphis stenorhynchus,20.44,7.246
+Parietobalaena affinis,20.44,7.246
+Pakicetus attocki,56,41.3
+Messapicetus longirostris,10.5,8.14
+Scaldicetus degiorgii,20.44,5.333
+Eudelphis mortezelensis,20.44,5.333
+Xiphiacetus cristatus,20.44,5.333
+Rudicetus squalodontoides,20.44,5.333
+Eurhinodelphis longirostris,20.44,5.333
+Squalodon antverpiensis,20.44,5.333
+Eurhinodelphis cocheteuxi,23.03,7.246
+Squalodon bellunensis,28.1,11.62
+Tusciziphius atlanticus,6.1,4.4
+Ziphiodelphis abeli,23.03,5.333
+Scaldicetus grandis,20.44,1.806
+Hoplocetus crassidens,20.44,1.806
+Heterocetus brevifrons,20.44,1.806
+Balaenula balaenopsis,20.44,1.806
+Schizodelphis sulcatus,28.1,7.246
+Squalodon melitensis,28.1,5.333
+Acrophyseter_sp_MUSM_2182,6.9,6.7
+Aetiocetidae_indet_OCPC_1178,18.8,17.2
+Aetiocetidae_indet_UWBM_82941,27.82,23.03
+Aetiocetidae_indet_UWBM_87135,27.82,23.03
+aff_Huaridelphis_raimondii_MUSM_603,20.44,15.97
+Africanacetus_ceratopsis,16,5.6
+Agorophiidae_indet_ChM_PV5852,27.82,23.03
+Albertocetus_sp_ChM_PV4834,27.82,23.03
+Anoplonassa_forcipata,5.3,3.5
+Aporotus_dicyrtus,11.6,2.588
+Balaena_arcuata,11.6,2.588
+Balaena_dubusi,11.6,2.588
+Balaena_larteti,,
+Balaena_macrocephalus,15.97,13.82
+Balaena_sp_SDSNH_43880,5.3,2.58
+Balaena_vulgaris,,
+Balaenidae_indest_OU_22224,,
+Balaenidae_indet_OU_22224,27.3,26
+Balaenoptera_brevicauda,,
+Balaenoptera_brydei,0,0
+Balaenoptera_cephalus,15.97,13.82
+Balaenoptera_cuvieri_portisi,5.3,3
+Balaenoptera_fasciata,,
+Balaenoptera_sursiplana,15.97,13.82
+Balaenopteridae_indet_EGAPA_dash_MPTAM_207_dot_1330,5.332,3.6
+Balaenopteridae_indet_MHNL_1610,11.608,5.332
+Balaenopteridae_indet_MHNL_1613,3.6,1.806
+Balaenopteridae_indet_NMNZ_MM001630,5.3,3.6
+Balaenopteridae_indet_NMR_999100007096,3.6,1.806
+Balaenopteridae_indet_RBINS_Unreferred,5.332,3.6
+Balaenula_sp_HUES_10003,5.332,3.6
+Balaenula_sp_SMAC_1309,6.4,4.1
+Basilosauridae_indet_MUSM_1443,40.4,37.2
+Basilosaurus_puschi,,
+Beneziphius_brevirostris,13.2,12.8
+Caviziphius_altirostris,15.97,5.33
+Cephalorhynchus_hectori,0,0
+Cetacea_indet_ZMT_62,33.8,28
+Ceterhinops_longifrons,29,24.7
+Cetorhynchus_christoli,15.97,11.63
+Cetotheriidae_indet_ZIRM_V28_1,15.97,11.63
+Cetotheriophanes_capellinii,3.6,2.58
+Cetotherium_crassangulum,,
+Cetotherium_polyporum,4.9,2.8
+cf_Cynthiacetus_sp_CCNHM_167,,
+Chaeomysticeti_indet_OU_22705,21.7,20.5
+Chaeomysticeti_indet_ZMT_67,21.7,20.5
+Chimuziphius_coloradensis,8.9,7.249
+Choneziphius_macrops,29,24.7
+Crenatocetus_rayi,47.8,41.2
+Delphinapterus_brocchii,3.6,2.588
+Delphinoidea_indet_NMV_dash_72,23.03,15.97
+Delphinus_capensis,0,0
+Delphinus_dewaeli,,
+Delphinus_feres,,
+Delphinus_rikuzenensis,5.3,3.6
+Delphinus_tropicalis,0,0
+Delphinus_wasii,,
+Eschrichtiidae_indet_SDSNH_90517,5.3,2.58
+Eschrichtius_akishimaensis,1.95,1.77
+Eudelphinus_compressus,,
+Fucaia_buelli,33.2,31
+Globicephalus_karsteni,,
+Goedertius_oregonensis,23.03,20.44
+Herpetocetus_sp_NMNS_PV19540,5.332,3.6
+Herpetocetus_sp_USNM_182962,,
+Herpetocetus_sp_VMW_65,2.1,0.7
+Heterocetus_major,,
+Hoplocetus_curvidens,,
+Ihlengesi_saldanhae,16,5.3
+Izikoziphius_angustus,16,5.3
+Izikoziphius_rossi,16,5.3
+Kentriodon_hobetsu,15.97,11.63
+Khoikhoicetus_agulhasis,16,5.3
+Khoikhoicetus_kergueleni,16,5.3
+Kogia_sp_MSNTUP_I13798,5.333,2.58
+Kogiinae_indet_ChM_VP4994,5.333,2.58
+Lonchodelphis_occiduus,11.6,5.3
+Macrodelphinus_valenciennesii,,
+Megaptera_brachychira,,
+Megaptera_mysticetoides,,
+Mesoplodon_bononiensis,,
+Mesoplodon_europaeus,0,0
+Mesoplodon_hotaula,0,0
+Mesoplodon_slangkopi,16,5.3
+Mesoplodon_traversii,0,0
+Microberardius_africanus,16,5.3
+Microzeuglodon_caucasicum,41.2,33.9
+Mysticeti_indet_ChM_PV4745,29.6,28.1
+Mysticeti_indet_ChM_PV5720,28.4,23.03
+Mysticeti_indet_OU_GS10897,33,32
+Mysticeti_indet_USNM_314627,33.7,30.6
+Nenga_meganasalis,16,5.3
+Notiocetus_platensis,2.588,0.0117
+Odontoceti_indet_ChM_PV2764,28.4,23.03
+Odontoceti_indet_ChM_PV4178,33.9,28.1
+Odontoceti_indet_ChM_PV4802,28.4,23.03
+Olympicetus_avitus,30.5,26.5
+Orcinus_meyeri,,
+Otradnocetus_virodovi,15.97,11.608
+Papahu_sp_ZMT_73,23,18.7
+Parietobalaena_sp_SMNH_VeF62,16.4,15.1
+Patriocetidae_indet_ChM_PV2761,28.4,23.03
+Physalus_patachonicus,,
+Physeter_antiquus,5.33,2.588
+Physeterula_neolassicus,2.588,0.0117
+Pithanodelphis_cornutus,11.608,2.588
+Platalearostrum_hoekmani,3.6,0.8
+Platanistinae_indet_MUSM_1611,13.2,12.5
+Platanistoidea_indet_OU_22670,23.03,20.44
+Platyosphys_einori,41.2,37.8
+Plesiocetopsis_notopelagicus,5.33,2.58
+Plesiocetus_occidentalis,16.3,13.6
+Pomatodelphis_sp_USNM_187414,13.82,11.63
+Pontobasileus_tuberculatus,,
+Preaulophyseter_gualichensis,23.03,15.97
+Priscophyseter_typus,5.33,2.58
+Prosqualodon_hamiltoni,28.1,23.03
+Pterocetus_benguelae,16,5.3
+Rhinostodes_lovisatoi,11.63,7.246
+Sachalinocetus_cholmicus,23,11.6
+Sagmatias_obscurus,0,0
+Salishicetus_meadi,27.82,23.03
+Scaldicetus_antwerpiensis,,
+Scaphokogiinae_indet_MUSM_3291_et_3405,11.608,5.332
+Schizodelphis_compressus,11.608,5.332
+Sotalia_maculiventer,,
+Squalodelphinidae_indet_MUSM_603,,
+Squalodelphinidae_indet_USNM_475496,,
+Squalodelphinidae_indet_USNM_475596,23.03,20.43
+Squalodon_mirabilis,15.97,11.608
+Squalodon_rugidens,,
+Squalodon_sp_MAUL_8,20.43,15.97
+Squalodon_sp_OU_21798,27.82,23.03
+Squalodontidae_indet_ChM_PV_4991,,
+Squalodontidae_indet_ChM_PV4961,27.82,23.03
+Squalodontidae_indet_ChM_PV4991,27.82,23.03
+Stenella_clymene,0,0
+Stenella_dubia,0,0
+Stereodelphis_brevidens,,
+Thalassocetus_antwerpiensis,20.44,11.63
+Thalassotherii_indet_USNM_187416,15.97,13.63
+Tlaxcallicetus_sp_MU_EcSj5_slash_18_slash_95,28.4,23.03
+Tokarahia_lophocephalus,27.3,25.2
+Tursiops_astensis,3.5,3
+Tursiops_australis,0,0
+Tursiops_erebennus,,
+Tursiops_subridens,,
+Vampalus_sayasanicus,15.97,5.33
+Waipatia_hectori,27.3,25.2
+Wimahl_chinookensis,23.03,15.97
+Xenorophidae_indet_ChM_PV2758,27.82,23.03
+Xenorophidae_indet_ChM_PV4746,27.82,23.03
+Xenorophidae_indet_ChM_PV5711,27.82,23.03
+Xenorophidae_indet_GSM_1098,,
+Xenorophus_sp_ChM_PV4823,30,27
+Xhosacetus_hendeysi,16,5.3
+Ziphiidae_indet_KNM_LP52956,23.3,16.1
+Ziphirostrum_recurvus,15.97,5.33
+Ziphirostrum_turninense,11.6,2.588
+Ciuciulea_davidi,13.82,12.65
+Metasqualodon_symmetricus,28.1,23.03
+Cetotherium_megalophysum,11.62,7.246
+Megaptera_miocaena,11.62,7.246
+Megaptera_hubachi,5.33,3.6
+Squalodelphinidae_indet_UWBM_87105,23.03,20.43
+Physeteridae_indet_IRSNB_M_dot_1937,11.608,5.333
+Otradnocetus_sp_VSEGEI_2401,11.608,7.246
+Basilotritus_sp_GMTSNUK_15,41.2,37.8
+Sotalia_guianensis,0,0
