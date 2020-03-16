@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <SourceTree>
 	<Source>
- 		<Author>
+		<Author>
 			<List>Lambert, O.</List>
 		</Author>
 		<Year>2005</Year>
@@ -13,7 +13,7 @@
 		<Publisher/>
 		<City/>
 		<Editor/>
- 	</Source>
+	</Source>
 	<Taxa number="13">
 		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis" recon_no="53157;90650;68288">Squalodon</List>
 		<List recon_name="Ziphiodelphis_abeli,Ziphiodelphis_sigmoideus" recon_no="67738;69887">Ziphiodelphis</List>
