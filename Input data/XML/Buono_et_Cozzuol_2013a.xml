@@ -30,7 +30,7 @@
 		<List recon_name="Choneziphius_macrops,Choneziphius_planirostris" recon_no="69624;63618">Choneziphius</List>
 		<List recon_name="Tusciziphius_crispus" recon_no="62940">Tusciziphius</List>
 		<List recon_name="Microberardius_africanus" recon_no="113816">Microberardius</List>
-		<List recon_name="Berardius_arnuxii" recon_no="63590">Berardius</List>
+		<List recon_name="Berardius_arnuxii,Berardius_bairdii" recon_no="63590;81905">Berardius</List>
 		<List recon_name="Archaeoziphius_microglenoideus" recon_no="80624">Archaeoziphius</List>
 		<List recon_name="Nazcacetus_urbinai" recon_no="154149">Nazcacetus</List>
 		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus</List>
