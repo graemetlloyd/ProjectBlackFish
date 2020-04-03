@@ -33,7 +33,7 @@
 		<List recon_name="Indopacetus_pacificus" recon_no="63852">Indopacetus</List>
 		<List recon_name="Africanacetus_ceratopsis" recon_no="113825">Africanacetus</List>
 		<List recon_name="Ihlengesi_saldanhae" recon_no="113823">Ihlengesi</List>
-		<List recon_name="Mesoplodon_posti,Mesoplodon_slangkopi" recon_no="337094;113826">Mesoplodon</List>
+		<List recon_name="Mesoplodon_bidens" recon_no="69088">Mesoplodon</List>
 		<List recon_name="Hyperoodon_ampullatus" recon_no="64551">Hyperoodon</List>
 		<List recon_name="Ziphius_cavirostris" recon_no="64703">Ziphius</List>
 		<List recon_name="Izikoziphius_angustus,Izikoziphius_rossi" recon_no="113819;113818">Izikoziphius</List>
@@ -42,7 +42,7 @@
 		<List recon_name="Globicetus_hiberus" recon_no="264275">Globicetus</List>
 		<List recon_name="Imocetus_piscatus" recon_no="264277">Imocetus</List>
 		<List recon_name="Microberardius_africanus" recon_no="113816">Microberardius</List>
-		<List recon_name="Berardius_bairdi" recon_no="103684">Berardius</List>
+		<List recon_name="Berardius_arnuxii,Berardius_bairdii" recon_no="63590;81905">Berardius</List>
 		<List recon_name="Archaeoziphius_microglenoideus" recon_no="80624">Archaeoziphius</List>
 		<List recon_name="Nazcacetus_urbinai" recon_no="154149">Nazcacetus</List>
 		<List recon_name="Tasmacetus_shepherdi" recon_no="63588">Tasmacetus</List>
