@@ -12,11 +12,12 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
   # 
   ## remove extant taxa ##
  
-  StratRanges <- remove.extant(StratRanges)
+  StratRangesExtinct <- remove.extant(StratRanges)
+  ExtantTaxa <- setdiff(rownames(StratRanges),rownames(StratRangesExtinct))
   
-  write.sampling.dates(StratRanges, myfileName)
+  write.sampling.dates(StratRangesExtinct, myfileName)
   
-  td<-treedata(constraintTree, StratRanges)$data
+  td<-treedata(constraintTree, StratRangesExtinct)$data
   
   ## get starting values for ages ##
   starting.ages<-apply(td[,1:2], 1, mean)
@@ -29,13 +30,14 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
   
   extra_extant<- setdiff(names(alignment), constraintTree$tip.label)
   if(length(extra_extant>0)) {
-    print(paste("dropping the following taxa from the alignment as they are not in the tree\n"))
+    print(paste("dropping the following taxa from the alignment as they are not in the tree"))
     print(extra_extant)
     alignment <- alignment[-match(setdiff(names(alignment), constraintTree$tip.label), names(alignment))]
   }
-  xx<-c(rownames(td), names(alignment)) ## make dummy variable
-  xx<-matrix(rep(1, length(xx)),dimnames = list(xx, "trait"))
-  constraintTree<-treedata(constraintTree, xx)$phy
+  
+  # xx<-c(rownames(td), names(alignment)) ## make dummy variable
+  # xx<-matrix(rep(1, length(xx)),dimnames = list(xx, "trait"))
+  #constraintTree<-treedata(constraintTree, xx)$phy
   make.monophyly.tree(constraintTree, myfileName)
 
   

@@ -2,30 +2,32 @@ rm(list=ls())
 library(ape);
 library(geiger)
 library(paleotree)
-source("~/Dropbox/ProjectBlackFish/TimeTreeInference/BuildBeastXML.R")
+source("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/BuildBeastXML.R")
 
-setwd("~/Dropbox/ProjectBlackFish/")
+setwd("~/Dropbox/Mammal_Supertree/ProjectBlackFish/")
 
 ### read in constraint tree (MRP consensus, MRL tree etc )
 ### then read in stratigraphic data in csv format
 ### strat data should be csv file with name, fad, lad
 ### finally, read in molecular alignment for extant taxa
 
-constraintTree <- read.tree("")
-StratRanges <- read.csv("", row.names = 1, stringsAsFactors = F)
-alignment <- read.nexus.data("")
+## choose appropriate tree here: 
+#constraintTree <- read.tree("Metatree data/StrictConsensusTrees/Exclude.tre")
+#constraintTree <- read.tree("Metatree data/StrictConsensusTrees/Genus.tre")
+constraintTree <- read.tree("TimeTreeInference/ALL/MRL/ALL_MRL.tre")
+
+StratRanges <- read.csv("TimeTreeInference/whale_ages.csv",  stringsAsFactors = F, row.names = 1)
+
+alignment <- read.nexus.data("TimeTreeInference/pruned_cytb_alignment.nex")
 
 
 # if taxon names in strat range contain spaces, uncomment and run line below
 rownames(StratRanges)<-gsub(" ", "_", rownames(StratRanges))
 
 #if age ranges larger than some amount are not desirable run two lines below
-# max.age.range <- 11
-#StratRanges<-StratRanges[-which(StratRanges$range>max.age.range),] ## remove taxa with large strat ranges
-
+max.age.range <- 11
+StratRanges<-StratRanges[-which(StratRanges$range>max.age.range),] ## remove taxa with large strat ranges
 ## remove NAs (= missing dates) ##
-## make a file naming dropped taxa
-write.table(t(names(which(is.na(apply(StratRanges,1, mean))))), file="missing.txt", quote=F, sep="\t") 
 StratRanges <- StratRanges[-which(is.na(apply(StratRanges,1, mean))), ]
 
 
@@ -34,14 +36,14 @@ td <- treedata(constraintTree, StratRanges)
 
 
 
-phy <- td$phy
+constraintTree <- td$phy
 StratRanges <- td$data
 
-fileStem = "myfileName"
+fileStem = "ALL"
 PrepareBeastMetatree(constraintTree = constraintTree, 
                      StratRanges = StratRanges, 
                      alignment = alignment, 
-                     myfileName = myfileName,
+                     myfileName = fileStem,
                      makeStartTree = TRUE, 
                      start.tree.method="mbl", 
                      vartime=0.5)
