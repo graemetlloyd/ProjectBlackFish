@@ -12,12 +12,20 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
   # 
   ## remove extant taxa ##
  
+<<<<<<< HEAD
+  StratRanges <- remove.extant(StratRanges)
+  
+  write.sampling.dates(StratRanges, myfileName)
+  
+  td<-treedata(constraintTree, StratRanges)$data
+=======
   StratRangesExtinct <- remove.extant(StratRanges)
   ExtantTaxa <- setdiff(rownames(StratRanges),rownames(StratRangesExtinct))
   
   write.sampling.dates(StratRangesExtinct, myfileName)
   
   td<-treedata(constraintTree, StratRangesExtinct)$data
+>>>>>>> 17237b707d994fe504b5385dfbce37f08953b3cd
   
   ## get starting values for ages ##
   starting.ages<-apply(td[,1:2], 1, mean)
@@ -30,6 +38,15 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
   
   extra_extant<- setdiff(names(alignment), constraintTree$tip.label)
   if(length(extra_extant>0)) {
+<<<<<<< HEAD
+    print(paste("dropping the following taxa from the alignment as they are not in the tree\n"))
+    print(extra_extant)
+    alignment <- alignment[-match(setdiff(names(alignment), constraintTree$tip.label), names(alignment))]
+  }
+  xx<-c(rownames(td), names(alignment)) ## make dummy variable
+  xx<-matrix(rep(1, length(xx)),dimnames = list(xx, "trait"))
+  constraintTree<-treedata(constraintTree, xx)$phy
+=======
     print(paste("dropping the following taxa from the alignment as they are not in the tree"))
     print(extra_extant)
     alignment <- alignment[-match(setdiff(names(alignment), constraintTree$tip.label), names(alignment))]
@@ -38,6 +55,7 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
   # xx<-c(rownames(td), names(alignment)) ## make dummy variable
   # xx<-matrix(rep(1, length(xx)),dimnames = list(xx, "trait"))
   #constraintTree<-treedata(constraintTree, xx)$phy
+>>>>>>> 17237b707d994fe504b5385dfbce37f08953b3cd
   make.monophyly.tree(constraintTree, myfileName)
 
   
