@@ -42,3 +42,6 @@ vignettes/*.pdf
 /Input data/PDF/
 /Excluded data/
 /Input data/WaitingRoom/PDF
+
+# Big files
+/McGowan_molecular_analysis/posterior_sample.trees
