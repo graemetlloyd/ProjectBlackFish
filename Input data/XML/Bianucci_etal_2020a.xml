@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bianucci, G.</List>
+			<List>de Muizon, C.</List>
+			<List>Urbina, M.</List>
+			<List>Lambert, O.</List>
+		</Author>
+		<Year>2020</Year>
+		<Title>Extensive diversity and disparity of the early Miocene platanistoids (Cetacea, Odontoceti) in the Southeastern Pacific (Chilcatay Formation, Peru)</Title>
+		<Journal>Life</Journal>
+		<Volume>10</Volume>
+		<Pages>1-62</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="24">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Squalodon_bariensis,Squalodon_bellunensis,Squalodon_calvertensis,Squalodon_whitmorei" recon_no="53157;90650;68288;70031">Squalodon</List>
+		<List recon_name="Waipatia_maerewhenua" recon_no="62904">Waipatia</List>
+		<List recon_name="Xiphiacetus_bossi,Xiphiacetus_cristatus" recon_no="69885;67733">Xiphiacetus</List>
+		<List recon_name="Eurhinodelphis_cocheteuxi,Eurhinodelphis_longirostris" recon_no="64595;69732">Eurhinodelphis</List>
+		<List recon_name="Ziphiodelphis_abeli,Ziphiodelphis_sigmoideus" recon_no="67738;69887">Ziphiodelphis</List>
+		<List recon_name="Zarhinocetus_errabundus" recon_no="173469">Zarhinocetus</List>
+		<List recon_name="Allodelphis_pratti,Allodelphis_woodburnei" recon_no="64559;173470">Allodelphis</List>
+		<List recon_name="Ninjadelphis_ujiharai" recon_no="338952">Ninjadelphis</List>
+		<List recon_name="DELETE" recon_no="-1">Ensidelphis</List>
+		<List recon_name="aff_Huaridelphis_raimondii_MUSM_603" recon_no="305878">MUSM_603</List>
+		<List recon_name="Macrosqualodelphis_ukupachai" recon_no="368863">Macrosqualodelphis</List>
+		<List recon_name="Huaridelphis_raimondii" recon_no="305879">Huaridelphis</List>
+		<List recon_name="Notocetus_vanbenedeni" recon_no="63993">Notocetus</List>
+		<List recon_name="Squalodelphis_fabianii" recon_no="64078">Squalodelphis</List>
+		<List recon_name="Phocageneus_venustus" recon_no="62956">Phocageneus</List>
+		<List recon_name="Medocinia_tetragorhina" recon_no="63676">Medocinia</List>
+		<List recon_name="DELETE" recon_no="-1">Furcacetus</List>
+		<List recon_name="Dilophodelphis_fordycei" recon_no="354693">Dilophodelphis</List>
+		<List recon_name="Araeodelphis_natator" recon_no="62957">Araeodelphis</List>
+		<List recon_name="Zarhachis_flagellator" recon_no="63658">Zarhachis</List>
+		<List recon_name="Pomatodelphis_bobengi" recon_no="62908">Pomatodelphis</List>
+		<List recon_name="Platanistinae_indet_MUSM_1611" recon_no="63585">MUSM_1611</List>
+		<List recon_name="Platanista_gangetica" recon_no="63565">Platanista</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="48">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bianucci_etal_2020a</Filename>
+	<Parent>Bianucci_etal_2018aa</Parent>
+	<Sibling/>
+</SourceTree>

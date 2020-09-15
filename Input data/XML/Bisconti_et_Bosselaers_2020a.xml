@@ -1,0 +1,123 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bisconti, M.</List>
+			<List>Bosselaers, M. E. J.</List>
+		</Author>
+		<Year>2020</Year>
+		<Title>A new balaenopterid species from the Southern North Sea Basin informs about phylogeny and taxonomy of <em>Burtinopsis</em> and <em>Protororqualus</em> (Cetacea, Mysticeti, Balaenopteridae)</Title>
+		<Journal>PeerJ</Journal>
+		<Volume>8</Volume>
+		<Pages>e9570</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="88">
+		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetidae</List>
+		<List recon_name="Cynthiacetus_peruvianus" recon_no="185633">Cynthiacetus_peruvianus</List>
+		<List recon_name="Basilosaurus_cetoides" recon_no="53153">Basilosaurus_cetoides</List>
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon_atrox</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza_kochii</List>
+		<List recon_name="Mammalodon_colliveri" recon_no="63222">Mammalodontidae</List>
+		<List recon_name="Fucaia_buelli" recon_no="333118">Fucaia</List>
+		<List recon_name="Aetiocetus_weltoni" recon_no="63483">Aetiocetus_weltoni</List>
+		<List recon_name="Yamatocetus_canaliculatus" recon_no="247312">Yamatocetus_canaliculatus</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Micromysticetus_rothauseni" recon_no="63465">Micromysticetus</List>
+		<List recon_name="Waharoa_ruwhenua" recon_no="328444">Waharowa_ruwhenua</List>
+		<List recon_name="Sitsqwayk_cornishorum" recon_no="347954">Sitsqwayk_cornishorum</List>
+		<List recon_name="Horopeta_umarere" recon_no="317584">Horopeta_umarere</List>
+		<List recon_name="Morenocetus_parvus" recon_no="64479">Morenocetus_parvus</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Miocaperea_pulchra" recon_no="254040">Miocaperea_pulchra</List>
+		<List recon_name="Balaenella_brachyrhynus" recon_no="69993">Balaenella_brachyrhynus</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Balaenula_astensis" recon_no="65855">Balaenula_astensis</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena</List>
+		<List recon_name="Atlanticetus_patulus" recon_no="424653">Atlanticetus_patulus</List>
+		<List recon_name="Atlanticetus_lavei" recon_no="424654">MPTA_13301</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Uranocetus_gramensis" recon_no="64429">Uranocetus_gramensis</List>
+		<List recon_name="Isanacetus_laticephalus" recon_no="64147">Isanacetus_laticephalus</List>
+		<List recon_name="Joumocetus_shimizui" recon_no="169830">Joumocetus_shimizui</List>
+		<List recon_name="Parietobalaena_palmeri" recon_no="62938">Parietobalaena_palmeri</List>
+		<List recon_name="Parietobalaena_campiniana" recon_no="256074">Parietobalaena_campiniana</List>
+		<List recon_name="Tiucetus_rosae" recon_no="360134">Tiucetus_rosae</List>
+		<List recon_name="Taikicetus_inouei" recon_no="373239">Taikicetus_inouei</List>
+		<List recon_name="Parietobalaena_sp_SMNH_VeF62" recon_no="36797">SMNH_dash_VeF_dash_62</List>
+		<List recon_name="Parietobalaena_yamaokai" recon_no="123008">Parietobalaena_yamaokai</List>
+		<List recon_name="Diorocetus_shobarensis" recon_no="123007">Diorocetus_shobarensis</List>
+		<List recon_name="Diorocetus_chichibuensis" recon_no="144411">Diorocetus_chichibuensis</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Thalassotherii_indet_USNM_187416" recon_no="256071">USNM187416</List>
+		<List recon_name="Mixocetus_elysius" recon_no="64432">Mixocetus_elysius</List>
+		<List recon_name="Cetotherium_rathkei" recon_no="69834">Cetotherium_rathkei</List>
+		<List recon_name="Cetotherium_riabinini" recon_no="264012">Cetotherium_riabinini</List>
+		<List recon_name="Metopocetus_durinasus" recon_no="63977">Metopocetus_durinasus</List>
+		<List recon_name="Metopocetus_hunteri" recon_no="335542">Metopocetus_hunteri</List>
+		<List recon_name="Piscobalaena_nana" recon_no="63933">Piscobalaena_nana</List>
+		<List recon_name="Herpetocetus_morrowi" recon_no="288162">Herpetocetus_morrowi</List>
+		<List recon_name="Herentalia_nigra" recon_no="291236">Herentalia_nigra</List>
+		<List recon_name="Thinocetus_arthritus" recon_no="53147">Thinocetus_arthritus</List>
+		<List recon_name="Halicetus_ignotus" recon_no="53149">Halicetus_ignotus</List>
+		<List recon_name="Titanocetus_sammarinensis" recon_no="319669">Titanocetus_sammarinensis</List>
+		<List recon_name="Cophocetus_oregonensis" recon_no="64528">Cophocetus_oregonensis</List>
+		<List recon_name="Aglaocetus_moreni" recon_no="69155">Aglaocetus_moreni</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Eschrichtioides_gastaldii" recon_no="122147">Eschrichtioides_gastaldii</List>
+		<List recon_name="Archaeschrichtius_ruggieroi" recon_no="114365">Archaeschrichtius_ruggieroi</List>
+		<List recon_name="Balaenopteridae_indet_RBINS_M_dot_2231" recon_no="42977">M2231</List>
+		<List recon_name="Balaenoptera_ryani" recon_no="62944">Balaenoptera_ryani</List>
+		<List recon_name="Protororqualus_cuvieri" recon_no="114372">Protororqualus_cuvieri</List>
+		<List recon_name="Protororqualus_wilfriedneesi" recon_no="424494">Protororqualus_wilfriedneesi</List>
+		<List recon_name="Balaenopteridae_indet_UT_PU13842_slash_5" recon_no="42977">UT_PU13842</List>
+		<List recon_name="Balaenopteridae_indet_aka_portisi_MRSN_PU13808_et_MGPT_13803_et_MCZ_17882_et_SDSNH_21507_et_65769_et_68698" recon_no="42977">Balaenoptera_cortesii_var_portisi</List>
+		<List recon_name="Balaenopteridae_indet_NMR_999100007096" recon_no="42977">NMR7096</List>
+		<List recon_name="Balaenopteridae_indet_EGAPA_dash_MPTAM_207_dot_13307" recon_no="42977">MPTA_207_dot_13307</List>
+		<List recon_name="Plesiobalaenoptera_quarantellii" recon_no="169828">Plesiobalaenoptera_quarantellii</List>
+		<List recon_name="Balaenopteridae_indet_SAM_PQL_dash_55001" recon_no="42977">SAM55001</List>
+		<List recon_name="Parabalaenoptera_baulinensis" recon_no="64140">Parabalaenoptera_baulinensis</List>
+		<List recon_name="Fragilicetus_velponi" recon_no="343159">Fragilicetus_velponi</List>
+		<List recon_name="Megaptera_hubachi" recon_no="68703">Megaptera_hubachi</List>
+		<List recon_name="Incakujira_anillodefuego" recon_no="346958">Incakujira_anillodefuego</List>
+		<List recon_name="Incakujira_anillodefuego" recon_no="346958">M1613</List>
+		<List recon_name="Archaebalaenoptera_castriarquati" recon_no="106910">Archaebalaenoptera_castriarquati</List>
+		<List recon_name="Balaenopteridae_indet_MHNL_1610" recon_no="42977">M1610</List>
+		<List recon_name="Archaebalaenoptera_liesselensis" recon_no="404023">Archaebalaenoptera_liesselensis</List>
+		<List recon_name="Nehalaennia_devossi" recon_no="387168">Nehalaennia_devossi</List>
+		<List recon_name="Balaenoptera_bertae" recon_no="287250">Balaenoptera_bertae</List>
+		<List recon_name="Balaenopteridae_indet_Unreferred_Shimajiri_kujira" recon_no="42977">Shimajiri_kujira</List>
+		<List recon_name="Balaenopteridae_indet_IPMM_40063" recon_no="42977">Maesawa_cho</List>
+		<List recon_name="Miobalaenoptera_numataensis" recon_no="383910">Miobalaenoptera_numataensis</List>
+		<List recon_name="Diunatans_luctoretemergo" recon_no="170128">Diunatans_luctoretemergo</List>
+		<List recon_name="Norrisanima_miocaena" recon_no="397373">Norrisanima_miocaena</List>
+		<List recon_name="Balaenoptera_siberi" recon_no="69078">Balaenoptera_siberi</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenoptera_bonaerensis" recon_no="81901">Balaenoptera_bonaerensis</List>
+		<List recon_name="Balaenoptera_omurai" recon_no="104742">Balaenoptera_omurai</List>
+		<List recon_name="Balaenoptera_brydei" recon_no="81903">Balaenoptera_brydei</List>
+		<List recon_name="Balaenoptera_edeni" recon_no="81902">Balaenoptera_edeni</List>
+		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="355">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bisconti_et_Bosselaers_2020a</Filename>
+	<Parent>Bisconti_etal_2020a</Parent>
+	<Sibling/>
+</SourceTree>
