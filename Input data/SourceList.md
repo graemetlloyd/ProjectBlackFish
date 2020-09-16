@@ -13,6 +13,8 @@ Albright, L. B., Sanders, A. E. and Geisler, J. H., 2018. An unexpectedly derive
 
 Arnold, P. W., Birtles, R., Dunstan, A., Lukoschek, V. and Matthews, M., 2005. Colour patterns of the Dwarf Minke Whale *Balaenoptera acutorostrata* sensu lato: description, cladistic analysis and taxonomic implications. *Memoirs of the Queensland Museum*, **51**, 277-307.
 
+Benites-Palomino, A., Velez-Juarbe, J., Salas-Gismondi, R. and Urbina, M., in press. *Scaphokogia totajpe*, sp. nov., a new bulky-faced pygmy sperm whale (Kogiidae) from the late Miocene of Peru. *Journal of Vertebrate Paleontology*.
+
 Benoit, J., Adnet, S., Welcomme, J.-L. and Fabre, P.-H., 2011. New skull of *Schizodelphis sulcatus* Gervais, 1861 (Mammalia, Odontoceti, Eurhinodelphinidae) from the Lower Miocene of Pignan (Hérault, France) and its implications for systematics of Eurhinodelphinidae. *Geobios*, **44**, 323-334.
 
 Bianucci, G., 2013. *Septidelphis morii*, n. gen. et sp., from the Pliocene of Italy: new evidence of the explosive radiation of true dolphins (Odontoceti, Delphinidae). *Journal of Vertebrate Paleontology*, **33**, 722-740.
@@ -33,6 +35,8 @@ Bianucci, G., Bosio, G., Malinvrno, E., de Muizon, C., Villa, I. M., Urbina, M. 
 
 Bianucci, G., Pesci, F., Collareta, A. and Tinelli, C., 2019. A new Monodontidae (Cetacea, Delphinoidea) from the lower Pliocene of Italy supports a warm-water origin for narwhals and white whales. *Journal of Vertebrate Paleontology*, **39**, e1645148.
 
+Bianucci, G., de Muizon, C., Urbina, M. and Lambert, O., 2020. Extensive diversity and disparity of the early Miocene platanistoids (Cetacea, Odontoceti) in the Southeastern Pacific (Chilcatay Formation, Peru). *Life*, **10**, 1-62.
+
 Bisconti, M., 2008. Morphology and phylogenetic relationships of a new eschrichtiid genus (Cetacea: Mysticeti) from the Early Pliocene of northern Italy. *Zoological Journal of the Linnean Society*, **153**, 161-186.
 
 Bisconti, M., 2010. New description of &quot;*Megaptera*&quot; *hubachi* Dathe, 1983 based on the holotype skeleton held in the Museum fur Naturkunde, Berlin. *Quaderni del Museo di storia naturale di Livorno*, **23**, 37-68.
@@ -41,6 +45,8 @@ Bisconti, M., 2015. Anatomy of a new cetotheriid genus and species from the Mioc
 
 Bisconti, M. and Bosselaers, M., 2016. *Fragilicetus velponi*: a new mysticete genus and species and its implications for the origin of Balaenopteridae (Mammalia, Cetacea, Mysticeti). *Zoological Journal of the Linnean Society*, **177**, 450-474.
 
+Bisconti, M. and Bosselaers, M. E. J., 2020. A new balaenopterid species from the Southern North Sea Basin informs about phylogeny and taxonomy of *Burtinopsis* and *Protororqualus* (Cetacea, Mysticeti, Balaenopteridae). *PeerJ*, **8**, e9570.
+
 Bisconti, M., Lambert, O. and Bosselaers, M., 2013. Taxonomic revision of *Isocetus depauwi* (Mammalia, Cetacea, Mysticeti) and the phylogenetic relationships of archaic 'cetothere' mysticetes'. *Palaeontology*, **56**, 95-127.
 
 Bisconti, M., Lambert, O. and Bosselaers, M., 2017. Revision of &quot;*Balaena*&quot; *belgica* reveals a new right whale species, the possible ancestry of the northern right whale, *Eubalaena glacialis*, and the ages of divergence for the living right whale species. *PeerJ*, **5**, 373-414.
@@ -48,6 +54,8 @@ Bisconti, M., Lambert, O. and Bosselaers, M., 2017. Revision of &quot;*Balaena*&
 Bisconti, M., Munsterman, D. K. and Post, K., 2019. A new balaenopterid whale from the late Miocene of the Southern North Sea Basin and the evolution of balaenopterid diversity (Cetacea, Mysticeti). *PeerJ*, **7**, e6915.
 
 Bisconti, M., Munsterman, D. K., Fraaije, R. H. B., Bosselaers, M. E. J. and Post, K., 2020. A new species of rorqual whale (Cetacea, Mysticeti, Balaenopteridae) from the Late Miocene of the Southern North Sea Basin and the role of the North Atlantic in the paleobiogeography of *Archaebalaenoptera*. *PeerJ*, **8**, e8315.
+
+Bisconti, M., DaMarco, P., Mao, S., Pavia, S. and Carnevale, G., in press. The earliest baleen whale from the Mediterranean: large-scale implications of an Early Miocene thalassotherian mysticete from Piedmont, Italy. *Papers in Palaeontology*.
 
 Boersma, A. T. and Pyenson, N. D., 2015. *Albicetus oxymycterus*, a new generic name and redescription of a basal physeteroid (Mammalia, Cetacea) from the Miocene of California, and the evolution of body size in sperm whales. *PLOS ONE*, **10**, e0135551.
 
@@ -62,6 +70,8 @@ Boessenecker, R. W. and Fordyce, R. E., 2015. A new genus and species of eomysti
 Boessenecker, R. W. and Fordyce, R. E., 2017. A new eomysticetid from the Oligocene Kokoamu Greensand of New Zealand and a review of the Eomysticetidae (Mammalia, Cetacea). *Journal of Systematic Palaeontology*, **15**, 429-469.
 
 Boessenecker, R. W., Fraser, D., Churchill, M. and Geisler, J. H., 2017. A toothless dwarf dolphin (Odontoceti: Xenorophidae) points to explosive feeding diversification of modern whales (Neoceti). *Proceedings of the Royal Society of London B*, **284**, 20170531.
+
+Boessenecker, R. W., Churchill, M., Buchholtz, E. A., Beatty, B. L. and Geisler, J. H., 2020. Convergent evolution of swimming adaptations in modern whales revealed by a large macrophagous dolphin from the Oligocene of South Carolina. *Current Biology*, **30**, 1-7.
 
 Bosselaers, M. and Post, K., 2010. A new fossil rorqual (Mammalia, Cetacea, Balaenopteridae) from the Early Pliocene of the North Sea, with a review of the rorqual species described by Owen and Van Beneden. *Geodiversitas*, **32**, 331-363.
 
@@ -85,6 +95,8 @@ Demere, T. A., McGowen, M. R., Berta, A. and Gatesy, J., 2008. Morphological and
 
 Dooley, A. C., Fraser, N. C. and Luo, Z.-X., 2004. The earliest known member of the rorqual-gray whale clade (Mammalia, Cetacea). *Journal of Vertebrate Paleontology*, **24**, 453-463.
 
+Duboys de Lavigerie, G., Bosselaers,, M., Goolaerts, S., Park, T., Lambert, O. and Marx, F. G., in press. New Pliocene right whale from Belgium informs balaenid phylogeny and function. *Journal of Systematic Palaeontology*.
+
 Ekdale, E. G., Berta, A. and Demere, T. A., 2011. The comparative osteology of the petrotympanic complex (ear region) of extant baleen whales (Cetacea: Mysticeti). *PLOS ONE*, **6**, e21311.
 
 El Adli, J. J., Demere, T. A. and Boessenecker, R. W., 2014. *Herpetocetus morrowi* (Cetacea: Mysticeti), a new species of diminutive baleen whale from the Upper Pliocene (Piacenzian) of California, USA, with observations on the evolution and relationships of the Cetotheriidae. *Zoological Journal of the Linnean Society*, **170**, 400-466.
@@ -100,6 +112,8 @@ Fordyce, R. E. and Marx, F. G., 2013. The pygmy right whale *Caperea marginata*:
 Fordyce, R. E. and Marx, F. G., 2016. Mysticetes baring their teeth: a new fossil whale, *Mammalodon hakataramea*, from the southwest Pacific. *Memoirs of Museum Victoria*, **74**, 107-116.
 
 Fordyce, R. E. and Marx, F. G., 2018. Gigantism precedes filter feeding in baleen whale evolution. *Current Biology*, **28**, 1-7.
+
+Gaetan, C. M., Buono, M. R. and Gaetano, L. C., 2019. *Prosqualodon australis* (Cetacea: Odontoceti) from the Early Miocene of Patagonia, Argentina: redescription and phylogenetic analysis. *Ameghiniana*, **56**, 1-27.
 
 Geisler, J. H., 2001. New morphological evidence for the phylogeny of Artiodactyla, Cetacea, and Mesonychidae. *American Museum Novitates*, **3344**, 1-53.
 
@@ -151,6 +165,8 @@ Kimura, T. and Hasegawa, Y., 2010. A new baleen whale (Mysticeti: Cetotheriidae)
 
 Kimura, T. and Hasegawa, Y., 2019. A new species of Kentriodon (Cetacea, Odontoceti, Kentriodontidae) from the Miocene of Japan. *Journal of Vertebrate Paleontology*, **39**, e1566739.
 
+Kimura, T. and Hasegawa, Y., in press. *Norisdelphis annakaensis*, a new Miocene delphinid from Japan. *Journal of Vertebrate Paleontology*.
+
 Lambert, O., 2005. stematics and phylogeny of the fossil beaked whales *Ziphirostrum* du Bus, 1868 and *Choneziphius* Duvernoy, 1851 (Mammalia, Cetacea, Odontoceti), from the Neogene of Antwerp (North of Belgium). *Geodiversitas*, **27**, 443-497.
 
 Lambert, O., 2008. A new porpoise (Cetacea, Odontoceti, Phocoenidae) from the Pliocene of the North Sea. *Journal of Vertebrate Paleontology*, **28**, 863-872.
@@ -179,9 +195,13 @@ Lambert, O., de Muizon, C., Malinverno, E., Di Celma, C., Urbina, M. and Bianucc
 
 Lambert, O., Godfrey, S. J. and Fitzgerald, E. M. G., 2018. *Yaquinacetus meadi*, a new latest Oligocene-early Miocene dolphin (Cetacea, Odontoceti, Squaloziphiidae, fam. nov.) from the Nye Mudstone (Oregon, U.S.A.). *Journal of Vertebrate Paleontology*, **38**, e1559174.
 
+Lambert, O., Auclair, C., Cauxeiro, C., Lopez, M. and Adnet, S., 2018. A close relative of the Amazon river dolphin in marine deposits: a new Iniidae from the late Miocene of Angola. *PeerJ*, **6**, e5556.
+
 Lambert, O., Bianucci, G., Salas-Gismondi, R., Di Celma, C., Steurbaut, E., Urbina, M. and de Muizon, C., 2019. An amphibious whale from the Middle Eocene of Peru reveals early South Pacific dispersal of quadrupedal cetaceans. *Current Biology*, **29**, 1352-1359.
 
 Lambert, O., Bianucci, G. and de Muizon, C., in press. Macroraptorial sperm whales (Cetacea, Odontoceti, Physeteroidea) from the Miocene of Peru. *Zoological Journal of the Linnean Society*.
+
+Lambert, O., Collareta, A., Benites-Palomino, A., Di Celma, C., Muizon, C., Urbina, M. and Bianucci, G., in press. A new small, mesorostrine inioid (Cetacea, Odontoceti, Delphinida) from four upper Miocene localities in the Pisco Basin, Peru. *Papers in Palaeontology*.
 
 Luo, Z.-C. and Marsh, K., 1996. Petrosal (periotic) and inner ear of a Pliocene kogiine whale (Kogiinae, Odontoceti): implications on relationships and hearing evolution of toothed whales. *Journal of Vertebrate Paleontology*, **16**, 328-348.
 
@@ -218,6 +238,8 @@ Murakami, M., Shimada, C., Hikida, Y. and Hirano, H., 2014. Asymmetrical basal d
 Murakami, M., Shimada, C., Hikia, Y. and Hirano, H., in press. New small phocoenid from the Pliocene of Hokkaido, northern Japan: insight into the growth rate and vertebral evolution of porpoises. *Acta Palaeontologica Polonica*.
 
 Nelson, M. D. and Uhen, M. D., in press. First occurrence of a squalodelphinid (Cetacea, Odontoceti) from the early Miocene of Washington State. *Journal of Vertebrate Paleontology*.
+
+Nelson, M. D. and Uhen, M. D., in press. A new platanistoid, *Perditicetus yaconensis* gen. et sp. nov. (Cetacea, Odontoceti), from the Chattian-Aquitanian Nye Formation of Oregon. *Journal of Systematic Paleontology*.
 
 O'Leary, M. A. and Gatesy, J., 2008. Impact of increased character sampling on the phylogeny of Cetartiodactyla (Mammalia): combined analysis including fossils. *Cladistics*, **24**, 397-442.
 
@@ -261,6 +283,8 @@ Tanaka, Y. and Watanabe, M., in press. An early and new member of Balaenopterida
 
 Tanaka, Y., Ando, T. and Sawamura, H., 2018. A new species of Middle Miocene baleen whale from the Nupinai Group, Hikatagawa Formation of Hokkaido, Japan. *PeerJ*, **6**, e4934.
 
+Tanaka, Y., Furusawa, H. and Kimura, M., 2020. A new member of fossil balaenid (Mysticeti, Cetacea) from the early Pliocene of Hokkaido, Japan. *Royal Society Open Science*, **7**, 192182.
+
 Theodor, J. M. and Foss, S. E., 2005. Deciduous dentitions of Eocene cebochoerid artiodactyls and cetartiodactyl relationships. *Journal of Mammalian Evolution*, **12**, 161-181.
 
 Thewissen, J. G. M., Williams, E. M., Roe, L. J. and Hussain, S. T., 2001. Skeletons of terrestrial cetaceans and the relationship of whales to artiodactyls. *Nature*, **413**, 277-281.
@@ -291,12 +315,10 @@ Viglino, M., Buono, M. R., Fordyce, R. E., Cuitino, J. I. and Fitzgerald, E. M. 
 
 Viglino, M., Buono, M. R., Gutstein, C. S., Cozzuol, M. A. and Cuitiño, J. I., in press. A new dolphin from the early Miocene of Patagonia, Argentina: insights into the evolution of Platanistoidea in the Southern Hemisphere. *Acta Palaeontologica Polonica*.
 
+Viglino, M., Gaetán, C. M., Cuitiño, J. I. and Buono, M. R., in press. First toothless platanistoid from the Early Miocene of Patagonia: The golden age of diversification of the Odontoceti. *Journal of Mammalian Evolution*.
+
 Wichura, H., Jacobs, L. L., Lin, A., Polcyn, M. J., Manthi, F. K., Winkler, D. A., Strecker, M. R. and Clemens, M., 2015. A 17-My-old whale constrains onset of uplift and climate change in east Africa. *Proceedings of the National Academy of Sciences, USA*, **112**, 3910-3915.
 
-# References for excluded source data (to recently discovered)
+# References for excluded source data (too recently discovered)
 
-Benites-Palomino, A., Velez-Juarbe, J., Salas-Gismondi, R. and Urbina, M., in press. *Scaphokogia totajpe*, sp. nov., a new bulky-faced pygmy sperm whale (Kogiidae) from the late Miocene of Peru. *Journal of Vertebrate Paleontology*.
 
-Duboys de Lavigerie, G., Bosselaers,, M., Goolaerts, S., Park, T., Lambert, O. and Marx, F. G., in press. New Pliocene right whale from Belgium informs balaenid phylogeny and function. *Journal of Systematic Palaeontology*.
-
-Lambert, O., Auclair, C., Cauxeiro, C., Lopez, M. and Adnet, S., 2018. A close relative of the Amazon river dolphin in marine deposits: a new Iniidae from the late Miocene of Angola. *PeerJ*, **6**, e5556.
