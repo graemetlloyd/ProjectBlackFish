@@ -17,7 +17,7 @@ write(gsub(" ", "", RiskySTRMPTs), "~/Dropbox/Mammal_Supertree/ProjectBlackFish/
 # Reformat dangerous TNT STR Output as proper Newick trees and save:
 DangerousSTRMPTs <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/STRTrees/DangerousSTRMPTs.nex", warn = FALSE)
 DangerousSTRMPTs <- DangerousSTRMPTs[grep("\\(allzero", DangerousSTRMPTs)]
-write(gsub(" ", "", AllSTRMPTs), "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/STRTrees/DangerousSTRMPTs.tre")
+write(gsub(" ", "", DangerousSTRMPTs), "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/STRTrees/DangerousSTRMPTs.tre")
 
 # Safely reinsert safe taxa and write out to file:
 Claddis::safe_taxonomic_reinsertion(input_filename = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/STRTrees/SafeSTRMPTs.tre", output_filename = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/FullTrees/SafeMPTs.tre", str_taxa = read.table("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.txt", header = TRUE, stringsAsFactors = FALSE), multiple_placement_option = "random")
