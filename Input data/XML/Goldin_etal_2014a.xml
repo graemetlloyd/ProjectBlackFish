@@ -44,7 +44,7 @@
 		<List recon_name="Cynthiacetus_maxwelli,Cynthiacetus_peruvianus" recon_no="63144;185633">Cynthiacetus</List>
 		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon</List>
 		<List recon_name="Basilosaurus_cetoides,Basilosaurus_isis" recon_no="53153;53287">Basilosaurus</List>
-		<List recon_name="Basilotritus_sp_GMTSNUK_15" recon_no="263252">GMTSNUK_15</List>
+		<List recon_name="Pachycetus_sp_GMTSNUK_15" recon_no="36789">GMTSNUK_15</List>
 	</Taxa>
 	<Characters>
 		<Molecular/>
