@@ -18,7 +18,7 @@ CetaceaSafe <- metatree::Metatree(MRPDirectory = MRPDirectory, XMLDirectory = XM
 CetaceaRisky <- metatree::Metatree(MRPDirectory = MRPDirectory, XMLDirectory = XMLDirectory, TargetClade = "Cetacea", InclusiveDataList = c(), ExclusiveDataList = ExclusiveDataList, MissingSpecies = "genus", RelativeWeights = c(0, 1, 1, 1), WeightCombination = "product", ReportContradictionsToScreen = FALSE)
 
 # Build dangerous cetacean metatree:
-CetaceaDangeous <- metatree::Metatree(MRPDirectory = MRPDirectory, XMLDirectory = XMLDirectory, TargetClade = "Cetacea", InclusiveDataList = c(), ExclusiveDataList = ExclusiveDataList, MissingSpecies = "all", RelativeWeights = c(0, 1, 1, 1), WeightCombination = "product", ReportContradictionsToScreen = FALSE)
+CetaceaDangerous <- metatree::Metatree(MRPDirectory = MRPDirectory, XMLDirectory = XMLDirectory, TargetClade = "Cetacea", InclusiveDataList = c(), ExclusiveDataList = ExclusiveDataList, MissingSpecies = "all", RelativeWeights = c(0, 1, 1, 1), WeightCombination = "product", ReportContradictionsToScreen = FALSE)
 
 # Build McGowen only MRP:
 McGowenSafe <- McGowenRisky <- McGowenDangerous <- metatree::Metatree(MRPDirectory = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Input data/McGowen_etal_2009a/MRP", XMLDirectory = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Input data/McGowen_etal_2009a/XML", TargetClade = "Cetacea", InclusiveDataList = c(), ExclusiveDataList = c(), MissingSpecies = "exclude", RelativeWeights = c(1, 0, 0, 0), WeightCombination = "product", ReportContradictionsToScreen = FALSE, ExcludeTaxonomyMRP = TRUE)
