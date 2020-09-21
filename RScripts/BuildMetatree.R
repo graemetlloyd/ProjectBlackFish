@@ -66,9 +66,9 @@ CetaceaDangerous$FullMRPMatrix$matrix_1$minimum_values <- c(CetaceaDangerous$Ful
 CetaceaDangerous$FullMRPMatrix$matrix_1$maximum_values <- c(CetaceaDangerous$FullMRPMatrix$matrix_1$maximum_values, McGowenDangerous$FullMRPMatrix$matrix_1$maximum_values)
 
 # Perform STR:
-SafeSTR <- SafeTaxonomicReduction(CetaceaSafe$FullMRPMatrix)
-RiskySTR <- SafeTaxonomicReduction(CetaceaRisky$FullMRPMatrix)
-DangerousSTR <- SafeTaxonomicReduction(CetaceaDangerous$FullMRPMatrix)
+SafeSTR <- Claddis::safe_taxonomic_reduction(CetaceaSafe$FullMRPMatrix)
+RiskySTR <- Claddis::safe_taxonomic_reduction(CetaceaRisky$FullMRPMatrix)
+DangerousSTR <- Claddis::safe_taxonomic_reduction(CetaceaDangerous$FullMRPMatrix)
 
 # Update STR matrices:
 CetaceaSafe$STRMRPMatrix <- SafeSTR$reduced.matrix
@@ -76,9 +76,9 @@ CetaceaRisky$STRMRPMatrix <- RiskySTR$reduced.matrix
 CetaceaDangerous$STRMRPMatrix <- DangerousSTR$reduced.matrix
 
 # Update STR lists:
-CetaceaSafe$SafelyRemovedTaxa <- SafeSTR$str.list
-CetaceaRisky$SafelyRemovedTaxa <- RiskySTR$str.list
-CetaceaDangerous$SafelyRemovedTaxa <- DangerousSTR$str.list
+CetaceaSafe$SafelyRemovedTaxa <- SafeSTR$str_taxa
+CetaceaRisky$SafelyRemovedTaxa <- RiskySTR$str_taxa
+CetaceaDangerous$SafelyRemovedTaxa <- DangerousSTR$str_taxa
 
 # Build safe taxonomy tree:
 pdf("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/TaxonomyTree.pdf", width = 30, height = 50)
@@ -99,24 +99,24 @@ nodelabels(CetaceaDangerous$TaxonomyTree$node.label, cex = 0.5)
 dev.off()
 
 # Write out safe metatree files:
-WriteMorphNexus(CetaceaSafe$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/FULL.nex")
-WriteMorphNexus(CetaceaSafe$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.nex")
-WriteMorphTNT(CetaceaSafe$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/FULL.tnt")
-WriteMorphTNT(CetaceaSafe$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
+Claddis::write_nexus_matrix(CetaceaSafe$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/FULL.nex")
+Claddis::write_nexus_matrix(CetaceaSafe$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.nex")
+Claddis::write_tnt_matrix(CetaceaSafe$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/FULL.tnt")
+Claddis::write_tnt_matrix(CetaceaSafe$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
 write.table(CetaceaSafe$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.txt", row.names = FALSE)
 
 # Write out risky metatree files:
-WriteMorphNexus(CetaceaRisky$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/FULL.nex")
-WriteMorphNexus(CetaceaRisky$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.nex")
-WriteMorphTNT(CetaceaRisky$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/FULL.tnt")
-WriteMorphTNT(CetaceaRisky$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.tnt")
+Claddis::write_nexus_matrix(CetaceaRisky$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/FULL.nex")
+Claddis::write_nexus_matrix(CetaceaRisky$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.nex")
+Claddis::write_tnt_matrix(CetaceaRisky$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/FULL.tnt")
+Claddis::write_tnt_matrix(CetaceaRisky$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.tnt")
 write.table(CetaceaRisky$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.txt", row.names = FALSE)
 
 # Write out dangerous metatree files:
-WriteMorphNexus(CetaceaDangerous$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/FULL.nex")
-WriteMorphNexus(CetaceaDangerous$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.nex")
-WriteMorphTNT(CetaceaDangerous$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/FULL.tnt")
-WriteMorphTNT(CetaceaDangerous$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
+Claddis::write_nexus_matrix(CetaceaDangerous$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/FULL.nex")
+Claddis::write_nexus_matrix(CetaceaDangerous$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.nex")
+Claddis::write_tnt_matrix(CetaceaDangerous$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/FULL.tnt")
+Claddis::write_tnt_matrix(CetaceaDangerous$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
 write.table(CetaceaDangerous$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.txt", row.names = FALSE)
 
 # Add new analysis block to exclude TNT:
