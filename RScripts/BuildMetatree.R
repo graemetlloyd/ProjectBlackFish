@@ -71,9 +71,9 @@ RiskySTR <- Claddis::safe_taxonomic_reduction(CetaceaRisky$FullMRPMatrix)
 DangerousSTR <- Claddis::safe_taxonomic_reduction(CetaceaDangerous$FullMRPMatrix)
 
 # Update STR matrices:
-CetaceaSafe$STRMRPMatrix <- SafeSTR$reduced.matrix
-CetaceaRisky$STRMRPMatrix <- RiskySTR$reduced.matrix
-CetaceaDangerous$STRMRPMatrix <- DangerousSTR$reduced.matrix
+CetaceaSafe$STRMRPMatrix <- SafeSTR$reduced_matrix
+CetaceaRisky$STRMRPMatrix <- RiskySTR$reduced_matrix
+CetaceaDangerous$STRMRPMatrix <- DangerousSTR$reduced_matrix
 
 # Update STR lists:
 CetaceaSafe$SafelyRemovedTaxa <- SafeSTR$str_taxa
