@@ -1,4 +1,4 @@
-PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileName, makeStartTree = TRUE, start.tree.method="mbl", vartime=0.1) {
+PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileName, makeStartTree = TRUE, start.tree.method = "mbl", vartime = 0.1) {
   library(ape); library(geiger); library(paleotree);
   #constraintTree<- drop.tip(constraintTree, "allzero")
   
@@ -24,27 +24,27 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
   
   write.sampling.dates(StratRangesExtinct, myfileName)
   
-  td<-treedata(constraintTree, StratRangesExtinct)$data
+  td <- treedata(constraintTree, StratRangesExtinct)$data
 >>>>>>> 17237b707d994fe504b5385dfbce37f08953b3cd
   
   ## get starting values for ages ##
-  starting.ages<-apply(td[,1:2], 1, mean)
+  starting.ages <- apply(td[,1:2], 1, mean)
   
-  write.table(starting.ages, paste(myfileName, "mean.ages.txt", sep="_"),quote = F, sep = "\t")
+  write.table(starting.ages, paste(myfileName, "mean.ages.txt", sep = "_"), quote = FALSE, sep = "\t")
   
   ## drop tips and make constraint ##
   ## need to remove sequences not  ##
   ##  in tree at this point too    ##
   
-  extra_extant<- setdiff(names(alignment), constraintTree$tip.label)
+  extra_extant <- setdiff(names(alignment), constraintTree$tip.label)
   if(length(extra_extant>0)) {
 <<<<<<< HEAD
     print(paste("dropping the following taxa from the alignment as they are not in the tree\n"))
     print(extra_extant)
     alignment <- alignment[-match(setdiff(names(alignment), constraintTree$tip.label), names(alignment))]
   }
-  xx<-c(rownames(td), names(alignment)) ## make dummy variable
-  xx<-matrix(rep(1, length(xx)),dimnames = list(xx, "trait"))
+  xx <- c(rownames(td), names(alignment)) ## make dummy variable
+  xx <- matrix(rep(1, length(xx)), dimnames = list(xx, "trait"))
   constraintTree<-treedata(constraintTree, xx)$phy
 =======
     print(paste("dropping the following taxa from the alignment as they are not in the tree"))
@@ -72,15 +72,15 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
   names(new.alignment) <- constraintTree$tip.label
   write.nexus.data(new.alignment, paste(myfileName, ".nex", sep=""))
   
-  if(makeStartTree==TRUE) {
-    extant <- setdiff(constraintTree$tip.label,names(starting.ages))
+  if(makeStartTree == TRUE) {
+    extant <- setdiff(constraintTree$tip.label, names(starting.ages))
     timedat <- cbind(c(setNames(rep(0, length(extant)), extant), starting.ages),c(setNames(rep(0, length(extant)), extant), starting.ages))
     
-    if(start.tree.method=="cal3") {
+    if(start.tree.method == "cal3") {
       starting.tree <- cal3TimePaleoPhy(constraintTree, timedat, brRate = 0.1, extRate = 0.1,sampRate = 0.1, ntrees=1, anc.wt = 0,root.max=10)
     }
-    if(start.tree.method=="mbl")  
-      {starting.tree <-timePaleoPhy(constraintTree, timedat, type = "mbl", vartime = vartime, ntrees = 1,
+    if(start.tree.method == "mbl")
+      {starting.tree <- timePaleoPhy(constraintTree, timedat, type = "mbl", vartime = vartime, ntrees = 1,
                  timeres = TRUE, add.term = FALSE,
                  inc.term.adj = FALSE, dateTreatment = "firstLast", node.mins = NULL,
                  noisyDrop = TRUE, plot = FALSE)
@@ -95,20 +95,20 @@ PrepareBeastMetatree<- function(constraintTree, StratRanges, alignment, myfileNa
 #############################################
 remove.extant <- function(d) {
   
-  return(d[-which(d[,2]==0), ])
+  return(d[-which(d[,2] == 0), ])
 }
 
 #############################################
 
-make.monophyly.tree <- function(tree, outputname="file") {
+make.monophyly.tree <- function(tree, outputname = "file") {
   
   #setwd("~/Dropbox/Carnivora_Tony_current_working/molecular_data/SequenceForAnalysis_Jan2016/BEAST_final/")
-  output1 <- file(paste(outputname, "constraints.txt", sep="_"), "w")  
-  output2 <- file(paste(outputname,"logs.txt", sep="_"), "w")  
+  output1 <- file(paste(outputname, "constraints.txt", sep = "_"), "w")
+  output2 <- file(paste(outputname, "logs.txt", sep = "_"), "w")
   ntax <- length(tree$tip.label)
-  nodes <- seq(ntax+1, ntax+tree$Nnode)
-  all.species <- sapply(nodes, tips, phy=tree)
-  names(all.species) <- paste("node", nodes, sep="_")
+  nodes <- seq(ntax + 1, ntax + tree$Nnode)
+  all.species <- sapply(nodes, tips, phy = tree)
+  names(all.species) <- paste("node", nodes, sep = "_")
   
   
   
@@ -116,12 +116,12 @@ make.monophyly.tree <- function(tree, outputname="file") {
     species <- all.species[[i]]
     
     #id[is.na(match(species, all.species))] <- "idref"
-    cat(paste("\t","\t","\t", "<distribution id=\"", names(all.species)[i], ".prior\" spec=\"beast.math.distributions.MRCAPrior\" monophyletic=\"true\" tree=\"x\">", sep=""), file = output1, sep = "\t")
+    cat(paste("\t","\t","\t", "<distribution id=\"", names(all.species)[i], ".prior\" spec=\"beast.math.distributions.MRCAPrior\" monophyletic=\"true\" tree=\"x\">", sep = ""), file = output1, sep = "\t")
     cat("\n", file = output1)
-    cat(paste("\t","\t","\t","\t", "<taxonset id=\"",  names(all.species)[i], "\" spec=\"TaxonSet\">", sep=""), file = output1, sep = "\t")
+    cat(paste("\t","\t","\t","\t", "<taxonset id=\"",  names(all.species)[i], "\" spec=\"TaxonSet\">", sep = ""), file = output1, sep = "\t")
     cat("\n", file = output1)
     
-    if(i==1) {
+    if(i == 1) {
       for(k in 1:length(species)) {
         cat(paste("\t","\t","\t","\t","\t", "<taxon id =\"", species[k], "\" spec=\"Taxon\"/>", sep=""), file = output1, sep = "\t")
         cat("\n", file = output1)
@@ -135,7 +135,7 @@ make.monophyly.tree <- function(tree, outputname="file") {
     } else {
       
       for(k in 1:length(species)) {
-        cat(paste("\t","\t","\t","\t","\t", "<taxon idref =\"", species[k], "\"/>", sep=""), file = output1, sep = "\t")
+        cat(paste("\t","\t","\t","\t","\t", "<taxon idref =\"", species[k], "\"/>", sep = ""), file = output1, sep = "\t")
         cat("\n", file = output1)
         
         #all.species <- all.species[-match(species, all.species)]
