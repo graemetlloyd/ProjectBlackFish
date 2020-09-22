@@ -2,10 +2,10 @@ library(paleobioDB)
 library(metatree)
 library(BAMMtools)
 setwd("~/Dropbox/Mammal_Supertree/ProjectBlackFish/fossilBAMM/")
-## exclude 
-exclude<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/EXCLUDE/Exclude_MAP.tre")
-exclude$tip.label
-x <-ladderize(drop.tip(exclude, exclude$tip.label[447:487])) # remove non-neocetes
+## safe
+safe<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Safe/Safe_MAP.tre")
+safe$tip.label
+x <-ladderize(drop.tip(safe, safe$tip.label[447:487])) # remove non-neocetes
 
 
 pbdb.query<-list()
@@ -22,14 +22,14 @@ sum(c(occur, no.occur))
 # drop sampled ancestors #
 
 x2 <- drop.tip(x,x$tip.label[x$edge[which(x$edge.length==0),2]])
-write.tree(x2, "~/Dropbox/bamm_whales/exclude_crowngroup_noanc.tre")
+write.tree(x2, "~/Dropbox/bamm_whales/safe_crowngroup_noanc.tre")
 ntax <- length(x2$tip.label)
-BAMMtools::setBAMMpriors(x2, outfile="exclude.priors.txt")
+BAMMtools::setBAMMpriors(x2, outfile="safe.priors.txt")
 rm(list=ls())
-## Genus tree ##
-genus<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/GENUS/GENUS_MAP.tre")
-genus$tip.label
-x<-ladderize(drop.tip(genus, genus$tip.label[543:590]))
+## Risky tree ##
+risky<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Risky/Risky_MAP.tre")
+risky$tip.label
+x<-ladderize(drop.tip(risky, risky$tip.label[543:590]))
 pbdb.query<-list()
 for(i in 1:length(x$tip.label)) {
   tryCatch( {
@@ -42,16 +42,16 @@ occur<-unlist(lapply(pbdb.query, nrow))
 sum(c(occur, no.occur))
 
 x2 <- drop.tip(x,x$tip.label[x$edge[which(x$edge.length==0),2]])
-write.tree(x2, "genus_crowngroup_noanc.tre")
+write.tree(x2, "risky_crowngroup_noanc.tre")
 ntax <- length(x2$tip.label)
-BAMMtools::setBAMMpriors(x2, outfile="genus.priors.txt")
+BAMMtools::setBAMMpriors(x2, outfile="risky.priors.txt")
 rm(list=ls())
 
 
-## all taxa tree ##
-# all<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/ALL/ALL_MAP.tre")
-# all$tip.label
-# x<-ladderize(drop.tip(all, all$tip.label[620:682]))
+## dangerous taxa tree ##
+# dangerous<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Dangerous/Dangerous_MAP.tre")
+# dangerous$tip.label
+# x<-ladderize(drop.tip(dangerous, dangerous$tip.label[620:682]))
 # pbdb.query<-list()
 # for(i in 1:length(x$tip.label)) {
 #   tryCatch( {
@@ -63,5 +63,5 @@ rm(list=ls())
 # occur<-unlist(lapply(pbdb.query, nrow))
 # sum(c(occur, no.occur))
 # x <- read.tree("~/Dropbox/bamm_whales/crown.map_all.tre")
-# BAMMtools::setBAMMpriors(x, total.taxa=619, outfile="~/Dropbox/bamm_whales/all.priors.txt")
+# BAMMtools::setBAMMpriors(x, total.taxa=619, outfile="~/Dropbox/bamm_whales/dangerous.priors.txt")
 # 
