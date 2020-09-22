@@ -2,13 +2,15 @@
 <SourceTree>
 	<Source>
 		<Author>
-			<List> add_author_here </List>
+			<List>McGowen, M. R.</List>
+      <List>Spaulding, M.</List>
+      <List>Gatesy, J.</List>
 		</Author>
-		<Year>2014</Year>
-		<Title>insert_title_here</Title>
-		<Journal>Insert_journal_here</Journal>
-		<Volume>VOl_Num</Volume>
-		<Pages>Page_range</Pages>
+		<Year>2009</Year>
+		<Title>Divergence date estimation and a comprehensive molecular tree of extant cetaceans</Title>
+		<Journal>Molecular Phylogenetics and Evolution</Journal>
+		<Volume>53</Volume>
+		<Pages>891-906</Pages>
 		<Booktitle/>
 		<Publisher/>
 		<City/>
@@ -106,14 +108,11 @@
 		<List recon_name="Balaenoptera_omurai" recon_no="104742">Balaenoptera_omurai</List>
 		<List recon_name="Balaenoptera_edeni" recon_no="81902">Balaenoptera_edeni</List>
 		<List recon_name="Eubalaena_japonica" recon_no="128802">Eubalaena_japonica</List>
-
 		<List recon_name="Mesoplodon_hotaula" recon_no="82032">Mesoplodon_hotaula</List>
 		<List recon_name="Neophocaena_asiaeorientalis" recon_no="129535">Neophocaena_asiaeorientalis</List>
 		<List recon_name="Orcaella_heinsohni" recon_no="183834">Orcaella_heinsohni</List>
 		<List recon_name="Sousa_teuszii" recon_no="128812">Sousa_teuszii</List>
 		<List recon_name="Berardius_minimus" recon_no="128802">Berardius_minimus</List>
-
-
 	</Taxa>
 	<Characters>
 		<Molecular/>
@@ -128,6 +127,6 @@
 	</Analysis>
 	<Notes>Based on reanalysis of the original matrix.</Notes>
 	<Filename>McGowenetal2009</Filename>
-	<Parent>add_parent_here</Parent>
+	<Parent/>
 	<Sibling/>
 </SourceTree>
