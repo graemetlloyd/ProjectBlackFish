@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Lambert, O.</List>
+			<List>de Muizon, C.</List>
+			<List>Urbina, M.</List>
+			<List>Bianucci, G.</List>
+		</Author>
+		<Year>2020</Year>
+		<Title>A new longirostrine sperm whale (Cetacea, Physeteroidea) from the lower Miocene of the Pisco Basin (southern coast of Peru)</Title>
+		<Journal>Journal of Systematic Palaeontology</Journal>
+		<Volume>18</Volume>
+		<Pages>1707-1742</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="29">
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhiza</List>
+		<List recon_name="Cynthiacetus_peruvianus" recon_no="185633">Cynthiacetus</List>
+		<List recon_name="Agorophius_pygmaeus" recon_no="63210">Agorophius</List>
+		<List recon_name="Eudelphis_mortezelensis" recon_no="64624">Eudelphis</List>
+		<List recon_name="Zygophyseter_varolai" recon_no="85977">Zygophyseter</List>
+		<List recon_name="Brygmophyseter_shigensis" recon_no="88809">Brygmophyseter</List>
+		<List recon_name="Acrophyseter_deinodon" recon_no="131405">Acrodeinodon</List>
+		<List recon_name="Acrophyseter_robustus" recon_no="346507">Acrorobustus</List>
+		<List recon_name="Acrophyseter_sp_MUSM_2182" recon_no="131404">Acrophysetersp</List>
+		<List recon_name="Livyatan_melvillei" recon_no="171202">Livyatan</List>
+		<List recon_name="Aulophyseter_rionegrensis" recon_no="53106">Aulorionegr</List>
+		<List recon_name="Orycterocetus_crocodilinus" recon_no="68215">Orycterocetus</List>
+		<List recon_name="Physeterula_dubusi" recon_no="104097">Physeterula</List>
+		<List recon_name="Idiorophus_patagonicus" recon_no="64698">Idiorophus</List>
+		<List recon_name="Diaphorocetus_poucheti" recon_no="64487">Diaphorocetus</List>
+		<List recon_name="Placoziphius_duboisii" recon_no="64465">Placoziphius</List>
+		<List recon_name="Aulophyseter_morricei" recon_no="63838">Aulophyseter</List>
+		<List recon_name="Physeter_macrocephalus" recon_no="68698">Physeter</List>
+		<List recon_name="Idiophyseter_merriami" recon_no="62935">Idiophyseter</List>
+		<List recon_name="Thalassocetus_antwerpiensis" recon_no="64649">Thalassocetus</List>
+		<List recon_name="Aprixokogia_kelloggi" recon_no="114705">Aprixokogia</List>
+		<List recon_name="Scaphokogia_cochlearis" recon_no="62929">Scaphokogia</List>
+		<List recon_name="Praekogia_cedrosensis" recon_no="53139">Praekogia</List>
+		<List recon_name="Kogia_sima" recon_no="81904">Kogia</List>
+		<List recon_name="Koristocetus_pescei" recon_no="363976">Koristocetus</List>
+		<List recon_name="Nanokogia_isthmia" recon_no="319919">Nanokogia</List>
+		<List recon_name="Scaphokogiinae_indet_MUSM_3291_et_3405" recon_no="63537">Scaphokogiinaesp</List>
+		<List recon_name="Pliokogia_apenninica" recon_no="400905">Pliokogia</List>
+		<List recon_name="Rhaphicetus_valenciae" recon_no="426779">MUSM2543</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="53">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lambert_etal_2020a</Filename>
+	<Parent>Collareta_etal_inpressa</Parent>
+	<Sibling/>
+</SourceTree>
