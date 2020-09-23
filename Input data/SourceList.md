@@ -199,6 +199,8 @@ Lambert, O., Auclair, C., Cauxeiro, C., Lopez, M. and Adnet, S., 2018. A close r
 
 Lambert, O., Bianucci, G., Salas-Gismondi, R., Di Celma, C., Steurbaut, E., Urbina, M. and de Muizon, C., 2019. An amphibious whale from the Middle Eocene of Peru reveals early South Pacific dispersal of quadrupedal cetaceans. *Current Biology*, **29**, 1352-1359.
 
+Lambert, O., de Muizon, C., Urbina, M. and Bianucci, G., 2020. A new longirostrine sperm whale (Cetacea, Physeteroidea) from the lower Miocene of the Pisco Basin (southern coast of Peru). *Journal of Systematic Palaeontology*, **18**, 1707-1742.
+
 Lambert, O., Bianucci, G. and de Muizon, C., in press. Macroraptorial sperm whales (Cetacea, Odontoceti, Physeteroidea) from the Miocene of Peru. *Zoological Journal of the Linnean Society*.
 
 Lambert, O., Collareta, A., Benites-Palomino, A., Di Celma, C., Muizon, C., Urbina, M. and Bianucci, G., in press. A new small, mesorostrine inioid (Cetacea, Odontoceti, Delphinida) from four upper Miocene localities in the Pisco Basin, Peru. *Papers in Palaeontology*.
