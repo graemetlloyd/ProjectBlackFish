@@ -1,0 +1,63 @@
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 8757 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 82.90%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 8757
+Name: No Name Provided
+DataType: BINARY/MORPHOLOGICAL
+Substitution Matrix: Uncorrected
+
+
+
+
+RAxML was called as follows:
+
+/home/graham/raxmlHPC-PTHREADS-AVX -F -p 12345 -s Dangerous_MRL.nex -a Dangerous_MRL_weights.txt -t Dangerous_MRL_start.tre -n Dangerous_MRL -m BINCAT -V -T 4 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.753 0.247 
+
+Inference[0]: Time 1122.098492 CAT-based likelihood -76282954.634713, best rearrangement setting 20
+alpha[0]: 1.000000 
+
+
+NOT conducting any final model optimizations on all 1 trees under CAT-based model ....
+
+REMEMBER that CAT-based likelihood scores are meaningless!
+
+Program execution info written to /home/graham/Dropbox/Mammal_Supertree/ProjectBlackFish/MRL/RAxML_info.Dangerous_MRL
+Overall execution time: 1122.245932 secs or 0.311735 hours or 0.012989 days
+
