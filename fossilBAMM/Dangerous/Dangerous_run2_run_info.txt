@@ -1,20 +1,20 @@
 Command line: /home/graham/bamm -c control_dangerous.txt
 Git commit id: 
-Random seed: 1603723856
-Start time: Mon Oct 26 09:50:56 2020
+Random seed: 1603737845
+Start time: Mon Oct 26 13:44:05 2020
 
 Current parameter settings:
-       acceptanceInfoFileName    Dangerous_acceptance_info.txt
+       acceptanceInfoFileName    Dangerous_run2_acceptance_info.txt
           acceptanceResetFreq    10000
                      autotune    0
          branchRatesWriteFreq    0
-            chainSwapFileName    Dangerous_chain_swap.txt
+            chainSwapFileName    Dangerous_run2_chain_swap.txt
              checkUltrametric    0
      combineExtinctionAtNodes    recompute
           conditionOnSurvival    1
                        deltaT    0.1
               eventDataInfile    event_data_in.txt
-             eventDataOutfile    Dangerous_event_data.txt
+             eventDataOutfile    Dangerous_run2_event_data.txt
            eventDataWriteFreq    10000
        expectedNumberOfShifts    1.0
             extinctionProbMax    0.999999999
@@ -30,7 +30,7 @@ fastSimulatePrior_Generations    5000000
               lambdaInitPrior    1.37089909191367
           lambdaInitRootPrior    -1.0
     lambdaIsTimeVariablePrior    1
-                lambdaOutfile    Dangerous_lambda_rates.txt
+                lambdaOutfile    Dangerous_run2_lambda_rates.txt
                  lambdaShift0    0
              lambdaShiftPrior    0.0304864471116279
          lambdaShiftRootPrior    -1.0
@@ -38,14 +38,14 @@ fastSimulatePrior_Generations    5000000
                 loadEventData    0
          localGlobalMoveRatio    10.0
               maxNumberEvents    5000
-                  mcmcOutfile    Dangerous_mcmc_out.txt
+                  mcmcOutfile    Dangerous_run2_mcmc_out.txt
                 mcmcWriteFreq    10000
          minCladeSizeForShift    5
                     modeltype    speciationextinction
                       muInit0    0.9
                   muInitPrior    1.37089909191367
               muInitRootPrior    -1.0
-                    muOutfile    Dangerous_mu_rates.txt
+                    muOutfile    Dangerous_run2_mu_rates.txt
                      muShift0    0.0
                  muShiftPrior    1.0
              muShiftRootPrior    -1.0
@@ -54,7 +54,7 @@ fastSimulatePrior_Generations    5000000
                numberOfChains    4
           numberOfGenerations    10000000
               observationTime    -1
-                      outName    Dangerous
+                      outName    Dangerous_run2
          outputAcceptanceInfo    0
                     overwrite    1
              poissonRatePrior    1
@@ -62,9 +62,9 @@ fastSimulatePrior_Generations    5000000
          preservationRateInit    0.43
         preservationRatePrior    1.0
                     printFreq    10000
-          priorOutputFileName    Dangerous_prior_probs.txt
+          priorOutputFileName    Dangerous_run2_prior_probs.txt
  priorSim_IntervalGenerations    5000
-              runInfoFilename    Dangerous_run_info.txt
+              runInfoFilename    Dangerous_run2_run_info.txt
                       runMCMC    1
           sampleFromPriorOnly    0
           sampleProbsFilename    sampling.txt
@@ -94,5 +94,5 @@ updateRateEventNumberForBranch    0.0
            useNodeConstraints    0
    validateEventConfiguration    0
    writeMeanBranchLengthTrees    0
-End time: Mon Oct 26 10:13:10 2020
+End time: Mon Oct 26 14:06:07 2020
 

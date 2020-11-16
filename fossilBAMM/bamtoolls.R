@@ -5,6 +5,7 @@ setwd("~/Dropbox/Mammal_Supertree/ProjectBlackFish/fossilBAMM/")
 list.files()
 
 ## safe tree ##
+setwd("Safe/")
 safetree <- read.tree("safe_crowngroup_noanc.tre")
 safe.edata <- getEventData(safetree, eventdata = "safe_event_data.txt", burnin = 0.1)
 safe.mcmcout <- read.csv("safe_mcmc_out.txt", header = TRUE)
@@ -53,9 +54,10 @@ safe.phylorates <- plot.bammdata(bp, lwd = 1, legend = TRUE, spex = "netdiv")
 dev.off()
 
 ## risky tree ##
+setwd("..")
 riskytree <- read.tree("Risky/risky_crowngroup_noanc.tre")
-risky.edata <- getEventData(genustree, eventdata = "Risky/risky_event_data.txt", burnin = 0.1)
-risky.mcmcout <- read.csv("Risky/risky_mcmc_out.txt", header = TRUE)
+risky.edata <- getEventData(riskytree, eventdata = "Risky/run1/risky_event_data.txt", burnin = 0.1)
+risky.mcmcout <- read.csv("Risky/run1/risky_mcmc_out.txt", header = TRUE)
 plot(risky.mcmcout$logLik ~ risky.mcmcout$generation, type = "l")
 
 burnstart <- floor(0.05 * nrow(risky.mcmcout))
@@ -96,9 +98,9 @@ dev.off()
 
 
 ## dangerous tree ##
-dangeroustree <- read.tree("Dangerous/dangerous_crowngroup_noanc.tre")
-dangerous.edata <- getEventData(dangeroustree, eventdata = "Dangerous/dangerous_event_data.txt", burnin = 0.1)
-dangerous.mcmcout <- read.csv("Dangerous/dangerous_mcmc_out.txt", header = TRUE)
+dangeroustree <- read.tree("Dangerous/Dangerous_crowngroup_noanc.tre")
+dangerous.edata <- getEventData(dangeroustree, eventdata = "Dangerous/Dangerous_event_data.txt", burnin = 0.1)
+dangerous.mcmcout <- read.csv("Dangerous/Dangerous_mcmc_out.txt", header = TRUE)
 plot(dangerous.mcmcout$logLik ~ dangerous.mcmcout$generation, type = "l")
 
 burnstart <- floor(0.05 * nrow(dangerous.mcmcout))
@@ -138,25 +140,25 @@ bp <- getBestShiftConfiguration(dangerous.edata, expectedNumberOfShift = 1, thre
 ## plot all results ##
 pdf(file = "~/Dropbox/Mammal_Supertree/cetacean_paper_figures_scripts/ratesthrutime.pdf", width = 7, height = 7)
 par(mfcol = c(3, 3), xpd = FALSE)
-plotRateThroughTime(safe.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "auto", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(safe.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "auto", smooth = TRUE, avgCol = "black", intervalCol = "darkgray",opacity = 0.1, ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.45, labels = "A.", font = 1, cex = 1.5); par(xpd = FALSE)
-plotRateThroughTime(safe.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "extinction", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(safe.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "extinction", smooth = TRUE, avgCol = "black", intervalCol = "darkgray",opacity = 0.1, ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.45, labels = "B.", font = 1, cex = 1.5); par(xpd = FALSE)
-plotRateThroughTime(safe.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "netdiv", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(-0.1, 0.12), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(safe.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "netdiv", smooth = TRUE, avgCol = "black", intervalCol = "darkgray", opacity = 0.1,ylim = c(-0.1, 0.12), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.15, labels = "C.", font = 1, cex = 1.5); par(xpd = FALSE)
 
-plotRateThroughTime(risky.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "auto", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(risky.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "auto", smooth = TRUE, avgCol = "black", intervalCol = "darkgray",opacity = 0.1, ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.45, labels = "D.", font = 1, cex = 1.5); par(xpd = FALSE)
-plotRateThroughTime(risky.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "extinction", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(risky.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "extinction", smooth = TRUE, avgCol = "black", intervalCol = "darkgray",opacity = 0.1, ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.45, labels = "E.", font = 1, cex = 1.5); par(xpd = FALSE)
-plotRateThroughTime(genus.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "netdiv", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(-0.1, 0.12), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(risky.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "netdiv", smooth = TRUE, avgCol = "black", intervalCol = "darkgray",opacity = 0.1, ylim = c(-0.1, 0.12), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.15, labels = "F.", font = 1, cex = 1.5); par(xpd = FALSE)
 
-plotRateThroughTime(dangerous.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "auto", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(dangerous.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "auto", smooth = TRUE, avgCol = "black", intervalCol = "darkgray",opacity = 0.1, ylim = c(0.1, 0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.45, labels = "G.", font = 1, cex = 1.5); par(xpd = FALSE)
-plotRateThroughTime(dangerous.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "extinction", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim=c(0.1,0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(dangerous.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "extinction", smooth = TRUE, avgCol = "black", intervalCol = "darkgray",opacity = 0.1, ylim=c(0.1,0.4), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.45, labels = "H.", font = 1, cex = 1.5); par(xpd = FALSE)
-plotRateThroughTime(dangerous.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "netdiv", smooth = TRUE, avgCol = "black", intervalCol = "gray", ylim = c(-0.1, 0.12), cex.lab = 0.7, mar = c(6, 5, 2, 1))
+plotRateThroughTime(dangerous.edata, intervals = seq(from = 0.05, 0.95, by = 0.01), ratetype = "netdiv", smooth = TRUE, avgCol = "black", intervalCol = "darkgray", opacity = 0.1,ylim = c(-0.1, 0.12), cex.lab = 0.7, mar = c(6, 5, 2, 1))
 par(xpd = NA); text(51, 0.15, labels = "I.", font = 1, cex = 1.5); par(xpd = FALSE)
 dev.off()
 
@@ -187,7 +189,7 @@ x <- plot.bammdata(dangerous.edata, spex = "s", breaksmethod = "linear", lwd = 0
 addBAMMlegend(x, location = c(-1, 1, 20, 180), cex.axis = 0.7, labelDist = 0.35, tck = -0.005); axisPhylo()
 x<-plot.bammdata(dangerous.edata, spex = "e", breaksmethod = "linear", lwd = 0.75, tau = 0.01, labels = FALSE, colorbreaks = ee$colorbreaks)
 addBAMMlegend(x, location = c(-1, 1, 20, 180), cex.axis = 0.7, labelDist = 0.35, tck = -0.005); axisPhylo()
-x <- plot.bammdata(dangerous.edata, spex = "netdiv", breaksmethod = "linear", lwd = 0.75, tau = 0.01, labels = FALSE)
+x <- plot.bammdata(dangerous.edata, spex = "netdiv", breaksmethod = "linear", lwd = 0.75, tau = 0.01, labels = FALSE, colorbreaks = ed$colorbreaks)
 addBAMMlegend(x, location = c(-1, 1, 20, 180), cex.axis = 0.7, labelDist = 0.35, tck = -0.005); axisPhylo()
 mtext(text = "millions of years ago", side = 1, line = 2.5, at = (max(diag(vcv(dangeroustree))) / 2), cex = 1 )
 
