@@ -124,17 +124,41 @@ Claddis::write_tnt_matrix(CetaceaDangerous$STRMRPMatrix, "~/Dropbox/Mammal_Super
 write.table(CetaceaDangerous$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.txt", row.names = FALSE)
 write.table(CetaceaDangerous$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/CharacterWeights.txt", row.names = TRUE)
 
-# Add new analysis block to exclude TNT:
+# Add new analysis block to safe TNT:
 SafeSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
 SafeSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch1.tre;\nbbreak=tbr;\nexport -SafeSTRMPTs.nex;\nproc/;", SafeSTRTNT)
 write(SafeSTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
 
-# Add new analysis block to genus TNT:
+# Add new analysis block to risky TNT:
 RiskySTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.tnt")
 RiskySTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch2.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch2.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch2.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch2.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch2.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch2.tre;\nbbreak=tbr;\nexport -RiskySTRMPTs.nex;\nproc/;", RiskySTRTNT)
 write(RiskySTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.tnt")
 
-# Add new analysis block to all TNT:
+# Add new analysis block to dangerous TNT:
 DangerousSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
 DangerousSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch3.tre;\nbbreak=tbr;\nexport -DangerousSTRMPTs.nex;\nproc/;", DangerousSTRTNT)
 write(DangerousSTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
+
+# Create new version of CetaceaSafe to test effect of removing taxonomy information from data:
+NoTaxonTreeVersion <- CetaceaSafe
+
+# Find which characters correspond to taxonomy:
+TaxonTreeCharacters <- which(NoTaxonTreeVersion$FullMRPMatrix$matrix_1$character_weights == 1)
+
+# Remove taxonomy characters from data:
+NoTaxonTreeVersion$FullMRPMatrix <- Claddis::prune_cladistic_matrix(cladistic_matrix = NoTaxonTreeVersion$FullMRPMatrix, characters2prune = TaxonTreeCharacters)
+NoTaxonTreeVersion$STRMRPMatrix <- Claddis::prune_cladistic_matrix(cladistic_matrix = NoTaxonTreeVersion$STRMRPMatrix, characters2prune = TaxonTreeCharacters)
+NoTaxonTreeVersion$CharacterWeights <- NoTaxonTreeVersion$CharacterWeights[-TaxonTreeCharacters, ]
+
+# Write out NoTaxonTreeVersion metatree files:
+Claddis::write_nexus_matrix(NoTaxonTreeVersion$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/FULL.nex")
+Claddis::write_nexus_matrix(NoTaxonTreeVersion$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.nex")
+Claddis::write_tnt_matrix(NoTaxonTreeVersion$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/FULL.tnt")
+Claddis::write_tnt_matrix(NoTaxonTreeVersion$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.tnt")
+write.table(NoTaxonTreeVersion$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.txt", row.names = FALSE)
+write.table(NoTaxonTreeVersion$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/CharacterWeights.txt", row.names = TRUE)
+
+# Add new analysis block to NoTaxonTreeVersion TNT:
+NoTaxonTreeVersionSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.tnt")
+NoTaxonTreeVersionSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch1.tre;\nbbreak=tbr;\nexport -SafeSTRMPTs.nex;\nproc/;", NoTaxonTreeVersionSTRTNT)
+write(NoTaxonTreeVersionSTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.tnt")
