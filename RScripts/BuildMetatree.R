@@ -107,6 +107,7 @@ Claddis::write_tnt_matrix(CetaceaSafe$FullMRPMatrix, "~/Dropbox/Mammal_Supertree
 Claddis::write_tnt_matrix(CetaceaSafe$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
 write.table(CetaceaSafe$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.txt", row.names = FALSE)
 write.table(CetaceaSafe$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/CharacterWeights.txt", row.names = TRUE)
+ape::write.tree(phy = CetaceaSafe$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/TaxonomyTree.tre")
 
 # Write out risky metatree files:
 Claddis::write_nexus_matrix(CetaceaRisky$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/FULL.nex")
@@ -115,6 +116,7 @@ Claddis::write_tnt_matrix(CetaceaRisky$FullMRPMatrix, "~/Dropbox/Mammal_Supertre
 Claddis::write_tnt_matrix(CetaceaRisky$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.tnt")
 write.table(CetaceaRisky$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.txt", row.names = FALSE)
 write.table(CetaceaRisky$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/CharacterWeights.txt", row.names = TRUE)
+ape::write.tree(phy = CetaceaRisky$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/TaxonomyTree.tre")
 
 # Write out dangerous metatree files:
 Claddis::write_nexus_matrix(CetaceaDangerous$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/FULL.nex")
@@ -123,6 +125,7 @@ Claddis::write_tnt_matrix(CetaceaDangerous$FullMRPMatrix, "~/Dropbox/Mammal_Supe
 Claddis::write_tnt_matrix(CetaceaDangerous$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
 write.table(CetaceaDangerous$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.txt", row.names = FALSE)
 write.table(CetaceaDangerous$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/CharacterWeights.txt", row.names = TRUE)
+ape::write.tree(phy = CetaceaDangerous$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/TaxonomyTree.tre")
 
 # Add new analysis block to safe TNT:
 SafeSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
