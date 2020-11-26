@@ -167,7 +167,7 @@ Kimura, T. and Hasegawa, Y., 2019. A new species of Kentriodon (Cetacea, Odontoc
 
 Kimura, T. and Hasegawa, Y., in press. *Norisdelphis annakaensis*, a new Miocene delphinid from Japan. *Journal of Vertebrate Paleontology*.
 
-Lambert, O., 2005. stematics and phylogeny of the fossil beaked whales *Ziphirostrum* du Bus, 1868 and *Choneziphius* Duvernoy, 1851 (Mammalia, Cetacea, Odontoceti), from the Neogene of Antwerp (North of Belgium). *Geodiversitas*, **27**, 443-497.
+Lambert, O., 2005. Systematics and phylogeny of the fossil beaked whales *Ziphirostrum* du Bus, 1868 and *Choneziphius* Duvernoy, 1851 (Mammalia, Cetacea, Odontoceti), from the Neogene of Antwerp (North of Belgium). *Geodiversitas*, **27**, 443-497.
 
 Lambert, O., 2008. A new porpoise (Cetacea, Odontoceti, Phocoenidae) from the Pliocene of the North Sea. *Journal of Vertebrate Paleontology*, **28**, 863-872.
 
