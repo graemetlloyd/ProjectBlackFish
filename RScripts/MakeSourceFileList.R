@@ -7,7 +7,7 @@ SourceFiles <- gsub(".xml", "", list.files(path = "~/Dropbox/Mammal_Supertree/Pr
 WaitingRoomFiles <- gsub(".xml", "", list.files(path = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Input data/WaitingRoom/XML"))
 
 # Read in mammals HTML:
-MammalsHTML <- readLines("http://www.graemetlloyd.com/matrmamm.html")
+MammalsHTML <- readLines("http://www.graemetlloyd.com/matrceta.html")
 
 # Get list of HTML formatted references:
 HTMLFormattedRefs <- lapply(as.list(grep("<p class=\"hangingindent\">", MammalsHTML)), function(x) MammalsHTML[x:length(MammalsHTML)][1:grep("</p>", MammalsHTML[x:length(MammalsHTML)])[1]])
