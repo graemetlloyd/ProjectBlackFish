@@ -11,7 +11,7 @@ XMLDirectory <- "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Input data/XML"
 ExclusiveDataList <- c("Averianov_2016a", "Bravo_et_Gaete_2015a", "Brocklehurst_etal_2013a", "Brocklehurst_etal_2015aa", "Brocklehurst_etal_2015ab", "Brocklehurst_etal_2015ac", "Brocklehurst_etal_2015ad", "Brocklehurst_etal_2015ae", "Brocklehurst_etal_2015af", "Bronzati_etal_2012a", "Bronzati_etal_2015ab", "Brusatte_etal_2009ba", "Campbell_etal_2016ab", "Carr_et_Williamson_2004a", "Carr_etal_2017ab", "Frederickson_et_Tumarkin-Deratzian_2014aa", "Frederickson_et_Tumarkin-Deratzian_2014ab", "Frederickson_et_Tumarkin-Deratzian_2014ac", "Frederickson_et_Tumarkin-Deratzian_2014ad", "Garcia_etal_2006a", "Gatesy_etal_2004ab", "Grellet-Tinner_2006a", "Grellet-Tinner_et_Chiappe_2004a", "Grellet-Tinner_et_Makovicky_2006a", "Jin_etal_2010a", "Knoll_2008a", "Kurochkin_1996a", "Lopez-Martinez_et_Vicens_2012a", "Lu_etal_2014aa", "Norden_etal_2018a", "Pisani_etal_2002a", "Ruiz-Omenaca_etal_1997a", "Ruta_etal_2003ba", "Ruta_etal_2003bb", "Ruta_etal_2007a", "Schaeffer_etal_inpressa", "Selles_et_Galobart_2016a", "Sereno_1993a", "Sidor_2001a","Sidor_2003a", "Skutschas_etal_2019a", "Tanaka_etal_2011a", "Toljagic_et_Butler_2013a", "Tsuihiji_etal_2011aa", "Varricchio_et_Jackson_2004a", "Vila_etal_2017a", "Wilson_2005aa", "Wilson_2005ab", "Zelenitsky_et_Therrien_2008a")
 
 # Build safe cetacean metatree:
-CetaceaSafe <- metatree::Metatree(MRPDirectory = MRPDirectory, XMLDirectory = XMLDirectory, TargetClade = "Cetacea", InclusiveDataList = c(), ExclusiveDataList = ExclusiveDataList, MissingSpecies = "exclude", RelativeWeights = c(0, 1, 1, 1), WeightCombination = "product", ReportContradictionsToScreen = FALSE)
+CetaceaSafe <- CetaceaNoWeighting <- metatree::Metatree(MRPDirectory = MRPDirectory, XMLDirectory = XMLDirectory, TargetClade = "Cetacea", InclusiveDataList = c(), ExclusiveDataList = ExclusiveDataList, MissingSpecies = "exclude", RelativeWeights = c(0, 1, 1, 1), WeightCombination = "product", ReportContradictionsToScreen = FALSE)
 
 # Build risky cetacean metatree:
 CetaceaRisky <- metatree::Metatree(MRPDirectory = MRPDirectory, XMLDirectory = XMLDirectory, TargetClade = "Cetacea", InclusiveDataList = c(), ExclusiveDataList = ExclusiveDataList, MissingSpecies = "genus", RelativeWeights = c(0, 1, 1, 1), WeightCombination = "product", ReportContradictionsToScreen = FALSE)
@@ -127,6 +127,20 @@ write.table(CetaceaDangerous$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/Proj
 write.table(CetaceaDangerous$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/CharacterWeights.txt", row.names = TRUE)
 ape::write.tree(phy = CetaceaDangerous$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/TaxonomyTree.tre")
 
+# Remove differential weighst from no weighting version:
+CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights <- rep(1, length(CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights))
+CetaceaNoWeighting$STRMRPMatrix$matrix_1$character_weights <- rep(1, length(CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights))
+CetaceaNoWeighting$CharacterWeights[, "Weight"] <- rep(1, length(CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights))
+
+# Write out no weight metatree files:
+Claddis::write_nexus_matrix(CetaceaNoWeighting$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/FULL.nex")
+Claddis::write_nexus_matrix(CetaceaNoWeighting$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/STR.nex")
+Claddis::write_tnt_matrix(CetaceaNoWeighting$FullMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/FULL.tnt")
+Claddis::write_tnt_matrix(CetaceaNoWeighting$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/STR.tnt")
+write.table(CetaceaNoWeighting$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/STR.txt", row.names = FALSE)
+write.table(CetaceaNoWeighting$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/CharacterWeights.txt", row.names = TRUE)
+ape::write.tree(phy = CetaceaNoWeighting$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/TaxonomyTree.tre")
+
 # Add new analysis block to safe TNT:
 SafeSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
 SafeSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch1.tre;\nbbreak=tbr;\nexport -SafeSTRMPTs.nex;\nproc/;", SafeSTRTNT)
@@ -141,6 +155,11 @@ write(RiskySTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Ri
 DangerousSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
 DangerousSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch3.tre;\nbbreak=tbr;\nexport -DangerousSTRMPTs.nex;\nproc/;", DangerousSTRTNT)
 write(DangerousSTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
+
+# Add new analysis block to dangerous TNT:
+NoWeightingSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/STR.tnt")
+NoWeightingSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch4.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch3.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch3.tre;\nbbreak=tbr;\nexport -NoWeightingSTRMPTs.nex;\nproc/;", NoWeightingSTRTNT)
+write(NoWeightingSTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/STR.tnt")
 
 # Create new version of CetaceaSafe to test effect of removing taxonomy information from data:
 NoTaxonTreeVersion <- CetaceaSafe
@@ -163,5 +182,5 @@ write.table(NoTaxonTreeVersion$CharacterWeights, "~/Dropbox/Mammal_Supertree/Pro
 
 # Add new analysis block to NoTaxonTreeVersion TNT:
 NoTaxonTreeVersionSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.tnt")
-NoTaxonTreeVersionSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch1.tre;\nbbreak=tbr;\nexport -SafeSTRMPTs.nex;\nproc/;", NoTaxonTreeVersionSTRTNT)
+NoTaxonTreeVersionSTRTNT <- gsub("proc/;", "rseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch5.tre +;\nsave;\ntsave /;\nrseed*;\nhold 10;\nxmult=rss fuse 10 drift 10 ratchet 10;\ntsave scratch1.tre +;\nsave;\ntsave /;\nhold 1000;\nshortread scratch1.tre;\nbbreak=tbr;\nexport -SafeSTRMPTs.nex;\nproc/;", NoTaxonTreeVersionSTRTNT)
 write(NoTaxonTreeVersionSTRTNT, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.tnt")
