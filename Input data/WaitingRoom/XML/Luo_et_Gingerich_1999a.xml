@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Luo, Z.-X.</List>
+			<List>Gingerich, P. D.</List>
+		</Author>
+		<Year>1999</Year>
+		<Title>Terrestrial Mesonychia to aquatic Cetacea: transformation of the basicranium and evolution of hearing in whales</Title>
+		<Journal>University of Michigan Papers on Paleontology</Journal>
+		<Volume>31</Volume>
+		<Pages>1-98</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="23">
+		<List recon_name="DELETE" recon_no="-1">Ungulates</List>
+		<List recon_name="DELETE" recon_no="-1">Heptodon</List>
+		<List recon_name="DELETE" recon_no="-1">Diacodexis</List>
+		<List recon_name="DELETE" recon_no="-1">Hapalodectes</List>
+		<List recon_name="DELETE" recon_no="-1">Dissacus</List>
+		<List recon_name="DELETE" recon_no="-1">Sinonyx</List>
+		<List recon_name="DELETE" recon_no="-1">Pakicetus</List>
+		<List recon_name="DELETE" recon_no="-1">Ambulocetus</List>
+		<List recon_name="DELETE" recon_no="-1">Gaviacetus</List>
+		<List recon_name="DELETE" recon_no="-1">Rodhocetus</List>
+		<List recon_name="DELETE" recon_no="-1">Indocetus</List>
+		<List recon_name="DELETE" recon_no="-1">Habib_Rahi_whale</List>
+		<List recon_name="DELETE" recon_no="-1">Dorudon</List>
+		<List recon_name="DELETE" recon_no="-1">Basilosaurus</List>
+		<List recon_name="DELETE" recon_no="-1">Zygorhiza</List>
+		<List recon_name="DELETE" recon_no="-1">Xenorophus</List>
+		<List recon_name="DELETE" recon_no="-1">Squalodon</List>
+		<List recon_name="DELETE" recon_no="-1">Physeter</List>
+		<List recon_name="DELETE" recon_no="-1">Mesoplodon</List>
+		<List recon_name="DELETE" recon_no="-1">Tursiops</List>
+		<List recon_name="DELETE" recon_no="-1">Parietobalaena</List>
+		<List recon_name="DELETE" recon_no="-1">Eubalaena</List>
+		<List recon_name="DELETE" recon_no="-1">Balaenoptera</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="64">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Luo_et_Gingerich_1999a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>
