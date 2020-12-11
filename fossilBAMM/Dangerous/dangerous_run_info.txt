@@ -1,7 +1,7 @@
-Command line: /home/graham/bamm -c control_dangerous.txt
+Command line: /home/graham/bamm -c ./control_dangerous.txt
 Git commit id: 
-Random seed: 1603723856
-Start time: Mon Oct 26 09:50:56 2020
+Random seed: 1605237295
+Start time: Thu Nov 12 21:14:55 2020
 
 Current parameter settings:
        acceptanceInfoFileName    Dangerous_acceptance_info.txt
@@ -15,7 +15,7 @@ Current parameter settings:
                        deltaT    0.1
               eventDataInfile    event_data_in.txt
              eventDataOutfile    Dangerous_event_data.txt
-           eventDataWriteFreq    10000
+           eventDataWriteFreq    100000
        expectedNumberOfShifts    1.0
             extinctionProbMax    0.999999999
 fastSimulatePriorExperimental    0
@@ -27,32 +27,32 @@ fastSimulatePrior_Generations    5000000
           initialNumberEvents    0
               initializeModel    1
                   lambdaInit0    0.002
-              lambdaInitPrior    1.37089909191367
+              lambdaInitPrior    1.42300548722636
           lambdaInitRootPrior    -1.0
     lambdaIsTimeVariablePrior    1
                 lambdaOutfile    Dangerous_lambda_rates.txt
                  lambdaShift0    0
-             lambdaShiftPrior    0.0304864471116279
+             lambdaShiftPrior    0.0294906595161182
          lambdaShiftRootPrior    -1.0
               likelihoodPower    1.0
                 loadEventData    0
          localGlobalMoveRatio    10.0
               maxNumberEvents    5000
                   mcmcOutfile    Dangerous_mcmc_out.txt
-                mcmcWriteFreq    10000
+                mcmcWriteFreq    100000
          minCladeSizeForShift    5
                     modeltype    speciationextinction
                       muInit0    0.9
-                  muInitPrior    1.37089909191367
+                  muInitPrior    1.42300548722636
               muInitRootPrior    -1.0
                     muOutfile    Dangerous_mu_rates.txt
                      muShift0    0.0
                  muShiftPrior    1.0
              muShiftRootPrior    -1.0
         nodeConstraintsInfile    
-            numberOccurrences    1767
-               numberOfChains    4
-          numberOfGenerations    10000000
+            numberOccurrences    1771
+               numberOfChains    1
+          numberOfGenerations    100000000
               observationTime    -1
                       outName    Dangerous
          outputAcceptanceInfo    0
@@ -94,5 +94,5 @@ updateRateEventNumberForBranch    0.0
            useNodeConstraints    0
    validateEventConfiguration    0
    writeMeanBranchLengthTrees    0
-End time: Mon Oct 26 10:13:10 2020
+End time: Fri Nov 13 00:32:48 2020
 

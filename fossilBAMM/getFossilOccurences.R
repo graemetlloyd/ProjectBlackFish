@@ -4,9 +4,9 @@ library(BAMMtools)
 library(metatree)
 setwd("~/Dropbox/Mammal_Supertree/ProjectBlackFish/fossilBAMM/")
 ## safe
-safe<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Safe/Safe_MAP.tre")
+safe<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Safe/Cetacea_Safe_Median.tre")
 safe$tip.label
-x <-ladderize(drop.tip(safe, safe$tip.label[447:487])) # remove non-neocetes
+x <-ladderize(drop.tip(safe, safe$tip.label[454:494])) # remove non-neocetes
 
 
 pbdb.query<-list()
@@ -30,9 +30,9 @@ rm(list=ls())
 
 
 ## Risky tree ##
-risky<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Risky/Cetacea_Risky_MAP.tree")
+risky<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Risky/Cetacea_Risky_Median.tre")
 risky$tip.label
-x<-ladderize(drop.tip(risky, risky$tip.label[550:601]))
+x<-ladderize(drop.tip(risky, risky$tip.label[551:601]))
 pbdb.query<-list()
 for(i in 1:length(x$tip.label)) {
   tryCatch( {
@@ -52,9 +52,9 @@ rm(list=ls())
 
 
 ## dangerous taxa tree ##
-dangerous<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Dangerous/Cetacea_Dangerous_MAP.tree")
+dangerous<-read.tree("~/Dropbox/Mammal_Supertree/ProjectBlackFish/TimeTreeInference/Dangerous/Cetacea_Dangerous_Median.tre")
  dangerous$tip.label
-x<-ladderize(drop.tip(dangerous, dangerous$tip.label[652:719]))
+x<-ladderize(drop.tip(dangerous, dangerous$tip.label[65:719]))
  pbdb.query<-list()
  for(i in 1:length(x$tip.label)) {
    tryCatch( {

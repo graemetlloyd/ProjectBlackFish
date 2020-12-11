@@ -24,11 +24,10 @@ effectiveSize(safe.postburn$logLik)
 shift_prob_table <- matrix(data = NA, ncol = 3, nrow = 12)
 shift_probs <- summary(safe.edata)
 shift_prob_table[shift_probs[,1]+1,1] <- shift_probs[,2]
-# 3 or 4 shifts best supported (pp = 0.29. 0.22), with 0 shifts weakly supported (pp = 0.0011)
 safe.css <- credibleShiftSet(safe.edata, expectedNumberOfShifts = 1, threshold = 5, set.limit = 0.95)
 
-safe.css$number.distinct ## 483 distinct configurations
-summary(safe.css) ## first 9 contain 2-4 shifts and explain 0.22 cum. prob.
+safe.css$number.distinct ## 247 distinct configurations
+summary(safe.css) ## .
 
 pdf(file = "~/Dropbox/Mammal_Supertree/cetacean_paper_figures_scripts/Supplementary_Figs/SafeCredibleSetSpec.pdf", height = 7, width = 7)
 plot.credibleshiftset(safe.css, spex = "s")
@@ -56,8 +55,8 @@ dev.off()
 ## risky tree ##
 setwd("..")
 riskytree <- read.tree("Risky/risky_crowngroup_noanc.tre")
-risky.edata <- getEventData(riskytree, eventdata = "Risky/run1/risky_event_data.txt", burnin = 0.1)
-risky.mcmcout <- read.csv("Risky/run1/risky_mcmc_out.txt", header = TRUE)
+risky.edata <- getEventData(riskytree, eventdata = "Risky/risky_event_data.txt", burnin = 0.1)
+risky.mcmcout <- read.csv("Risky/risky_mcmc_out.txt", header = TRUE)
 plot(risky.mcmcout$logLik ~ risky.mcmcout$generation, type = "l")
 
 burnstart <- floor(0.05 * nrow(risky.mcmcout))
@@ -73,7 +72,7 @@ shift_probs <- summary(risky.edata) # 1 shift = 0.51, 2 shofts = 0.36
 shift_prob_table[shift_probs[,1]+1,2] <- shift_probs[,2]
 
 risky.css <- credibleShiftSet(risky.edata, expectedNumberOfShifts = 1, threshold = 5, set.limit = 0.95)
-risky.css$number.distinct ## 83 distinct configurations
+risky.css$number.distinct ## 43 distinct configurations
 summary(risky.css)
 pdf(file="~/Dropbox/Mammal_Supertree/cetacean_paper_figures_scripts/Supplementary_Figs/RiskyCredibleSetSpec.pdf", height = 7, width = 7)
 plot.credibleshiftset(risky.css, spex = "s")
@@ -96,7 +95,9 @@ plot.bammdata(bp, lwd = 1, legend = TRUE, spex = "e")
 plot.bammdata(bp, lwd = 1, legend = TRUE, spex = "netdiv")
 dev.off()
 
-
+marg_probs <- marginalShiftProbsTree(risky.edata)
+plot.phylo(marg_probs, show.tip.label = F, no.margin = T)
+edgelabels(text=round(marg_probs$edge.length, 2))
 ## dangerous tree ##
 dangeroustree <- read.tree("Dangerous/Dangerous_crowngroup_noanc.tre")
 dangerous.edata <- getEventData(dangeroustree, eventdata = "Dangerous/Dangerous_event_data.txt", burnin = 0.1)
@@ -120,7 +121,7 @@ write.csv(shift_prob_table, file="~/Dropbox/Mammal_Supertree/cetacean_paper_figu
 
 #0 shifts best supported (pp = 0.4600), with 1 shifts well supported (pp = 0.23)
 dangerous.css <- credibleShiftSet(dangerous.edata, expectedNumberOfShifts=1, threshold=5, set.limit = 0.95)
-dangerous.css$number.distinct ## 155 distinct configurations
+dangerous.css$number.distinct ## 129 distinct configurations
 summary(dangerous.css)
 
 pdf(file = "~/Dropbox/Mammal_Supertree/cetacean_paper_figures_scripts/Supplementary_Figs/DangerousCredibleSetSpec.pdf", height = 7, width = 7)
@@ -135,6 +136,11 @@ dev.off()
 
 
 bp <- getBestShiftConfiguration(dangerous.edata, expectedNumberOfShift = 1, threshold = 5)
+
+
+marg_probs <- marginalShiftProbsTree(dangerous.edata)
+plot.phylo(marg_probs, show.tip.label = F, no.margin = T)
+edgelabels(text=round(marg_probs$edge.length, 2))
 
 
 ## plot all results ##

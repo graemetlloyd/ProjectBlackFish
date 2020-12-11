@@ -4,11 +4,11 @@
 
 expectedNumberOfShifts = 1.0
 
-lambdaInitPrior = 1.37727916728951
+lambdaInitPrior = 1.43361367991589
 
-lambdaShiftPrior = 0.0317677097554182
+lambdaShiftPrior = 0.0302573393344176
 
-muInitPrior = 1.37727916728951
+muInitPrior = 1.43361367991589
 
 #### End Prior block
 ######################
