@@ -107,6 +107,7 @@ Claddis::write_tnt_matrix(CetaceaSafe$FullMRPMatrix, "~/Dropbox/Mammal_Supertree
 Claddis::write_tnt_matrix(CetaceaSafe$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.tnt")
 write.table(CetaceaSafe$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/STR.txt", row.names = FALSE)
 write.table(CetaceaSafe$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/CharacterWeights.txt", row.names = TRUE)
+write.table(CetaceaSafe$DataSetWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/DataSetWeights.txt", row.names = TRUE)
 ape::write.tree(phy = CetaceaSafe$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Safe/TaxonomyTree.tre")
 
 # Write out risky metatree files:
@@ -116,6 +117,7 @@ Claddis::write_tnt_matrix(CetaceaRisky$FullMRPMatrix, "~/Dropbox/Mammal_Supertre
 Claddis::write_tnt_matrix(CetaceaRisky$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.tnt")
 write.table(CetaceaRisky$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/STR.txt", row.names = FALSE)
 write.table(CetaceaRisky$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/CharacterWeights.txt", row.names = TRUE)
+write.table(CetaceaRisky$DataSetWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/DataSetWeights.txt", row.names = TRUE)
 ape::write.tree(phy = CetaceaRisky$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Risky/TaxonomyTree.tre")
 
 # Write out dangerous metatree files:
@@ -125,9 +127,10 @@ Claddis::write_tnt_matrix(CetaceaDangerous$FullMRPMatrix, "~/Dropbox/Mammal_Supe
 Claddis::write_tnt_matrix(CetaceaDangerous$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.tnt")
 write.table(CetaceaDangerous$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/STR.txt", row.names = FALSE)
 write.table(CetaceaDangerous$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/CharacterWeights.txt", row.names = TRUE)
+write.table(CetaceaDangerous$DataSetWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/DataSetWeights.txt", row.names = TRUE)
 ape::write.tree(phy = CetaceaDangerous$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/Dangerous/TaxonomyTree.tre")
 
-# Remove differential weighst from no weighting version:
+# Remove differential weights from no weighting version:
 CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights <- rep(1, length(CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights))
 CetaceaNoWeighting$STRMRPMatrix$matrix_1$character_weights <- rep(1, length(CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights))
 CetaceaNoWeighting$CharacterWeights[, "Weight"] <- rep(1, length(CetaceaNoWeighting$FullMRPMatrix$matrix_1$character_weights))
@@ -139,6 +142,7 @@ Claddis::write_tnt_matrix(CetaceaNoWeighting$FullMRPMatrix, "~/Dropbox/Mammal_Su
 Claddis::write_tnt_matrix(CetaceaNoWeighting$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/STR.tnt")
 write.table(CetaceaNoWeighting$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/STR.txt", row.names = FALSE)
 write.table(CetaceaNoWeighting$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/CharacterWeights.txt", row.names = TRUE)
+write.table(CetaceaNoWeighting$DataSetWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/DataSetWeights.txt", row.names = TRUE)
 ape::write.tree(phy = CetaceaNoWeighting$TaxonomyTree, file = "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoWeighting/TaxonomyTree.tre")
 
 # Add new analysis block to safe TNT:
@@ -179,6 +183,7 @@ Claddis::write_tnt_matrix(NoTaxonTreeVersion$FullMRPMatrix, "~/Dropbox/Mammal_Su
 Claddis::write_tnt_matrix(NoTaxonTreeVersion$STRMRPMatrix, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.tnt")
 write.table(NoTaxonTreeVersion$SafelyRemovedTaxa, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.txt", row.names = FALSE)
 write.table(NoTaxonTreeVersion$CharacterWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/CharacterWeights.txt", row.names = TRUE)
+write.table(NoTaxonTreeVersion$DataSetWeights, "~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/DataSetWeights.txt", row.names = TRUE)
 
 # Add new analysis block to NoTaxonTreeVersion TNT:
 NoTaxonTreeVersionSTRTNT <- readLines("~/Dropbox/Mammal_Supertree/ProjectBlackFish/Metatree data/NoTaxonTreeVersion/STR.tnt")
