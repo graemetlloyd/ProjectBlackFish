@@ -200,3 +200,31 @@ addBAMMlegend(x, location = c(-1, 1, 20, 180), cex.axis = 0.7, labelDist = 0.35,
 mtext(text = "millions of years ago", side = 1, line = 2.5, at = (max(diag(vcv(dangeroustree))) / 2), cex = 1 )
 
 dev.off()
+
+
+### tip rates ###
+
+safe.div<-getTipRates(ephy=safe.edata, returnNetDiv = T)
+names(safe.div$netdiv.avg)
+delphinid.netdiv <- safe.div$netdiv.avg[1:40]
+ziphiid.netdiv <- safe.div$netdiv.avg[88:137]
+background <- safe.div$netdiv.avg[-c(1:4, 88:137)]
+median(delphinid.netdiv)
+median(ziphiid.netdiv)
+median(background)
+
+
+safe.se<-getTipRates(ephy=safe.edata, returnNetDiv = F)
+delphinid.spec <- safe.se$lambda.avg[1:40]
+delphinid.ex <- safe.se$mu.avg[1:40]
+ziphiid.spec <- safe.se$lambda.avg[88:137]
+ziphiid.ex <- safe.se$mu.avg[88:137]
+background.spec <- safe.se$lambda.avg[-c(1:4, 88:137)]
+background.ex <- safe.se$mu.avg[-c(1:4, 88:137)]
+
+median(delphinid.spec)
+median(delphinid.ex)
+median(ziphiid.spec)
+median(ziphiid.ex)
+median(background.spec)
+median(background.ex)
